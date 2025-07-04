@@ -1,5 +1,23 @@
 // Generate gallery
+function renderGallery() {
+    paintings.sort(() => Math.random() - 0.5);
+    paintings.forEach(painting => {
+        const item = document.createElement('div');
+        item.className = "grid-item";
 
+        item.innerHTML = `
+            <a onclick="openModal('${painting.src.replace(/'/g, "\\'")}')">
+                <img src="${painting.src}" class="card-img" alt="${painting.title}" loading="lazy">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">${painting.title}</h5>
+                <p class="card-text">${painting.description || "&nbsp;"}</p>
+            </div>`;
+            gallery.appendChild(item);
+    });
+
+    imagesLoaded(gallery, layoutMasonry);
+}
 
 // Modal
 
@@ -25,6 +43,10 @@ window.onclick = function(event) {
 }
 // Masonry type layout
 function layoutMasonry() {
+
+    const container = document.getElementById("gallery");
+     container.style.height = '';
+
     function getColumnCount() {
         const width = window.innerWidth;
         if (width < 600) return 1;
@@ -34,9 +56,10 @@ function layoutMasonry() {
     };
 
     //calculating column widths
-    const container = document.getElementById("gallery");
+
     const gap = 20;
     const columnCount = getColumnCount();
+
     const containerWidth = container.clientWidth;
     const totalGap = (columnCount - 1) * gap;
     const columnWidth = Math.floor((containerWidth - totalGap) / columnCount);
@@ -47,10 +70,7 @@ function layoutMasonry() {
     const columnHeights = new Array(columnCount).fill(0);//track column height
     const gridItems = document.querySelectorAll(".grid-item");
     gridItems.forEach(item => {
-            item.style.position = '';
-            item.style.top = '';
-            item.style.left = '';
-            item.style.width = '';
+    item.removeAttribute('style');
         });
     gridItems.forEach(item => {
         item.style.width = `${columnWidth}px`;
@@ -91,9 +111,6 @@ function imagesLoaded(container, callback) {
     if (loaded === total) callback();
 }
 
-function applyLayout() {
-    const gallery = document.getElementById("gallery");
-    imagesLoaded(gallery, layoutMasonry);
-}
-window.addEventListener('load', applyLayout);
+
+window.addEventListener('load', renderGallery);
 window.addEventListener('resize', applyLayout);
