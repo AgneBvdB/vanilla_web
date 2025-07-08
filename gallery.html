@@ -5,22 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">landing page</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="topnav">
+            <a href="index.html" class="active">Vilma Smilgienė</a>
+            <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+                <input type="search" name="search" id="search">
+            </div>
+            <div class="hamburger">
+            <a href="javascript:void(0);" id="burger-icon" onclick="navbarToggle()">
+            <i class="bar"></i>
+            <i class="bar"></i>
+            <i class="bar"></i>
+            </div>
+
+        </a>
+        </div>
     </header>
     <main>
         <div class="container" id="gallery"></div>

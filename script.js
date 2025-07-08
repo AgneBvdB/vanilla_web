@@ -109,8 +109,21 @@ function imagesLoaded(container, callback) {
     }
 
     if (loaded === total) callback();
-}
+};
 
 
 window.addEventListener('load', renderGallery);
 window.addEventListener('resize', applyLayout);
+
+// navbar toggle
+
+function navbarToggle() {
+    const navBar = document.getElementById("myLinks");
+    if (navBar.style.display === "block") {
+        navBar.style.display = "none";
+    } else {
+        navBar.style.display = "block";
+    }
+};
+
+

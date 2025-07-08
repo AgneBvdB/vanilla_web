@@ -5,17 +5,16 @@
 }
 
 body {
-  background-color: rgba(224, 224, 224, 0.776);
+  background-color: #f3e4e4c6;
   overflow-x: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 /* Layout */
 
 .container {
   position: relative;
-  padding: 16px;
+  margin: 0 16px;
+  margin-top: 2rem;
 }
 
 @media (max-width: 800px) {
@@ -109,3 +108,38 @@ body {
   from {transform: scale(0);} 
   to {transform: scale(1);}
 }
+
+
+/* Top nav desktop */
+.topnav {
+  display: flex;
+  width: 100vw;
+  height: 3em;
+  align-items: center;
+  list-style: none;
+  padding-right: 2rem;
+  background: linear-gradient(#d1828282, #8a696930);
+}
+#myLinks {
+  margin: 0 auto;
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topnav a {
+   text-decoration: none;
+   color: rgba(31, 30, 30, 0.833);
+}
+
+.active {
+  width: 20vw;
+  text-align: center;
+  color: #3d2e2e;
+  font-size: 1.5rem;
+  font-family: "Alegreya", serif;
+  font-weight: 500;
+}
+
+/* Navbar mobile */
+
