@@ -1,15 +1,17 @@
 const paintings = [
     {
     src: "2016_WebP/AGUONĖLĖ. Pop., pastelė, 42x58 false.webp",
-    title: "Little Poppy",
+    title: "AGUONĖLĖ",
     year: 2016,
-    description: ""
+    description: "Popierius, sausa pastelė 42x58cm",
+    available: false
     },
         {
     src: "2016_WebP/Aguonėlės. Pop., pastelė, 45x58 false.webp",
-    title: "Poppies",
+    title: "Aguonėlės",
     year: 2016,
-    description: ""
+    description: "",
+    available: false
     },
     {
     src: "2016_WebP/AGUONOS TAU. Pop., pastelė, 45x58.webp",

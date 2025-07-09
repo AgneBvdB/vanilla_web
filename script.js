@@ -11,6 +11,7 @@ function renderGallery() {
             </a>
             <div class="card-body">
                 <h5 class="card-title">${painting.title}</h5>
+                <p class="card-year">${painting.year}<p>
                 <p class="card-text">${painting.description || "&nbsp;"}</p>
             </div>`;
             gallery.appendChild(item);
@@ -113,7 +114,7 @@ function imagesLoaded(container, callback) {
 
 
 window.addEventListener('load', renderGallery);
-window.addEventListener('resize', applyLayout);
+window.addEventListener("resize", renderGallery);
 
 // navbar toggle
 
