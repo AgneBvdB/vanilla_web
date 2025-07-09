@@ -7,7 +7,7 @@ function renderGallery() {
 
         item.innerHTML = `
             <a onclick="openModal('${painting.src.replace(/'/g, "\\'")}')">
-                <img src="${painting.src}" class="card-img" alt="${painting.title}" loading="lazy">
+                <img src="${painting.thumb}" class="card-img" alt="${painting.title}" loading="lazy">
             </a>
             <div class="card-body">
                 <h5 class="card-title">${painting.title}</h5>
