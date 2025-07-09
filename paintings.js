@@ -210,7 +210,7 @@ const paintings = [
     {
     title: "VYŠNIA",
     src: "2016_WebP/VYŠNIA, pop., pastelė, 38x51 true.webp",
-    thumb: "2016_WebP\thumbs_2016\VYŠNIA, pop., pastelė, 38x51 true.webp",
+    thumb: "2016_WebP/thumbs_2016/VYŠNIA, pop., pastelė, 38x51 true.webp",
     year: 2016,
     description: "Popierius, pastelė 38x51 cm",
     available: false

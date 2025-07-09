@@ -7,7 +7,7 @@ function renderGallery() {
 
         item.innerHTML = `
             <a onclick="openModal('${painting.src.replace(/'/g, "\\'")}')">
-                <img src="${painting.thumb}" class="card-img" alt="${painting.title}" loading="lazy">
+                <img data-src="${painting.thumb}" class="card-img lazy-img" width="300" height="350" alt="${painting.title}" loading="lazy">
             </a>
             <div class="card-body">
                 <h5 class="card-title">${painting.title}</h5>
@@ -17,8 +17,12 @@ function renderGallery() {
             gallery.appendChild(item);
     });
 
-    imagesLoaded(gallery, layoutMasonry);
+    imagesLoaded(gallery, () => {
+        layoutMasonry();
+        initLazyLoading();
+    });
 }
+
 
 // Modal
 
@@ -114,10 +118,10 @@ function imagesLoaded(container, callback) {
 
 
 window.addEventListener('load', renderGallery);
-window.addEventListener("resize", renderGallery);
+window.addEventListener("resize", layoutMasonry);
 
 // navbar toggle
-
+document.addEventListener("DOMContentLoaded", () => {
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -130,3 +134,29 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }))
+});
+
+// Lazy loading
+
+function initLazyLoading() {
+    const lazyImages = document.querySelectorAll('img.lazy-img');
+
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.removeAttribute('data-src');
+                img.classList.remove('lazy-img');
+                obs.unobserve(img);
+            }
+        });
+    }, {
+        rootMargin: '100px', // start loading before in view
+        threshold: 0.1
+    });
+
+    lazyImages.forEach(img => {
+        observer.observe(img);
+    });
+}
