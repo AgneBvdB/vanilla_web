@@ -41,24 +41,17 @@ A main section that will contain the dynamically rendered gallery.
 A modal (hidden by default) that will display full-size paintings
 
 2. Styling with CSS
-Build your own responsive grid layout using CSS Grid or Flexbox.
 
 Apply consistent spacing, font styles, and image behavior.
 
 Add media queries to ensure it looks good on all screen sizes.
 
-Style the modal to overlay the full page and center the image.
 
 Include hover effects and smooth transitions for polish.
 
-3. JavaScript Logic
-Use one array to store painting info: image URL, title, year, description.
-
-Shuffle the paintings when rendering to avoid repetitive order.
-
-Dynamically create HTML elements in JS to render each card.
-
-Implement modal logic: clicking an image shows it in a full-screen view.
+## 3. JavaScript Logic
+Convert jpg to webp 2019 and up
+upload to array 2018 and up
 
 Add a close button to dismiss the modal.
 
@@ -72,6 +65,7 @@ Check performance and mobile loading speed.
 Add lazy-loading for all images to optimize speed.
 
 5. Deployment
+
 Upload your code to GitHub and deploy the site using GitHub Pages or Netlify.
 
 Set a proper meta description, favicon, and open graph tags for sharing.

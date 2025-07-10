@@ -56,7 +56,7 @@ const paintings = [
     available: false
     },
     {
-    title: "AUDRONĖS ŠALAVIJAI",
+    title: "ŠALAVIJAI IŠ AUDRONĖS GĖLYNŲ",
     src: "2016_WebP/Iš Audronės gėlynų.Šalavijai. Pop., pastelė, 36x50 true.webp",
     thumb: "2016_WebP/thumbs_2016/Iš Audronės gėlynų.Šalavijai. Pop., pastelė, 36x50 true.webp",
     year: 2016,
@@ -288,7 +288,7 @@ const paintings = [
     available: false
     },
     {
-    title: "SPALVINGAS SAULĖLYDIS",
+    title: "LABAI SPALVINGAS SAULĖLYDIS",
     src: "assets/full_2017/LABAI SPALVINGAS SAULĖLYDIS, pop., pastelė 64x44.webp",
     thumb: "assets/thumbs_2017/LABAI SPALVINGAS SAULĖLYDIS, pop., pastelė 64x44.webp",
     year: 2017,
@@ -336,7 +336,7 @@ const paintings = [
     available: false
     },
     {
-    title: "BIRŽELIO PIEVOS",
+    title: "PABRAIDŽIOK PO BIRŽELIO PIEVAS",
     src: "assets/full_2017/PABRAIDŽIOK PO BIRŽELIO PIEVAS. Pop., pastelė, 50,5x34,5.webp",
     thumb: "assets/thumbs_2017/PABRAIDŽIOK PO BIRŽELIO PIEVAS. Pop., pastelė, 50,5x34,5.webp",
     year: 2017,

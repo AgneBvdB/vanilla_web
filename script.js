@@ -1,4 +1,29 @@
 // Generate gallery
+function renderGallery() {
+    paintings.sort(() => Math.random() - 0.5);
+    paintings.forEach(painting => {
+        if (painting.title !== "") {
+        const item = document.createElement('div');
+        item.className = "grid-item";
+
+        item.innerHTML = `
+            <a onclick="openModal('${painting.src.replace(/'/g, "\\'")}')">
+                <img data-src="${painting.thumb}" class="card-img lazy-img" width="300" height="350" alt="${painting.title}" loading="lazy">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">${painting.title}</h5>
+                <p class="card-year">${painting.year}<p>
+                <p class="card-text">${painting.description || "&nbsp;"}</p>
+            </div>`;
+            gallery.appendChild(item);
+}});
+     
+
+    imagesLoaded(gallery, () => {
+        layoutMasonry();
+        initLazyLoading();
+    });
+}
 
 
 // Modal
@@ -25,6 +50,10 @@ window.onclick = function(event) {
 }
 // Masonry type layout
 function layoutMasonry() {
+
+    const container = document.getElementById("gallery");
+     container.style.height = '';
+
     function getColumnCount() {
         const width = window.innerWidth;
         if (width < 600) return 1;
@@ -34,9 +63,10 @@ function layoutMasonry() {
     };
 
     //calculating column widths
-    const container = document.getElementById("gallery");
+
     const gap = 20;
     const columnCount = getColumnCount();
+
     const containerWidth = container.clientWidth;
     const totalGap = (columnCount - 1) * gap;
     const columnWidth = Math.floor((containerWidth - totalGap) / columnCount);
@@ -47,10 +77,7 @@ function layoutMasonry() {
     const columnHeights = new Array(columnCount).fill(0);//track column height
     const gridItems = document.querySelectorAll(".grid-item");
     gridItems.forEach(item => {
-            item.style.position = '';
-            item.style.top = '';
-            item.style.left = '';
-            item.style.width = '';
+    item.removeAttribute('style');
         });
     gridItems.forEach(item => {
         item.style.width = `${columnWidth}px`;
@@ -89,11 +116,49 @@ function imagesLoaded(container, callback) {
     }
 
     if (loaded === total) callback();
-}
+};
 
-function applyLayout() {
-    const gallery = document.getElementById("gallery");
-    imagesLoaded(gallery, layoutMasonry);
+
+window.addEventListener('load', renderGallery);
+window.addEventListener("resize", layoutMasonry);
+
+// navbar toggle
+document.addEventListener("DOMContentLoaded", () => {
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
+});
+
+// Lazy loading
+
+function initLazyLoading() {
+    const lazyImages = document.querySelectorAll('img.lazy-img');
+
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.removeAttribute('data-src');
+                img.classList.remove('lazy-img');
+                obs.unobserve(img);
+            }
+        });
+    }, {
+        rootMargin: '100px', // start loading before in view
+        threshold: 0.1
+    });
+
+    lazyImages.forEach(img => {
+        observer.observe(img);
+    });
 }
-window.addEventListener('load', applyLayout);
-window.addEventListener('resize', applyLayout);
