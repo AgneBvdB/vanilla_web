@@ -1,6 +1,7 @@
 // Generate gallery
 function renderGallery() {
     paintings.sort(() => Math.random() - 0.5);
+
     paintings.forEach(painting => {
         if (painting.title !== "") {
         const item = document.createElement('div');
@@ -46,8 +47,15 @@ document.addEventListener("keydown", function (e) {
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+    modalImage.src = "";
   }
 }
+const span = document.getElementById("modalClose");
+span.onclick = function() {
+  modal.style.display = "none";
+  modalImage.src = "";
+}
+
 // Masonry type layout
 function layoutMasonry() {
 

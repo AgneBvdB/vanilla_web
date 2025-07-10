@@ -585,6 +585,653 @@ const paintings = [
     },
     {
     title: "",
+    src: "assets/full_2018/AKMENYS AMŽINAI. Pop., pastelė, 35x50.webp",
+    thumb: "assets/thumbs_2018/AKMENYS AMŽINAI. Pop., pastelė, 35x50.webp",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+        {
+    title: "",
+    src: "assets/full_2018/ANT SKARDŽIO. Popierius, pastelė, 50x35 nebeturiu.webp",
+    thumb: "assets/thumbs_2018/ANT SKARDŽIO. Popierius, pastelė, 50x35 nebeturiu.webp",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+        {
+    title: "",
+    src: "assets/full_2018/APSIPYLĖ ŽIEDAIS. Pop., pastelė, 42x62 cm.webp",
+    thumb: "assets/thumbs_2018/APSIPYLĖ ŽIEDAIS. Pop., pastelė, 42x62 cm.webp",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+        {
+    title: "",
+    src: "assets/full_2018/APSNIGTOS. Pop., pastelė, 40x60 nebeturiu.webp",
+    thumb: "assets/thumbs_2018/APSNIGTOS. Pop., pastelė, 40x60 nebeturiu.webp",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+        {
+    title: "",
+    src: "assets/full_2018/AR JAUTI AR GIRDI AR UŽUODI Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2018/AR JAUTI AR GIRDI AR UŽUODI Pop., pastelė, 42x62.webp",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+        {
+    title: "",
+    src: "assets/full_2018/Ateis ir pavasaris... KAdanoRs. Pop., pastelė, 35x50.webp",
+    thumb: "assets/thumbs_2018/Ateis ir pavasaris... KAdanoRs. Pop., pastelė, 35x50.webp",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+        {
+    title: "",
+    src: "assets/full_2018/ATSISPINDINTYS. Pop., pastelė, 44x64 cm.webp",
+    thumb: "assets/thumbs_2018/ATSISPINDINTYS. Pop., pastelė, 44x64 cm.webp",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+        {
+    title: "",
+    src: "assets/full_2018/AUDRA ARTINASI. Popierius, pastelė, 61X42 nebeturiu.webp",
+    thumb: "assets/thumbs_2018/AUDRA ARTINASI. Popierius, pastelė, 61X42 nebeturiu.webp",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/BALTAS ŽYDĖJIMAS. Pop., pastelė,34x49.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/BANGOS II. Pop., pastelė, 35x50 cm nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/BANGOS PRAUSIA AKMENIS. Pop., pastelė, 35x50 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/BANGOS. Pop., pastelė, 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/Banguoja Baltija. Pop., pastelė, 40x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/BUS RAUDONI VAKARAI. Pop., pastelė, 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/DAR VIS ŽIEMA. Pop., pastelė, 42X62 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/DAUG YRA AKMENŲ PRIE JŪROS. past. pop 44x64 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/DEBESYS NUSILEIDO ANT ŽEMĖS. Pop., pastelė, 34X49.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/DIDINGOJI. Pop., pastelė, 42x62 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/DIENA . Pop., pastelė. 62x42.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/DVI STICHIJOS 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/EIME PRIE JŪROS. Pop., pastelė, 42x62 cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/GELSVAS PAPRASTUMAS Pop., pastelė, 34X49.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/GELTONŲ TULPIŲ DIENA. Pop., pastelė, 31x50 Nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/Gera būti. Pop., pastelė, 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/GUBOJOS KOPOSE, Pop., pastelė, 34x49.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/GUBOJOS PALEI TAKĄ. Pop., pastelė, 34X49.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/IEŠKANTI. Gal pavasario Pop., pastelė, 35x50 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/IKI RYTOJAUS. Sp. pop. pastelė, 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/IR ATGAIVINS TAVO PAVARGUSIAS PĖDAS. Pop., pastelė, 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/IŠ TEN. Popierius, pastelė, 42x62 cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/JAU VAKARĖJA II. Pop., pastelė, 35x49.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/JŪRA PASIPUOŠĖ RUDENIU 62X42 NEBETURIU.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/JŪRA VĖLYVĄ PAVASARĮ. Pop., pastelė. 42x62 cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/KAARRR 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/KAPRIZINGOJI. Sp. pop., pastelė, 42x62cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/KARKLAI. Pop., pastelė, 42x62 cm Nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/KASDIEN KITOKIA. Popierius, pastelė, 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/KITAS ŽIEMOS VAKARAS. Pop., pastelė, 36X47.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/KUNKULIUOJANTI. Pop., pastelė,42x62 cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/KVEPIA PAVASARIU. Pop., pastelė, 42x62 cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/Liūdna varna laukia pavasario 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/LUBINAI. Popierius, pastelė, 34x49cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/PAJŪRIO VĖJŲ LENKIAMI. Popierius, pastelė, 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/PAKRANTĖ TIES KARKLE. Pop., pastelė, 35x50 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/PAKRANTĖ. Pop., pastelė, 39x73.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/PALIKO PĖDSAKUS AR PRIPĖDAVO 62x42.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/PASKUTINĖ ŽIEMOS DIENA. Pop., pastelė, 35X50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/Pavasario laukiančios. Pop., pastelė. 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/PEIZAŽAS. Pop., pastelė, 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/PRISNIGO. Pop., pastelė, 41,5x62cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/PURSLAI. Pop., pastelė, 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/PUTOJANTI BALTIJA. Sp. pop.,pastelė, 42x62 cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/RAMUS ŽIEMOS VAKARAS. Pop., pastelė, 62X42.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/RAMYBĖ. Pop., pastelė, 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/RIKIS nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/ROMANTIŠKAS. Pop., pastelė, 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/RUDENINĖ PILKUMA. Pop., pastelė, 62x42.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/RYTO SKAIDRUMAS. Pop., pastelė, 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/ŠALČIO ETIUDAS. Pop., pastelė, 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/Saldumynų mėgėjams. Pop., pastelė, 31x50cm nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/SENAM SODE. Pop., pastelė, 42x62cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/SENAS TAKAS. Pop., pastelė, 42x62 cm Nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/SKRYDIS VIRŠ BANGŲ. Popierius, pastelė, 62x42 cm nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/SKRYDIS VIRŠ ŽALIŲ BANGŲ. Pop., pastelė, 42x62 cm nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/SKRYDIS. Pop., pastelė, 40x50 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/SPALVOTA PILKUMA. Pop., pastelė, 42x62 cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/SUTEMOS. Pop., pastelė, 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/ŠVIESA. Pop., pastelė, 36x47 Nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/Tamsūs debesiai. Pop., pastelė, 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/TIK TAKĄ PER KOPAS, MALDAUJU, PALIK (In memoriam Kazimierui). Popierius, pastelė, 36x50 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/TOBULAS VAKARAS.Popierius, pastelė, 35x50 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/TOKIA GRAŽI PILKA DIENA (buvo). Popierius, pastelė 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/TYLUMA RAMUMA. Popierius, pastelė, 62x42 cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/ŪKANOS. Pop., pastelė, 40x60 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/VAKARO JUDĖJIMAS (.Evening movement). Pastelė, popierius, 42x62 cm.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/VAKARO ŠVELNUMAS 42x62.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/VASARIO SAULĖ. Pop., pastelė, 50x35.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/Vasariškai gaivi banga 35x57.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/VASAROS BANGOS. Pop., pastelė, 35x57.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/VILTIES SPINDULYS 42x62 nebeturiu.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "assets/full_2018/ŽIEMIŠKAI PASIPUOŠĘ. Pop., pastelė, 35x50.webp",
+    thumb: "",
+    year: 2018,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },{
+    title: "",
     src: "",
     thumb: "",
     year: 2018,
