@@ -112,6 +112,13 @@ main {
   position: relative;
 }
 
+@media (width < 800) {
+  .modal-content{
+    height: auto;
+    width: 100%;
+  }
+}
+
 
 #modalImage {
   max-width: 100%;
