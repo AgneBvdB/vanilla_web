@@ -122,18 +122,23 @@ main {
 }
 
 .close {
-  position: fixed;
-  top: 10vh;
+  position: absolute;
+  top: 20px;
   right: 20px;
   color: #aaa;
   font-size: 35px;
   font-weight: bold;
+  z-index: 10;
+}
+.exit-wrap {
 
 }
 
 @media (max-width:800px) {
-  .close{
-    top: 10vh;
+  .close {
+    top: 4rem;
+    right: 20px;
+    font-size: 40px;
   }
 }
 
