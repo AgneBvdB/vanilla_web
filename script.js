@@ -2,6 +2,7 @@
 function renderGallery() {
     paintings.sort(() => Math.random() - 0.5);
     paintings.forEach(painting => {
+        if (painting.title !== "") {
         const item = document.createElement('div');
         item.className = "grid-item";
 
@@ -15,7 +16,8 @@ function renderGallery() {
                 <p class="card-text">${painting.description || "&nbsp;"}</p>
             </div>`;
             gallery.appendChild(item);
-    });
+}});
+     
 
     imagesLoaded(gallery, () => {
         layoutMasonry();
