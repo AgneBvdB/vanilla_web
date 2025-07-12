@@ -601,25 +601,25 @@ const paintings = [
     },
         {
     title: "APSIPYLĖ ŽIEDAIS",
-    src: "assets/full_2018/APSIPYLĖ ŽIEDAIS. Pop., pastelė, 42x62 cm.webp",
-    thumb: "assets/thumbs_2018/APSIPYLĖ ŽIEDAIS. Pop., pastelė, 42x62 cm.webp",
-    year: 2018,
+    src: "assets/full_2019/APSIPYLĖ ŽIEDAIS. Pop., pastelė, 42x62 cm.webp",
+    thumb: "assets/thumbs_2019/APSIPYLĖ ŽIEDAIS. Pop., pastelė, 42x62 cm.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
         {
     title: "APSNIGTOS",
-    src: "assets/full_2018/APSNIGTOS. Pop., pastelė, 40x60 nebeturiu.webp",
-    thumb: "assets/thumbs_2018/APSNIGTOS. Pop., pastelė, 40x60 nebeturiu.webp",
-    year: 2018,
+    src: "assets/full_2019/APSNIGTOS. Pop., pastelė, 40x60 nebeturiu.webp",
+    thumb: "assets/thumbs_2019/APSNIGTOS. Pop., pastelė, 40x60 nebeturiu.webp",
+    year: 2019,
     description: "Popierius, pastelė 40x60 cm",
     available: false
     },
         {
     title: "AR JAUTI? AR GIRDI? AR UŽUODI?",
-    src: "assets/full_2018/AR JAUTI AR GIRDI AR UŽUODI Pop., pastelė, 42x62.webp",
-    thumb: "assets/thumbs_2018/AR JAUTI AR GIRDI AR UŽUODI Pop., pastelė, 42x62.webp",
-    year: 2018,
+    src: "assets/full_2019/AR JAUTI AR GIRDI AR UŽUODI Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2019/AR JAUTI AR GIRDI AR UŽUODI Pop., pastelė, 42x62.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -689,17 +689,17 @@ const paintings = [
     },
     {
     title: "BUS RAUDONI VAKARAI",
-    src: "assets/full_2018/BUS RAUDONI VAKARAI. Pop., pastelė, 42x62.webp",
-    thumb: "assets/thumbs_2018/BUS RAUDONI VAKARAI. Pop., pastelė, 42x62.webp",
-    year: 2018,
+    src: "assets/full_2019/BUS RAUDONI VAKARAI. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2019/BUS RAUDONI VAKARAI. Pop., pastelė, 42x62.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
     {
     title: "DAR VIS ŽIEMA",
-    src: "assets/full_2018/DAR VIS ŽIEMA. Pop., pastelė, 42X62 nebeturiu.webp",
-    thumb: "assets/thumbs_2018/DAR VIS ŽIEMA. Pop., pastelė, 42X62 nebeturiu.webp",
-    year: 2018,
+    src: "assets/full_2019/DAR VIS ŽIEMA. Pop., pastelė, 42X62 nebeturiu.webp",
+    thumb: "assets/thumbs_2019/DAR VIS ŽIEMA. Pop., pastelė, 42X62 nebeturiu.webp",
+    year: 2019,
     description: "Popierius, pastelė 42X62 cm",
     available: false
     },
@@ -721,9 +721,9 @@ const paintings = [
     },
     {
     title: "DIDINGOJI",
-    src: "assets/full_2018/DIDINGOJI. Pop., pastelė, 42x62 nebeturiu.webp",
-    thumb: "assets/thumbs_2018/DIDINGOJI. Pop., pastelė, 42x62 nebeturiu.webp",
-    year: 2018,
+    src: "assets/full_2019/DIDINGOJI. Pop., pastelė, 42x62 nebeturiu.webp",
+    thumb: "assets/thumbs_2019/DIDINGOJI. Pop., pastelė, 42x62 nebeturiu.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -737,17 +737,17 @@ const paintings = [
     },
     {
     title: "DVI STICHIJOS",
-    src: "assets/full_2018/DVI STICHIJOS 42x62.webp",
-    thumb: "assets/thumbs_2018/DVI STICHIJOS 42x62.webp",
-    year: 2018,
+    src: "assets/full_2019/DVI STICHIJOS 42x62.webp",
+    thumb: "assets/thumbs_2019/DVI STICHIJOS 42x62.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
     {
     title: "EIME PRIE JŪROS",
-    src: "assets/full_2018/EIME PRIE JŪROS. Pop., pastelė, 42x62 cm.webp",
-    thumb: "assets/thumbs_2018/EIME PRIE JŪROS. Pop., pastelė, 42x62 cm.webp",
-    year: 2018,
+    src: "assets/full_2019/EIME PRIE JŪROS. Pop., pastelė, 42x62 cm.webp",
+    thumb: "assets/thumbs_2019/EIME PRIE JŪROS. Pop., pastelė, 42x62 cm.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -769,9 +769,9 @@ const paintings = [
     },
     {
     title: "GERA BŪTI",
-    src: "assets/full_2018/Gera būti. Pop., pastelė, 42x62.webp",
-    thumb: "assets/thumbs_2018/Gera būti. Pop., pastelė, 42x62.webp",
-    year: 2018,
+    src: "assets/full_2019/Gera būti. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2019/Gera būti. Pop., pastelė, 42x62.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -817,9 +817,9 @@ const paintings = [
     },
     {
     title: "IŠ TEN",
-    src: "assets/full_2018/IŠ TEN. Popierius, pastelė, 42x62 cm.webp",
-    thumb: "assets/thumbs_2018/IŠ TEN. Popierius, pastelė, 42x62 cm.webp",
-    year: 2018,
+    src: "assets/full_2019/IŠ TEN. Popierius, pastelė, 42x62 cm.webp",
+    thumb: "assets/thumbs_2019/IŠ TEN. Popierius, pastelė, 42x62 cm.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -849,9 +849,9 @@ const paintings = [
     },
     {
     title: "JŪRA VĖLYVĄ PAVASARĮ",
-    src: "assets/full_2018/JŪRA VĖLYVĄ PAVASARĮ. Pop., pastelė. 42x62 cm.webp",
-    thumb: "assets/thumbs_2018/JŪRA VĖLYVĄ PAVASARĮ. Pop., pastelė. 42x62 cm.webp",
-    year: 2018,
+    src: "assets/full_2019/JŪRA VĖLYVĄ PAVASARĮ. Pop., pastelė. 42x62 cm.webp",
+    thumb: "assets/thumbs_2019/JŪRA VĖLYVĄ PAVASARĮ. Pop., pastelė. 42x62 cm.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -873,17 +873,17 @@ const paintings = [
     },
     {
     title: "KARKLAI",
-    src: "assets/full_2018/KARKLAI. Pop., pastelė, 42x62 cm Nebeturiu.webp",
-    thumb: "assets/thumbs_2018/KARKLAI. Pop., pastelė, 42x62 cm Nebeturiu.webp",
-    year: 2018,
+    src: "assets/full_2019/KARKLAI. Pop., pastelė, 42x62 cm Nebeturiu.webp",
+    thumb: "assets/thumbs_2019/KARKLAI. Pop., pastelė, 42x62 cm Nebeturiu.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
     {
     title: "KASDIEN KITOKIA",
-    src: "assets/full_2018/KASDIEN KITOKIA. Popierius, pastelė, 42x62.webp",
-    thumb: "assets/thumbs_2018/KASDIEN KITOKIA. Popierius, pastelė, 42x62.webp",
-    year: 2018,
+    src: "assets/full_2019/KASDIEN KITOKIA. Popierius, pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2019/KASDIEN KITOKIA. Popierius, pastelė, 42x62.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -897,17 +897,17 @@ const paintings = [
     },
     {
     title: "KUNKULIUOJANTI",
-    src: "assets/full_2018/KUNKULIUOJANTI. Pop., pastelė,42x62 cm.webp",
-    thumb: "assets/thumbs_2018/KUNKULIUOJANTI. Pop., pastelė,42x62 cm.webp",
-    year: 2018,
+    src: "assets/full_2019/KUNKULIUOJANTI. Pop., pastelė,42x62 cm.webp",
+    thumb: "assets/thumbs_2019/KUNKULIUOJANTI. Pop., pastelė,42x62 cm.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
     {
     title: "KVEPIA PAVASARIU",
-    src: "assets/full_2018/KVEPIA PAVASARIU. Pop., pastelė, 42x62 cm.webp",
-    thumb: "assets/thumbs_2018/KVEPIA PAVASARIU. Pop., pastelė, 42x62 cm.webp",
-    year: 2018,
+    src: "assets/full_2019/KVEPIA PAVASARIU. Pop., pastelė, 42x62 cm.webp",
+    thumb: "assets/thumbs_2019/KVEPIA PAVASARIU. Pop., pastelė, 42x62 cm.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -953,9 +953,9 @@ const paintings = [
     },
     {
     title: "PALIKO PĖDSAKUS AR PRIPĖDAVO",
-    src: "assets/full_2018/PALIKO PĖDSAKUS AR PRIPĖDAVO 62x42.webp",
-    thumb: "assets/thumbs_2018/PALIKO PĖDSAKUS AR PRIPĖDAVO 62x42.webp",
-    year: 2018,
+    src: "assets/full_2019/PALIKO PĖDSAKUS AR PRIPĖDAVO 62x42.webp",
+    thumb: "assets/thumbs_2019/PALIKO PĖDSAKUS AR PRIPĖDAVO 62x42.webp",
+    year: 2019,
     description: "Popierius, pastelė 62x42 cm",
     available: false
     },
@@ -985,17 +985,17 @@ const paintings = [
     },
     {
     title: "PRISNIGO",
-    src: "assets/full_2018/PRISNIGO. Pop., pastelė, 41,5x62cm.webp",
-    thumb: "assets/thumbs_2018/PRISNIGO. Pop., pastelė, 41,5x62cm.webp",
+    src: "assets/full_2019/PRISNIGO. Pop., pastelė, 41,5x62cm.webp",
+    thumb: "assets/thumbs_2019/PRISNIGO. Pop., pastelė, 41,5x62cm.webp",
     year: 2018,
     description: "Popierius, pastelė 41,5x62 cm",
     available: false
     },
     {
     title: "PURSLAI",
-    src: "assets/full_2018/PURSLAI. Pop., pastelė, 42x62.webp",
-    thumb: "assets/thumbs_2018/PURSLAI. Pop., pastelė, 42x62.webp",
-    year: 2018,
+    src: "assets/full_2019/PURSLAI. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2019/PURSLAI. Pop., pastelė, 42x62.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -1009,17 +1009,17 @@ const paintings = [
     },
     {
     title: "RAMUS ŽIEMOS VAKARAS",
-    src: "assets/full_2018/RAMUS ŽIEMOS VAKARAS. Pop., pastelė, 62X42.webp",
-    thumb: "assets/thumbs_2018/RAMUS ŽIEMOS VAKARAS. Pop., pastelė, 62X42.webp",
-    year: 2018,
+    src: "assets/full_2019/RAMUS ŽIEMOS VAKARAS. Pop., pastelė, 62X42.webp",
+    thumb: "assets/thumbs_2019/RAMUS ŽIEMOS VAKARAS. Pop., pastelė, 62X42.webp",
+    year: 2019,
     description: "Popierius, pastelė 62X42 cm",
     available: false
     },
     {
     title: "RAMYBĖ",
-    src: "assets/full_2018/RAMYBĖ. Pop., pastelė, 42x62.webp",
-    thumb: "assets/thumbs_2018/RAMYBĖ. Pop., pastelė, 42x62.webp",
-    year: 2018,
+    src: "assets/full_2019/RAMYBĖ. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2019/RAMYBĖ. Pop., pastelė, 42x62.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -1073,33 +1073,33 @@ const paintings = [
     },
     {
     title: "",
-    src: "assets/full_2018/SENAM SODE. Pop., pastelė, 42x62cm.webp",
-    thumb: "assets/thumbs_2018/SENAM SODE. Pop., pastelė, 42x62cm.webp",
-    year: 2018,
+    src: "assets/2019/SENAM SODE. Pop., pastelė, 42x62cm.webp",
+    thumb: "assets/thumbs_2019/SENAM SODE. Pop., pastelė, 42x62cm.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62cm cm",
     available: false
     },
     {
     title: "SENAS TAKAS",
-    src: "assets/full_2018/SENAS TAKAS. Pop., pastelė, 42x62 cm Nebeturiu.webp",
-    thumb: "assets/thumbs_2018/SENAS TAKAS. Pop., pastelė, 42x62 cm Nebeturiu.webp",
-    year: 2018,
+    src: "assets/full_2019/SENAS TAKAS. Pop., pastelė, 42x62 cm Nebeturiu.webp",
+    thumb: "assets/thumbs_2019/SENAS TAKAS. Pop., pastelė, 42x62 cm Nebeturiu.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
     {
     title: "SKRYDIS VIRŠ BANGŲ",
-    src: "assets/full_2018/SKRYDIS VIRŠ BANGŲ. Popierius, pastelė, 62x42 cm nebeturiu.webp",
-    thumb: "assets/thumbs_2018/SKRYDIS VIRŠ BANGŲ. Popierius, pastelė, 62x42 cm nebeturiu.webp",
-    year: 2018,
+    src: "assets/full_2019/SKRYDIS VIRŠ BANGŲ. Popierius, pastelė, 62x42 cm nebeturiu.webp",
+    thumb: "assets/thumbs_2019/SKRYDIS VIRŠ BANGŲ. Popierius, pastelė, 62x42 cm nebeturiu.webp",
+    year: 2019,
     description: "Popierius, pastelė 62x42 cm",
     available: false
     },
     {
     title: "SKRYDIS VIRŠ ŽALIŲ BANGŲ",
-    src: "assets/full_2018/SKRYDIS VIRŠ ŽALIŲ BANGŲ. Pop., pastelė, 42x62 cm nebeturiu.webp",
-    thumb: "assets/thumbs_2018/SKRYDIS VIRŠ ŽALIŲ BANGŲ. Pop., pastelė, 42x62 cm nebeturiu.webp",
-    year: 2018,
+    src: "assets/full_2019/SKRYDIS VIRŠ ŽALIŲ BANGŲ. Pop., pastelė, 42x62 cm nebeturiu.webp",
+    thumb: "assets/thumbs_2019/SKRYDIS VIRŠ ŽALIŲ BANGŲ. Pop., pastelė, 42x62 cm nebeturiu.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -1113,9 +1113,9 @@ const paintings = [
     },
     {
     title: "SPALVOTA PILKUMA",
-    src: "assets/full_2018/SPALVOTA PILKUMA. Pop., pastelė, 42x62 cm.webp",
-    thumb: "assets/thumbs_2018/SPALVOTA PILKUMA. Pop., pastelė, 42x62 cm.webp",
-    year: 2018,
+    src: "assets/full_2019/SPALVOTA PILKUMA. Pop., pastelė, 42x62 cm.webp",
+    thumb: "assets/thumbs_2019/SPALVOTA PILKUMA. Pop., pastelė, 42x62 cm.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -1161,9 +1161,9 @@ const paintings = [
     },
     {
     title: "TOKIA GRAŽI PILKA DIENA",
-    src: "assets/full_2018/TOKIA GRAŽI PILKA DIENA (buvo). Popierius, pastelė 42x62.webp",
-    thumb: "assets/thumbs_2018/TOKIA GRAŽI PILKA DIENA (buvo). Popierius, pastelė 42x62.webp",
-    year: 2018,
+    src: "assets/full_2019/TOKIA GRAŽI PILKA DIENA (buvo). Popierius, pastelė 42x62.webp",
+    thumb: "assets/thumbs_2019/TOKIA GRAŽI PILKA DIENA (buvo). Popierius, pastelė 42x62.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
@@ -1177,17 +1177,17 @@ const paintings = [
     },
     {
     title: "ŪKANOS",
-    src: "assets/full_2018/ŪKANOS. Pop., pastelė, 40x60 nebeturiu.webp",
-    thumb: "assets/thumbs_2018/ŪKANOS. Pop., pastelė, 40x60 nebeturiu.webp",
-    year: 2018,
+    src: "assets/full_2019/ŪKANOS. Pop., pastelė, 40x60 nebeturiu.webp",
+    thumb: "assets/thumbs_2019/ŪKANOS. Pop., pastelė, 40x60 nebeturiu.webp",
+    year: 2019,
     description: "Popierius, pastelė 40x60 cm",
     available: false
     },
     {
     title: "VAKARO JUDĖJIMAS",
-    src: "assets/full_2018/VAKARO JUDĖJIMAS (.Evening movement). Pastelė, popierius, 42x62 cm.webp",
-    thumb: "assets/thumbs_2018/VAKARO JUDĖJIMAS (.Evening movement). Pastelė, popierius, 42x62 cm.webp",
-    year: 2018,
+    src: "assets/full_2019/VAKARO JUDĖJIMAS (.Evening movement). Pastelė, popierius, 42x62 cm.webp",
+    thumb: "assets/thumbs_2019/VAKARO JUDĖJIMAS (.Evening movement). Pastelė, popierius, 42x62 cm.webp",
+    year: 2019,
     description: "Popierius, pastelė 42x62 cm",
     available: false
     },
