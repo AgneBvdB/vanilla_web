@@ -12,7 +12,7 @@ function renderGallery() {
                 <img data-src="${painting.thumb}" class="card-img lazy-img" width="300" height="350" alt="${painting.title}" loading="lazy">
             </a>
             <div class="card-body">
-                <h5 class="card-title">${painting.title}</h5>
+                <h5 class="card-title">${painting.title.toUpperCase()}</h5>
                 <p class="card-year">${painting.year}<p>
                 <p class="card-text">${painting.description || "&nbsp;"}</p>
             </div>`;

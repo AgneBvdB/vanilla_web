@@ -18,6 +18,8 @@
 body {
   background-color: var(--main-color);
   scrollbar-gutter: stable;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 /* Layout */
@@ -27,9 +29,7 @@ body {
   margin-top: 2rem;
 }
  
-main {
-  margin: 0 16px;
-}
+
 
 @media (max-width: 800px) {
   .container {

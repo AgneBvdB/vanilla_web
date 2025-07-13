@@ -780,7 +780,7 @@ const paintings = [
     src: "assets/full_2018/GUBOJOS KOPOSE, Pop., pastelė, 34x49.webp",
     thumb: "assets/thumbs_2018/GUBOJOS KOPOSE, Pop., pastelė, 34X49.webp",
     year: 2018,
-    description: "Popierius, pastelė 34X49 cm",
+    description: "Popierius, pastelė 34x49 cm",
     available: false
     },
     {
@@ -788,7 +788,7 @@ const paintings = [
     src: "assets/full_2018/GUBOJOS PALEI TAKĄ. Pop., pastelė, 34X49.webp",
     thumb: "assets/thumbs_2018/GUBOJOS PALEI TAKĄ. Pop., pastelė, 34X49.webp",
     year: 2018,
-    description: "Popierius, pastelė 34X49 cm",
+    description: "Popierius, pastelė 34x49 cm",
     available: false
     },
     {
@@ -1416,14 +1416,453 @@ const paintings = [
     available: false
     },
     {
-    title: "",
-    src: "",
-    thumb: "",
-    year: 2020,
+    title: "AKMENUOTA PAKRANTĖ",
+    src: "assets/full_2021/Akmenuota pakrantė. Pop., pastelė, 63×43.webp",
+    thumb: "assets/thumbs_2021/Akmenuota pakrantė. Pop., pastelė, 63×43.webp",
+    year: 2021,
+    description: "Popierius, pastelė 63×43 cm",
+    available: false
+    },
+    {
+    title: "BANGA GENA BANGĄ",
+    src: "assets/full_2021/BANGA GENA BANGĄ. Popierius, sausa pastelė, 42x62 cm.webp",
+    thumb: "assets/thumbs_2021/BANGA GENA BANGĄ. Popierius, sausa pastelė, 42x62 cm.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "ČIA IR TEN",
+    src: "assets/full_2021/ČIA IR TEN. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2021/ČIA IR TEN. Pop., pastelė, 42x62.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "DAR BIJŪNAI NENUVYTO",
+    src: "assets/full_2021/DAR BIJŪNAI NENUVYTO. Popierius, sausa pastelė, 42x62 cm.webp",
+    thumb: "assets/thumbs_2021/DAR BIJŪNAI NENUVYTO. Popierius, sausa pastelė, 42x62 cm.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "FLIOKSAI PRIE APSILAUPIUSIOS SIENOS",
+    src: "assets/full_2021/FLIOKSAI PRIE APSILAUPIUSIOS SIENOS. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2021/FLIOKSAI PRIE APSILAUPIUSIOS SIENOS. Pop., pastelė, 42x62.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "NATIURMORTAS SU KIAULPIENĖM",
+    src: "assets/full_2021/Natiurmortas su kiaulpienėm. Sp. pop., pastelė, 50x40.webp",
+    thumb: "assets/thumbs_2021/Natiurmortas su kiaulpienėm. Sp. pop., pastelė, 50x40.webp",
+    year: 2021,
+    description: "Popierius, pastelė 50x40 cm",
+    available: false
+    },
+    {
+    title: "PAUPIO SARGYBOJE",
+    src: "assets/full_2021/Paupio sargyboje. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2021/Paupio sargyboje. Pop., pastelė, 42x62.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "PUŠŲ VIRŠŪNĖMIS NUBĖGO VĖJAS",
+    src: "assets/full_2021/PUŠŲ VIRŠŪNĖMIS NUBĖGO VĖJAS. Popierius, sausa pastelė, 42x62 nebeturiu.webp",
+    thumb: "assets/thumbs_2021/PUŠŲ VIRŠŪNĖMIS NUBĖGO VĖJAS. Popierius, sausa pastelė, 42x62 nebeturiu.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "RAUSVAS VAKARAS PRIE UPĖS",
+    src: "assets/full_2021/RAUSVAS VAKARAS PRIE UPĖS. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2021/RAUSVAS VAKARAS PRIE UPĖS. Pop., pastelė, 42x62.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "RŪKAS VIRŠ DANGĖS",
+    src: "assets/full_2021/RŪKAS VIRŠ DANGĖS. Pop., sausa pastelė, 43x63 nebeturiu.webp",
+    thumb: "assets/thumbs_2021/RŪKAS VIRŠ DANGĖS. Pop., sausa pastelė, 43x63 nebeturiu.webp",
+    year: 2021,
+    description: "Popierius, pastelė 43x63 cm",
+    available: false
+    },
+    {
+    title: "SLYVOS ŠAKELĖ",
+    src: "assets/full_2021/Slyvos šakelė. Pop., pastelė, 49×34.webp",
+    thumb: "assets/thumbs_2021/Slyvos šakelė. Pop., pastelė, 49×34.webp",
+    year: 2021,
+    description: "Popierius, pastelė 49×34 cm",
+    available: false
+    },
+    {
+    title: "SPINDI ŽAIŽARUOJA",
+    src: "assets/full_2021/Spindi žaižaruoja. Pop., pastelė, 42x62 nebeturiu.webp",
+    thumb: "assets/thumbs_2021/Spindi žaižaruoja. Pop., pastelė, 42x62 nebeturiu.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "ŠVIEŽIŲ BUROKĖLIŲ SEZONAS",
+    src: "assets/full_2021/Šviežių burokėlių sezonas. Pop., pastelė, 42×62 cm.webp",
+    thumb: "assets/thumbs_2021/Šviežių burokėlių sezonas. Pop., pastelė, 42×62 cm.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "SVYRA SERBENTŲ KEKĖS",
+    src: "assets/full_2021/SVYRA SERBENTŲ KEKĖS. Pop., sausa pastelė, 43,5 x 63,5 cm Nebeturiu.webp",
+    thumb: "assets/thumbs_2021/SVYRA SERBENTŲ KEKĖS. Pop., sausa pastelė, 43,5 x 63,5 cm Nebeturiu.webp",
+    year: 2021,
+    description: "Popierius, pastelė 43,5 x 63,5 cm",
+    available: false
+    },
+    {
+    title: "TARP VANDENS IR DEBESŲ",
+    src: "assets/full_2021/TARP VANDENS IR DEBESŲ. Pop., sausa pastelė, 63x43cm nebeturiu.webp",
+    thumb: "assets/thumbs_2021/TARP VANDENS IR DEBESŲ. Pop., sausa pastelė, 63x43cm nebeturiu.webp",
+    year: 2021,
+    description: "Popierius, pastelė 63x43 cm",
+    available: false
+    },
+    {
+    title: "UPĖ",
+    src: "assets/full_2021/UPĖ. Pop., pastelė, 42x62 nebeturiu.webp",
+    thumb: "assets/thumbs_2021/UPĖ. Pop., pastelė, 42x62 nebeturiu.webp",
+    year: 2021,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "Aguonėlės",
+    src: "assets/full_2022/Aguonėlės. Canson popierius, sausa pastelė, 47×61 cm. Nebeturiu.webp",
+    thumb: "assets/thumbs_2022/Aguonėlės. Canson popierius, sausa pastelė, 47×61 cm. Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė 47×61 cm",
+    available: false
+    },
+    {
+    title: "Atspindžiai",
+    src: "assets/full_2022/Atspindžiai. Canson popierius, sausa pastelė, 47×61,5 cm turiu.webp",
+    thumb: "assets/thumbs_2022/Atspindžiai. Canson popierius, sausa pastelė, 47×61,5 cm turiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė 47×61,5 cm",
+    available: false
+    },
+    {
+    title: "Dvi pienės pavėsyje",
+    src: "assets/full_2022/Dvi pienės pavėsyje. Pop., pastelė, 42x62 cm.webp",
+    thumb: "assets/thumbs_2022/Dvi pienės pavėsyje. Pop., pastelė, 42x62 cm.webp",
+    year: 2022,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "Ir apie orus- saulėta, vėjuota, šalta",
+    src: "assets/full_2022/Ir apie orus- saulėta, vėjuota, šalta. Pop., pastelė, 51,5×71,5.webp",
+    thumb: "assets/thumbs_2022/Ir apie orus- saulėta, vėjuota, šalta. Pop., pastelė, 51,5×71,5.webp",
+    year: 2022,
+    description: "Popierius, pastelė 51,5×71,5 cm",
+    available: false
+    },
+    {
+    title: "Kai skamba vasara",
+    src: "assets/full_2022/Kai skamba vasara. Pop., pastelė, 42×62cm.webp",
+    thumb: "assets/thumbs_2022/Kai skamba vasara. Pop., pastelė, 42×62cm.webp",
+    year: 2022,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "Linguoja vėjyje",
+    src: "assets/full_2022/Linguoja vėjyje. Pop., pastelė, 35×49.webp",
+    thumb: "assets/thumbs_2022/Linguoja vėjyje. Pop., pastelė, 35×49.webp",
+    year: 2022,
+    description: "Popierius, pastelė 35×49 cm",
+    available: false
+    },
+    {
+    title: "Pavasario žydėjimas",
+    src: "assets/full_2022/Pavasario žydėjimas. Pop., pastelė, 45×64 nebbeturiu.webp",
+    thumb: "assets/thumbs_2022/Pavasario žydėjimas. Pop., pastelė, 45×64 nebbeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė 45×64 cm",
+    available: false
+    },
+    {
+    title: "Prie upeliuko",
+    src: "assets/full_2022/Prie upeliuko. Pop., pastelė, 62×42cm Nebeturiu.webp",
+    thumb: "assets/thumbs_2022/Prie upeliuko. Pop., pastelė, 62×42cm Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė 62×42 cm",
+    available: false
+    },
+    {
+    title: "Ramunių pasaka tau",
+    src: "assets/full_2022/Ramunių pasaka tau. Pop., pastelė, 42×62. Nebeturiu.webp",
+    thumb: "assets/thumbs_2022/Ramunių pasaka tau. Pop., pastelė, 42×62. Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "Saulė leidžias pamažu",
+    src: "assets/full_2022/Saulė leidžias pamažu. Sausa pastelė, CANSON popierius, 47×61.webp",
+    thumb: "assets/thumbs_2022/Saulė leidžias pamažu. Sausa pastelė, CANSON popierius, 47×61.webp",
+    year: 2022,
+    description: "Popierius, pastelė 47×61 cm",
+    available: false
+    },
+    {
+    title: "Truputį debesuota",
+    src: "assets/full_2022/Truputį debesuota. Pop., pastelė, 35×49.webp",
+    thumb: "assets/thumbs_2022/Truputį debesuota. Pop., pastelė, 35×49.webp",
+    year: 2022,
+    description: "Popierius, pastelė 35×49 cm",
+    available: false
+    },
+    {
+    title: "Vakarėja",
+    src: "assets/full_2022/Vakarėja. Pop., pastelė, 42×62.webp",
+    thumb: "assets/thumbs_2022/Vakarėja. Pop., pastelė, 42×62.webp",
+    year: 2022,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "Vėjas kopoms nebaisus",
+    src: "assets/full_2022/Vėjas kopoms nebaisus. Pop., pastelė, 35×49.webp",
+    thumb: "assets/thumbs_2022/Vėjas kopoms nebaisus. Pop., pastelė, 35×49.webp",
+    year: 2022,
+    description: "Popierius, pastelė 35×49 cm",
+    available: false
+    },
+    {
+    title: "Vėl žydi kaštonai",
+    src: "assets/full_2022/Vėl žydi kaštonai. Sausa pastelė, popierius CANSON,61×47cm turiu.webp",
+    thumb: "assets/thumbs_2022/Vėl žydi kaštonai. Sausa pastelė, popierius CANSON,61×47cm turiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė 61×47 cm",
+    available: false
+    },
+    {
+    title: "Visokie švelnumai žydi kopose",
+    src: "assets/full_2022/Visokie švelnumai žydi kopose. Pop., pastelė, 42x62 Nebeturiu.webp",
+    thumb: "assets/thumbs_2022/Visokie švelnumai žydi kopose. Pop., pastelė, 42x62 Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "Žydinti vasara",
+    src: "assets/full_2022/Žydinti vasara. Sausa pastelė. popierius CANSON,47×61cm Nebeturiu.webp",
+    thumb: "assets/thumbs_2022/Žydinti vasara. Sausa pastelė. popierius CANSON,47×61cm Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė 47×61 cm",
+    available: false
+    },
+    {
+    title: "be pavadinimo",
+    src: "assets/full_v_2022/be pavadinimo Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/be pavadinimo Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "be pavadinimo",
+    src: "assets/full_v_2022/Dovana Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Dovana Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "Kreivas miškas",
+    src: "assets/full_v_2022/Kreivas miškas Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Kreivas miškas Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "Lelijų prūdelis",
+    src: "assets/full_v_2022/Lelijų prūdelis Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Lelijų prūdelis Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "Miške",
+    src: "assets/full_v_2022/Miške Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Miške Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelėm",
+    available: false
+    },
+    {
+    title: "be pavadinimo",
+    src: "assets/full_v_2022/Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "be pavadinimo",
+    src: "assets/full_v_2022/Nebeturiu2.webp",
+    thumb: "assets/thumbs_v_2022/Nebeturiu2.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "be pavadinimo",
+    src: "assets/full_v_2022/Popierius PASTELMAT nuostabus. Puikiai dengia Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Popierius PASTELMAT nuostabus. Puikiai dengia Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "Šiaurės jūra",
+    src: "assets/full_v_2022/Šiaurės jūra Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Šiaurės jūra Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "Švyturys",
+    src: "assets/full_v_2022/Švyturys Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Švyturys Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "Vakaro spinduliuose",
+    src: "assets/full_v_2022/Vakaro spinduliuose Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Vakaro spinduliuose Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "Vėjas kopose šiandien",
+    src: "assets/full_v_2022/Vėjas kopose šiandien.Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Vėjas kopose šiandien.Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "Vlielando stogai",
+    src: "assets/full_v_2022/Vlielando stogai Nebeturiu.webp",
+    thumb: "assets/thumbs_v_2022/Vlielando stogai Nebeturiu.webp",
+    year: 2022,
+    description: "Popierius, pastelė",
+    available: false
+    },
+    {
+    title: "be pavadinimo",
+    src: "assets/full_v_2024/509398130_10238356793803257_2345329586630793267_n.webp",
+    thumb: "assets/thumbs_v_2024/509398130_10238356793803257_2345329586630793267_n.webp",
+    year: 2024,
+    description: "Popierius, pastelė 30x40 cm",
+    available: false
+    },
+    {
+    title: "armenhuis",
+    src: "assets/full_v_2024/armenhuis.webp",
+    thumb: "assets/thumbs_v_2024/armenhuis.webp",
+    year: 2024,
+    description: "Popierius, pastelė 30x40 cm",
+    available: false
+    },
+    {
+    title: "be pavadinimo",
+    src: "assets/full_v_2024/be pavadinimo.webp",
+    thumb: "assets/thumbs_v_2024/be pavadinimo.webp",
+    year: 2024,
     description: "Popierius, pastelė x cm",
     available: false
     },
-
+    {
+    title: "jachtos",
+    src: "assets/full_v_2024/jachts.webp",
+    thumb: "assets/thumbs_v_2024/jachts.webp",
+    year: 2024,
+    description: "Popierius, pastelė 30x40 cm",
+    available: false
+    },
+    {
+    title: "Jachtų uostelyje",
+    src: "assets/full_v_2024/Jachtų uostelyje. Pastelė ant pastelmat popieriaus, 40×30.webp",
+    thumb: "assets/thumbs_v_2024/Jachtų uostelyje. Pastelė ant pastelmat popieriaus, 40×30.webp",
+    year: 2024,
+    description: "Popierius, pastelė 30x40 cm",
+    available: false
+    },
+    {
+    title: "kopose",
+    src: "assets/full_v_2024/Kopose. Pastelė ant pastelmat, 30×40.webp",
+    thumb: "assets/thumbs_v_2024/Kopose. Pastelė ant pastelmat, 30×40.webp",
+    year: 2024,
+    description: "Popierius, pastelė 40x30 cm",
+    available: false
+    },
+    {
+    title: "prie prūdelio",
+    src: "assets/full_v_2024/Prie prūdelio. Pastelė ant pastelmat popieriaus. 40×30.webp",
+    thumb: "assets/thumbs_v_2024/Prie prūdelio. Pastelė ant pastelmat popieriaus. 40×30.webp",
+    year: 2024,
+    description: "Popierius, pastelė 30x40 cm",
+    available: false
+    },
+    {
+    title: "Prie Šiaurės jūros ir vėl vėjuota",
+    src: "assets/full_v_2024/Prie Šiaurės jūros ir vėl vėjuota. Pop., pastelė, 30×40.webp",
+    thumb: "assets/thumbs_v_2024/Prie Šiaurės jūros ir vėl vėjuota. Pop., pastelė, 30×40.webp",
+    year: 2024,
+    description: "Popierius, pastelė 40x30 cm",
+    available: false
+    },
+    {
+    title: "pro langą",
+    src: "assets/full_v_2024/pro langa.webp",
+    thumb: "assets/thumbs_v_2024/pro langa.webp",
+    year: 2024,
+    description: "Popierius, pastelė 30x40 cm",
+    available: false
+    },
+    {
+    title: "švyturys",
+    src: "assets/full_v_2024/švyturys.webp",
+    thumb: "assets/thumbs_v_2024/švyturys.webp",
+    year: 2024,
+    description: "Popierius, pastelė 30x40 cm",
+    available: false
+    },
+    {
+    title: "",
+    src: "",
+    thumb: "",
+    year: 2022,
+    description: "Popierius, pastelė x cm",
+    available: false
+    },
 ];
 
 
