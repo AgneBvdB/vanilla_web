@@ -1238,14 +1238,192 @@ const paintings = [
     year: 2018,
     description: "Popierius, pastelė 35x50 cm",
     available: false
-    },{
+    },
+    {
+    title: "ALYVŲ ŽYDĖJIMO METAS",
+    src: "assets/full_2020/ALYVŲ ŽYDĖJIMO METAS. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2020/ALYVŲ ŽYDĖJIMO METAS. Pop., pastelė, 42x62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "ATSIGRĘŽIAU Į TAVE",
+    src: "assets/full_2020/Atsigręžiau į tave. Pop., pastelė, 62×42.webp",
+    thumb: "assets/thumbs_2020/Atsigręžiau į tave. Pop., pastelė, 62×42.webp",
+    year: 2020,
+    description: "Popierius, pastelė 62×42 cm",
+    available: false
+    },
+    {
+    title: "ATSISUKTI Į SAULĘ",
+    src: "assets/full_2020/ATSISUKTI Į SAULĘ. Pop., sausa pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2020/ATSISUKTI Į SAULĘ. Pop., sausa pastelė, 42x62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "BALANDIS JAU... AR PASTEBĖJAI?",
+    src: "assets/full_2020/Balandis jau... ar pastebėjai Sp. pop.,pastelė, 62×42.webp",
+    thumb: "assets/thumbs_2020/Balandis jau... ar pastebėjai Sp. pop.,pastelė, 62×42.webp",
+    year: 2020,
+    description: "Popierius, pastelė 62×42 cm",
+    available: false
+    },
+    {
+    title: "BIJŪNAI DAR NENUVYTO",
+    src: "assets/full_2020/Bijūnai dar nenuvyto. Pop., pastelė,42×62.webp",
+    thumb: "assets/thumbs_2020/Bijūnai dar nenuvyto. Pop., pastelė,42×62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "BITKRĖSLĖS BALTOJE VAZOJE",
+    src: "assets/full_2020/BITKRĖSLĖS BALTOJE VAZOJE, Pop., pastelė, 49x32.webp",
+    thumb: "assets/thumbs_2020/BITKRĖSLĖS BALTOJE VAZOJE, Pop., pastelė, 49x32.webp",
+    year: 2020,
+    description: "Popierius, pastelė 49x32 cm",
+    available: false
+    },
+    {
+    title: "DAR VIENAS TAKAS, KVIEČIANTIS PRIE JŪROS",
+    src: "assets/full_2020/Dar vienas takas, kviečiantis prie jūros. Pop., sausa pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2020/Dar vienas takas, kviečiantis prie jūros. Pop., sausa pastelė, 42x62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "GALINGAS",
+    src: "assets/full_2020/Galingas. Pop., pastelė, 62×42.webp",
+    thumb: "assets/thumbs_2020/Galingas. Pop., pastelė, 62×42.webp",
+    year: 2020,
+    description: "Popierius, pastelė 62×42 cm",
+    available: false
+    },
+    {
+    title: "HORTENZIJA",
+    src: "assets/full_2020/HORTENZIJA. Pop., pastelė, 57x42.webp",
+    thumb: "assets/thumbs_2020/HORTENZIJA. Pop., pastelė, 57x42.webp",
+    year: 2020,
+    description: "Popierius, pastelė 57x42 cm",
+    available: false
+    },
+    {
+    title: "JIEMS ŽMONIŲ PROBLEMOS NERŪPI",
+    src: "assets/full_2020/Jiems žmonių problemos nerūpi. Pop.,pastelė, 42×62.webp",
+    thumb: "assets/thumbs_2020/Jiems žmonių problemos nerūpi. Pop.,pastelė, 42×62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "KIAULPIENĖS ŽYDI GAUSIAI",
+    src: "assets/full_2020/Kiaulpienės žydi gausiai, Sp. pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2020/Kiaulpienės žydi gausiai, Sp. pop., pastelė, 42x62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "NAMAI KVEPIA IEVOMIS",
+    src: "assets/full_2020/Namai kvepia ievomis. Pop., pastelė, 42×62.webp",
+    thumb: "assets/thumbs_2020/Namai kvepia ievomis. Pop., pastelė, 42×62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "NIEKADA NEPAILSTANTI",
+    src: "assets/full_2020/Niekada nepailstanti. Pop., pastelė 42×62.webp",
+    thumb: "assets/thumbs_2020/Niekada nepailstanti. Pop., pastelė 42×62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "OBELIS PASIPUOŠĖ",
+    src: "assets/full_2020/OBELIS PASIPUOŠĖ. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2020/OBELIS PASIPUOŠĖ. Pop., pastelė, 42x62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "PASIKALBĖJIMAS",
+    src: "assets/full_2020/Pasikalbėjimas. Pop., pastelė, 62×42.webp",
+    thumb: "assets/thumbs_2020/Pasikalbėjimas. Pop., pastelė, 62×42.webp",
+    year: 2020,
+    description: "Popierius, pastelė 62×42 cm",
+    available: false
+    },
+    {
+    title: "RAUSVUMAS",
+    src: "assets/full_2020/Rausvumas. Pop., pastelė,42×62.webp",
+    thumb: "assets/thumbs_2020/Rausvumas. Pop., pastelė,42×62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "SAULĖTAS PUŠYNAS",
+    src: "assets/full_2020/SAULĖTAS PUŠYNAS. Sp. pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2020/SAULĖTAS PUŠYNAS. Sp. pop., pastelė, 42x62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "SENTIMENTALUS",
+    src: "assets/full_2020/Sentimentalus. Pop., pastelė. 62×42.webp",
+    thumb: "assets/thumbs_2020/Sentimentalus. Pop., pastelė. 62×42.webp",
+    year: 2020,
+    description: "Popierius, pastelė 62×42 cm",
+    available: false
+    },
+    {
+    title: "TRUMPAS TAVO ŽYDĖJIMAS",
+    src: "assets/full_2020/TRUMPAS TAVO ŽYDĖJIMAS. Pop., pastelė, 42x62.webp",
+    thumb: "assets/thumbs_2020/TRUMPAS TAVO ŽYDĖJIMAS. Pop., pastelė, 42x62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42x62 cm",
+    available: false
+    },
+    {
+    title: "VAKARO SPINDULIŲ NUAUKSINTOS",
+    src: "assets/full_2020/Vakaro spindulių nuauksintos. Pop.,pastelė, 62×42 Nebeturiu.webp",
+    thumb: "assets/thumbs_2020/Vakaro spindulių nuauksintos. Pop.,pastelė, 62×42 Nebeturiu.webp",
+    year: 2020,
+    description: "Popierius, pastelė 62×42 cm",
+    available: false
+    },
+    {
+    title: "VĖL PAVASARĖJA",
+    src: "assets/full_2020/Vėl pavasarėja. Pop., pastelė, 42×62.webp",
+    thumb: "assets/thumbs_2020/Vėl pavasarėja. Pop., pastelė, 42×62.webp",
+    year: 2020,
+    description: "Popierius, pastelė 42×62 cm",
+    available: false
+    },
+    {
+    title: "ŽYDI VIKIAI PIEVOS PAKRAŠTY",
+    src: "assets/full_2020/Žydi vikiai pievos pakrašty. Pop., sausa pastelė, 62x42 nebeturiu.webp",
+    thumb: "assets/thumbs_2020/Žydi vikiai pievos pakrašty. Pop., sausa pastelė, 62x42 nebeturiu.webp",
+    year: 2020,
+    description: "Popierius, pastelė 62x42 cm",
+    available: false
+    },
+    {
     title: "",
     src: "",
     thumb: "",
-    year: 2018,
+    year: 2020,
     description: "Popierius, pastelė x cm",
     available: false
     },
+
 ];
 
 
