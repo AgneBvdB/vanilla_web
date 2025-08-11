@@ -312,3 +312,9 @@ a {
     background: rgb(255, 218, 87);
 }
                 
+.main-body {
+  background-image: url("/assets/full_2018/IKI\ RYTOJAUS.\ Sp.\ pop.\ pastelė\,\ 42x62.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 70%;
+}
