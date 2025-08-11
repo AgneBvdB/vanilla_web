@@ -20,6 +20,7 @@ body {
   scrollbar-gutter: stable;
   margin-right: 1rem;
   margin-left: 1rem;
+  overflow-x: hidden;
 }
 
 /* Layout */
@@ -194,6 +195,7 @@ a {
 
 .nav-branding {
     font-size: 2rem;
+    font-weight: 800;
 }
 
 .nav-link {

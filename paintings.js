@@ -644,7 +644,7 @@ const paintings = [
     src: "assets/full_2018/AUDRA ARTINASI. Popierius, pastelė, 61X42 nebeturiu.webp",
     thumb: "assets/thumbs_2018/AUDRA ARTINASI. Popierius, pastelė, 61X42 nebeturiu.webp",
     year: 2018,
-    description: "Popierius, pastelė 61X42 cm",
+    description: "Popierius, pastelė 61x42 cm",
     available: false
     },
     {
@@ -700,7 +700,7 @@ const paintings = [
     src: "assets/full_2019/DAR VIS ŽIEMA. Pop., pastelė, 42X62 nebeturiu.webp",
     thumb: "assets/thumbs_2019/DAR VIS ŽIEMA. Pop., pastelė, 42X62 nebeturiu.webp",
     year: 2019,
-    description: "Popierius, pastelė 42X62 cm",
+    description: "Popierius, pastelė 42x62 cm",
     available: false
     },
     {
@@ -716,7 +716,7 @@ const paintings = [
     src: "assets/full_2018/DEBESYS NUSILEIDO ANT ŽEMĖS. Pop., pastelė, 34X49.webp",
     thumb: "assets/thumbs_2018/DEBESYS NUSILEIDO ANT ŽEMĖS. Pop., pastelė, 34X49.webp",
     year: 2018,
-    description: "Popierius, pastelė 34X49 cm",
+    description: "Popierius, pastelė 34x49 cm",
     available: false
     },
     {
@@ -756,7 +756,7 @@ const paintings = [
     src: "assets/full_2018/GELSVAS PAPRASTUMAS Pop., pastelė, 34X49.webp",
     thumb: "assets/thumbs_2018/GELSVAS PAPRASTUMAS Pop., pastelė, 34X49.webp",
     year: 2018,
-    description: "Popierius, pastelė 34X49 cm",
+    description: "Popierius, pastelė 34x49 cm",
     available: false
     },
     {
@@ -844,7 +844,7 @@ const paintings = [
     src: "assets/full_2018/JŪRA PASIPUOŠĖ RUDENIU 62X42 NEBETURIU.webp",
     thumb: "assets/thumbs_2018/JŪRA PASIPUOŠĖ RUDENIU 62X42 NEBETURIU.webp",
     year: 2018,
-    description: "Popierius, pastelė 62X42 cm",
+    description: "Popierius, pastelė 62x42 cm",
     available: false
     },
     {
@@ -892,7 +892,7 @@ const paintings = [
     src: "assets/full_2018/KITAS ŽIEMOS VAKARAS. Pop., pastelė, 36X47.webp",
     thumb: "assets/thumbs_2018/KITAS ŽIEMOS VAKARAS. Pop., pastelė, 36X47.webp",
     year: 2018,
-    description: "Popierius, pastelė 36X47 cm",
+    description: "Popierius, pastelė 36x47 cm",
     available: false
     },
     {
@@ -964,7 +964,7 @@ const paintings = [
     src: "assets/full_2018/PASKUTINĖ ŽIEMOS DIENA. Pop., pastelė, 35X50.webp",
     thumb: "assets/thumbs_2018/PASKUTINĖ ŽIEMOS DIENA. Pop., pastelė, 35X50.webp",
     year: 2018,
-    description: "Popierius, pastelė 35X50 cm",
+    description: "Popierius, pastelė 35x50 cm",
     available: false
     },
     {
@@ -1012,7 +1012,7 @@ const paintings = [
     src: "assets/full_2019/RAMUS ŽIEMOS VAKARAS. Pop., pastelė, 62X42.webp",
     thumb: "assets/thumbs_2019/RAMUS ŽIEMOS VAKARAS. Pop., pastelė, 62X42.webp",
     year: 2019,
-    description: "Popierius, pastelė 62X42 cm",
+    description: "Popierius, pastelė 62x42 cm",
     available: false
     },
     {
