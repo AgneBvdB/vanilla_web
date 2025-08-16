@@ -176,6 +176,7 @@ li {
 a {
     color: var(--accent-color-2);
     text-decoration: none;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .navbar {
@@ -198,6 +199,7 @@ a {
 .nav-branding {
   font-family: var(--font);
   font-size: 2rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .nav-link {
@@ -303,7 +305,7 @@ a {
   transition: 0.7s ease;
   font-size: 1.2rem;
   font-family: var(--font);
-   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
  
 .cta:hover {
