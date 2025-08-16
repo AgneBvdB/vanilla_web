@@ -801,7 +801,7 @@ const paintings = [
     },
     {
     title: "IKI RYTOJAUS",
-    src: "assets/full_2018/IKI RYTOJAUS. Sp. pop. pastelė, 42x62.webp",
+    src: "assets/full_2018/IKI_RYTOJAUS-pop-pastel-42x62.webp",
     thumb: "assets/thumbs_2018/IKI RYTOJAUS. Sp. pop. pastelė, 42x62.webp",
     year: 2018,
     description: "Popierius, pastelė 42x62 cm",
@@ -1040,7 +1040,7 @@ const paintings = [
     available: false
     },
     {
-    title: "",
+    title: "RUDENINĖ PILKUMA",
     src: "assets/full_2018/RUDENINĖ PILKUMA. Pop., pastelė, 62x42.webp",
     thumb: "assets/thumbs_2018/RUDENINĖ PILKUMA. Pop., pastelė, 62x42.webp",
     year: 2018,
