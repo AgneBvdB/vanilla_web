@@ -5,11 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
-<body class="main-body">
-    <main id="main-landing">
-            <a href="gallery.html" id="cta">gallery</a>
+<body>
+    <section class="hero-area main-body">
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="nav-branding">Vilma Smilgienė</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Galerija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">Apie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Susisiekti</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <div class="hero-container">
+            <h1>Įsileisk šviesą, spalvas ir lengvumą į savo kasdienybę</h1>
+            <a class="cta" href="#gallery">Žiūrėti galeriją</a>
+        </div>
+   
+    </section>
+    <main>
+        <div class="container" id="gallery"></div>
     </main>
-<script src="script.js"></script>
+   <div id="myModal" class="modal">
+        <div class="modal-content">
+            <img id="modalImage" style="max-width: 100vw;" src="" alt="">
+            <div class="exit-wrap">
+                <span id="modalClose" class="close">&times;</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="paintings.js"></script>
 </body>
 </html>

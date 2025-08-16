@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+
 :root {
   --main-color: #fefaf7; 
   --card-background: #f4e9e6;
   --text-color: #2e2e2e;
-  --accent-color-1: #aaa2c3;
-  --accent-color-2: #e4c97a;
+  --accent-color-1: #dfd6f9;
+  --accent-color-2: #fee7a3;
   --button: #88a1a6;
   --button-hover: #88a1a6;
+  --font: 'Bodoni Moda';
 }
 
 * {
@@ -18,8 +22,6 @@
 body {
   background-color: var(--main-color);
   scrollbar-gutter: stable;
-  margin-right: 1rem;
-  margin-left: 1rem;
   overflow-x: hidden;
 }
 
@@ -29,8 +31,6 @@ body {
   position: relative;
   margin-top: 2rem;
 }
- 
-
 
 @media (max-width: 800px) {
   .container {
@@ -166,7 +166,7 @@ body {
 /* Top nav desktop */
 
 header {
-    background-color: var(--main-color);
+  top: 0;
 }
 
 li {
@@ -174,7 +174,7 @@ li {
 }
 
 a {
-    color: var(--text-color);
+    color: var(--accent-color-2);
     text-decoration: none;
 }
 
@@ -184,6 +184,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    margin-right: 24px;
 }
 
 .nav-menu {
@@ -191,11 +192,12 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    font-family: serif;
 }
 
 .nav-branding {
-    font-size: 2rem;
-    font-weight: 800;
+  font-family: var(--font);
+  font-size: 2rem;
 }
 
 .nav-link {
@@ -204,6 +206,7 @@ a {
 
 .nav-link:hover {
     color: var(--accent-color-1);
+    font-size: 1.2rem;
 }
 
 .hamburger {
@@ -280,41 +283,41 @@ a {
 
 /* landing page */
 
-#main-landing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-#cta {
-    display: inline-block;
-    outline: 0;
-    cursor: pointer;
-    border: 2px solid #000;
-    border-radius: 3px;
-    color: #fff;
-    background: #000;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-    padding: 12px 20px;
-    text-align:center;
-    transition-duration: .15s;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-}
-
-
-
-#cta:hover{
-    color: #000;
-    background: rgb(255, 218, 87);
-}
-                
+          
 .main-body {
-  background-image: url("/assets/full_2018/IKI\ RYTOJAUS.\ Sp.\ pop.\ pastelė\,\ 42x62.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/full_2018/IKI\ RYTOJAUS.\ Sp.\ pop.\ pastelė\,\ 42x62.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 70%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-container{
+  padding-left: 20%;
+  padding-top: 7%;
+  height: fit-content;
+}
+
+.cta {
+  transition: 0.7s ease;
+  font-size: 1.2rem;
+  font-family: var(--font);
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+ 
+.cta:hover {
+    color: var(--accent-color-1);
+    font-size: 1.3rem;
+    
+}
+
+h1{
+  width: 40%;
+  font-size: 2.5rem;
+  color: var(--accent-color-1);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  padding-bottom: 24px;
+  font-family: 'Bodoni Moda', serif;
+  line-height: 1.4;
 }
