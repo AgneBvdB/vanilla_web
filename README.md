@@ -81,3 +81,8 @@ Dark mode toggle.
 Smooth scrolling navigation.
 
 Keyboard navigation for the modal view (e.g. arrow keys).
+
+## Gallery Flow
+
+thumbnail --> _blank original aspect ratios + info + cta(buy button) --> modal full screen 
+

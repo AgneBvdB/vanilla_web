@@ -1,22 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-  --main-color: #fefaf7; 
+  --main-color: #FFFAF0; 
   --card-background: #f4e9e6;
   --text-color: #2e2e2e;
   --accent-color-1: #cebfd1;
   --accent-color-2: #fee7a3;
   --button: #88a1a6;
   --button-hover: #88a1a6;
-  --font: 'Bodoni Moda';
+  --font-simple: 'Playfair Display';
+  --font-fancy:;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   scroll-behavior: smooth;
+  color: var(--text-color);
+}
+
+.hidden {
+  display: none;
 }
 
 body {
@@ -28,14 +34,14 @@ body {
 
 /* Layout */
 
-.container {
+.gallery {
   position: relative;
   margin-top: 2rem;
-  
+  margin: 2rem 24px;
 }
 
 @media (max-width: 800px) {
-  .container {
+  .gallery {
     display: block;
   }
 }
@@ -56,8 +62,11 @@ body {
 
 .grid-item img {
   width: 100%;
+  height: auto;
   display: block;
   object-fit: cover;
+  aspect-ratio: 3.5 / 4;
+  background-color: var(--accent-color-2);
 }
 
 .lazy-img {
@@ -65,9 +74,6 @@ body {
     transition: filter 0.3s;
 }
 
-.lazy-img:not([data-src]) {
-    filter: none;
-}
 
 .card-body {
   padding: 8px;
@@ -133,9 +139,7 @@ body {
   font-weight: bold;
   z-index: 10;
 }
-.exit-wrap {
 
-}
 
 @media (max-width:800px) {
   .close {
@@ -171,11 +175,12 @@ header {
   top: 0;
 }
 
+
 li {
     list-style: none;
 }
 
-a {
+nav a {
     color: var(--accent-color-2);
     text-decoration: none;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
@@ -204,6 +209,14 @@ a {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
+#info-navbar a {
+  color: var(--text-color);
+  text-decoration: none;
+  text-shadow: none;
+  font-weight: 600;
+}
+
+
 .nav-link {
     transition: 0.7s ease;
 }
@@ -213,6 +226,7 @@ a {
     font-size: 1.2rem;
 }
 
+/* Mobile */
 .hamburger {
     cursor: pointer;
     display: none;
@@ -229,7 +243,16 @@ a {
     border-radius: 20px;
 }
 
-/* Mobile */
+.darkbar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--text-color);
+    border-radius: 20px;
+}
 
  @media(max-width:800px) {
     .hamburger {
@@ -250,6 +273,19 @@ a {
     
     .nav-menu{
         position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--text-color);
+        width: 100%;
+        text-align: center;
+        transition: 0.1s;
+        z-index: 1;
+    }
+
+    .info-menu {
+      position: fixed;
         left: -100%;
         top: 70px;
         gap: 0;
@@ -289,7 +325,7 @@ a {
 
           
 .main-body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/full_2018/IKI_RYTOJAUS-pop-pastel-42x62.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.735), rgba(0, 0, 0, 0.5)), url("assets/full_2018/IKI_RYTOJAUS-pop-pastel-42x62.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 70%;
@@ -309,6 +345,8 @@ a {
   font-size: 1.2rem;
   font-family: var(--font);
   text-shadow: 2px 2px 8px rgba(27, 26, 22, 0.8);
+  color: var(--accent-color-2);
+  text-decoration: none;
 }
  
 .cta:hover {
@@ -317,7 +355,7 @@ a {
     
 }
 
-h1{
+#hero-h1{
   width: 40%;
   font-size: 2.5rem;
   color: var(--accent-color-1);
@@ -326,4 +364,26 @@ h1{
   font-family: 'Bodoni Moda', serif;
   line-height: 1.4;
   font-weight: 700;
+}
+
+/* Info page */
+
+
+#info-body{
+  background-color: var(--main-color);
+}
+
+#painting{
+  max-height: 85vh;
+  max-width: 60vw;
+  margin: 0 10vw;
+}
+
+.info-container {
+  display: flex;    
+  flex-direction: column;     
+}
+
+.grid-container{
+  display: flex;
 }

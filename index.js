@@ -1,21 +1,26 @@
 // Generate gallery
 function renderGallery() {
+    const gallery = document.getElementById("gallery");
+    console.log(paintings);
     paintings.sort(() => Math.random() - 0.5);
 
-    paintings.forEach(painting => {
+    paintings.forEach((painting, index) => {
         if (painting.title !== "") {
         const item = document.createElement('div');
         item.className = "grid-item";
 
+        const isEager = index < 16;
+
         item.innerHTML = `
-            <a onclick="openModal('${painting.src.replace(/'/g, "\\'")}')">
-                <img data-src="${painting.thumb}" class="card-img lazy-img" width="300" height="350" alt="${painting.title}" loading="lazy">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">${painting.title.toUpperCase()}</h5>
-                <p class="card-year">${painting.year}<p>
-                <p class="card-text">${painting.description || "&nbsp;"}</p>
-            </div>`;
+            <a href="infopage.html?id=${painting.id}" id="${painting.id}">
+                <img
+                 src="${isEager
+                    ? painting.thumb
+                : painting.thumb}"
+                ${isEager ? "" : `data-src="${painting.thumb}"`}
+                class="card-img ${isEager ? "" : "lazy-img"}"
+            alt="${painting.title}">
+            </a>`;
             gallery.appendChild(item);
 }});
      
@@ -26,35 +31,6 @@ function renderGallery() {
     });
 }
 
-
-// Modal
-
-const modal = document.getElementById("myModal");
-const modalImage = document.getElementById('modalImage');
-
-function openModal(imageSrc) {
-    modal.style.display = "flex";
-    modalImage.src = imageSrc;
-};
-
-document.addEventListener("keydown", function (e) {
-  if (e.key === "Escape" && modal.style.display === "flex") {
-    modal.style.display = "none";
-    modalImage.src = "";
-  }
-});
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-    modalImage.src = "";
-  }
-}
-const span = document.getElementById("modalClose");
-span.onclick = function() {
-  modal.style.display = "none";
-  modalImage.src = "";
-}
 
 // Masonry type layout
 function layoutMasonry() {
@@ -72,7 +48,7 @@ function layoutMasonry() {
 
     //calculating column widths
 
-    const gap = 20;
+    const gap = 25;
     const columnCount = getColumnCount();
 
     const containerWidth = container.clientWidth;
@@ -130,21 +106,6 @@ function imagesLoaded(container, callback) {
 window.addEventListener('load', renderGallery);
 window.addEventListener("resize", layoutMasonry);
 
-// navbar toggle
-document.addEventListener("DOMContentLoaded", () => {
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
-
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}))
-});
 
 // Lazy loading
 
@@ -155,18 +116,27 @@ function initLazyLoading() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const img = entry.target;
+
                 img.src = img.dataset.src;
                 img.removeAttribute('data-src');
-                img.classList.remove('lazy-img');
+
+                img.onload = () => {
+                    img.classList.remove('lazy-img');
+                    
+                };
+
                 obs.unobserve(img);
             }
         });
     }, {
-        rootMargin: '100px', // start loading before in view
-        threshold: 0.1
+        rootMargin: '500px', 
+        threshold: 0.5
     });
 
     lazyImages.forEach(img => {
         observer.observe(img);
     });
 }
+
+
+
