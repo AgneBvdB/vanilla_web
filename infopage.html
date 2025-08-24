@@ -13,7 +13,7 @@
       <a href="index.html" id="info-nav-branding" class="nav-branding">Vilma Smilgienė</a>
       <ul class="nav-menu info-menu">
           <li class="nav-item">
-              <a href="#gallery" class="nav-link">Galerija</a>
+              <a href="index.html#gallery-link" class="nav-link">Galerija</a>
           </li>
           <li class="nav-item">
               <a href="about.html" class="nav-link">Apie</a>
@@ -31,7 +31,9 @@
   </header>
   <div class="grid-container">
     <div class="info-img">
-      <img id="painting" src="" alt="">
+      <a href="" id="myBtn">
+        <img id="painting" src="" alt="">
+      </a>
     </div>
     <div class="info-container">
       <h1 id="title">Pavadinimas</h1>
@@ -41,6 +43,15 @@
     </div>
   </div>
 
+  <div id="myModal" class="hidden">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modalImage" src="" alt="">
+  </div>
+
+</div>
 
     <script src="/paintings.js"></script>
     <script src="/universal.js"></script>

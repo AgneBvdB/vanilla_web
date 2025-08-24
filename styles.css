@@ -21,9 +21,6 @@
   color: var(--text-color);
 }
 
-.hidden {
-  display: none;
-}
 
 body {
   background-color: var(--main-color);
@@ -93,29 +90,27 @@ body {
 
 /* Modal */
 /* background */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.79);
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
+#myModal {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.79);
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
 }
-
 
 
 /* content */
 
 .modal-content{
   display: flex;
-  width: auto;
-  height: 100%;
+  height: fit-content;
+  width: fit-content;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -134,10 +129,16 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
-  color: #aaa;
+  color: whitesmoke;
   font-size: 35px;
   font-weight: bold;
-  z-index: 10;
+  z-index: 1;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -149,12 +150,6 @@ body {
   }
 }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 
 /*Transitions */
@@ -376,14 +371,25 @@ nav a {
 #painting{
   max-height: 85vh;
   max-width: 60vw;
-  margin: 0 10vw;
+  margin: 0 2vw;
 }
 
 .info-container {
   display: flex;    
   flex-direction: column;     
+  align-self:center;
 }
 
 .grid-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.block {
   display: flex;
 }

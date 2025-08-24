@@ -12,4 +12,45 @@ if (painting) {
   document.getElementById("description").textContent = painting.description;
   document.getElementById("year").textContent = painting.year;
   document.getElementById("painting").src = painting.src;
+  // ModalImage src
+document.getElementById("modalImage").src = painting.src;
 }
+
+// Modal
+
+const modal = document.getElementById("myModal");
+const btn = document.getElementById("myBtn");
+const span = document.getElementsByClassName("close")[0];
+
+
+// Open modal
+btn.onclick = function(e) {
+  e.preventDefault(); 
+  modal.classList.remove("hidden");
+  modal.classList.add("block");
+}
+
+
+
+// Close modal
+span.addEventListener('click', () => {
+  modal.classList.remove("block");
+  modal.classList.add('hidden');
+});
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.remove("block");
+    modal.classList.add("hidden");
+  }
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    modal.classList.remove("block");
+    modal.classList.add("hidden");
+  }
+});
+
+
+
