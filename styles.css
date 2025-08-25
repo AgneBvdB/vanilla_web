@@ -10,7 +10,7 @@
   --button: #88a1a6;
   --button-hover: #88a1a6;
   --font-simple: 'Playfair Display';
-  --font-fancy:;
+  --font-fancy: 'Bodoni Moda';
 }
 
 * {
@@ -19,6 +19,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   color: var(--text-color);
+  font-family: var(--font-simple);
 }
 
 
@@ -66,27 +67,6 @@ body {
   background-color: var(--accent-color-2);
 }
 
-.lazy-img {
-    filter: blur(5px);
-    transition: filter 0.3s;
-}
-
-
-.card-body {
-  padding: 8px;
-  background-color: var(--card-background);
-  text-align: center;
-}
-
-.card-title {
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
-.card-text {
-  font-size: 0.9rem;
-  color: var(--text-color);
-}
 
 /* Modal */
 /* background */
@@ -168,11 +148,13 @@ body {
 
 header {
   top: 0;
+  font-family: var(--font-fancy);
 }
 
 
 li {
     list-style: none;
+    text-transform: uppercase;
 }
 
 nav a {
@@ -199,16 +181,26 @@ nav a {
 }
 
 .nav-branding {
-  font-family: var(--font);
+  font-family: var(--font-simple);
   font-size: 2rem;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
-#info-navbar a {
+#info-nav-branding {
+  color: var(--text-color);
+  text-shadow: none;
+  font-weight: 600;
+}
+
+.dark-link {
   color: var(--text-color);
   text-decoration: none;
   text-shadow: none;
   font-weight: 600;
+}
+
+.dark-link:hover {
+  color: var(--accent-color-2);
 }
 
 
@@ -217,7 +209,11 @@ nav a {
 }
 
 .nav-link:hover {
-    color: var(--accent-color-1);
+    color: #f9f047;
+    font-size: 1.2rem;
+}
+.dark-link:hover {
+    color: var(--accent-color-2);
     font-size: 1.2rem;
 }
 
@@ -335,20 +331,74 @@ nav a {
   scroll-behavior: smooth;
 }
 
+
+/*Filter*/
+
+.filter-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+#apply {
+  margin: 0 1rem;
+}
+
+/* From Uiverse.io by alexmaracinaru */ 
 .cta {
-  transition: 0.7s ease;
-  font-size: 1.2rem;
-  font-family: var(--font);
-  text-shadow: 2px 2px 8px rgba(27, 26, 22, 0.8);
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: var(--font-fancy);
   color: var(--accent-color-2);
-  text-decoration: none;
+  font-weight: 500;
 }
- 
-.cta:hover {
-    color: var(--accent-color-1);
-    font-size: 1.3rem;
-    
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
 }
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: var(--accent-color-1);
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: var(--accent-color-2);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 
 #hero-h1{
   width: 40%;
@@ -356,7 +406,7 @@ nav a {
   color: var(--accent-color-1);
   text-shadow: 2px 2px 8px rgba(77, 70, 56, 0.8);
   padding-bottom: 24px;
-  font-family: 'Bodoni Moda', serif;
+  font-family: var(--font-simple);
   line-height: 1.4;
   font-weight: 700;
 }
@@ -380,7 +430,52 @@ nav a {
   align-self:center;
 }
 
-.grid-container{
+#title {
+  margin-bottom: 20px;
+  font-family: var(--font-simple);
+  text-transform: uppercase;
+}
+#description {
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+}
+#year {
+  margin-bottom: 20px;
+}
+
+#buy {
+ width: 9em;
+ height: 3em;
+ border-radius: 30em;
+ font-size: 15px;
+ font-family: inherit;
+ border: none;
+ position: relative;
+ overflow: hidden;
+ z-index: 1;
+ box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+#buy::before {
+ content: '';
+ width: 0;
+ height: 3em;
+ border-radius: 30em;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-image: linear-gradient(to right, var(--accent-color-2) 0%, #f9f047 100%);
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+}
+
+#buy:hover::before {
+ width: 9em;
+}
+
+.flex-container{
   display: flex;
   justify-content: space-evenly;
 }

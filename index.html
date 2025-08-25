@@ -15,7 +15,7 @@
                 <a href="index.html" class="nav-branding">Vilma Smilgienė</a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="#gallery" class="nav-link">Galerija</a>
+                        <a href="#gallery-link" class="nav-link">Galerija</a>
                     </li>
                     <li class="nav-item">
                         <a href="about.html" class="nav-link">Apie</a>
@@ -33,16 +33,46 @@
         </header>
         <div class="hero-container">
             <h1 id="hero-h1">Įsileisk šviesą, spalvas ir lengvumą į savo kasdienybę</h1>
-            <a class="cta" href="#gallery">Žiūrėti galeriją</a>
+            <a class="cta" href="#gallery-link">  <span class="hover-underline-animation"> Žiūrėti galeriją </span>
+                <svg
+                    id="arrow-horizontal"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="10"
+                    viewBox="0 0 46 16"
+                    
+                >
+                    <path
+                    id="Path_10"
+                    data-name="Path 10"
+                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                    transform="translate(30)"
+                    ></path>
+                </svg>
+            </a>
         </div>
-   
     </section>
     <main id="gallery-link">
+        <div class="filter-container">
+            <select id="year-filter">
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+            </select>
+            <button id="apply">Filter</button>
+        </div>
         <div class="gallery" id="gallery"></div>
     </main>
     <script src="paintings.js"></script>
     <script src="universal.js"></script>
     <script src="index.js"></script>
-    <script src="infopage.js"></script>
+
 </body>
 </html>

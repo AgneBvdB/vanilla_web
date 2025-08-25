@@ -9,16 +9,11 @@ function renderGallery() {
         const item = document.createElement('div');
         item.className = "grid-item";
 
-        const isEager = index < 16;
-
         item.innerHTML = `
             <a href="infopage.html?id=${painting.id}" id="${painting.id}">
                 <img
-                 src="${isEager
-                    ? painting.thumb
-                : painting.thumb}"
-                ${isEager ? "" : `data-src="${painting.thumb}"`}
-                class="card-img ${isEager ? "" : "lazy-img"}"
+                 src="${painting.thumb}"
+                class="card-img"
             alt="${painting.title}">
             </a>`;
             gallery.appendChild(item);
@@ -27,7 +22,7 @@ function renderGallery() {
 
     imagesLoaded(gallery, () => {
         layoutMasonry();
-        initLazyLoading();
+        
     });
 }
 
