@@ -54,7 +54,8 @@
     </section>
     <main id="gallery-link">
         <div class="filter-container">
-            <select id="year-filter">
+            <select class="filter" name="year" id="year-filter">
+                <option value="">Metai</option>
                 <option value="2016">2016</option>
                 <option value="2017">2017</option>
                 <option value="2018">2018</option>
@@ -66,7 +67,20 @@
                 <option value="2024">2024</option>
                 <option value="2025">2025</option>
             </select>
-            <button id="apply">Filter</button>
+            <select class="filter" name="theme" id="theme-filter">
+                <option value="">Tema</option>
+                <option value="water">Vanduo</option>
+                <option value="light">Šviesa</option>
+                <option value="fauna">Gyvūnija</option>
+                <option value="forrest">Miškas</option>
+                <option value="flora">Augalija</option>
+            </select>
+            <select class="filter" name="available" id="available-filter">
+                <option value="">Galima įsigyti</option>
+                <option value="yes">Taip</option>
+                <option value="no">Ne</option>
+            </select>
+            <button class="filter" id="apply">Filter</button>
         </div>
         <div class="gallery" id="gallery"></div>
     </main>
