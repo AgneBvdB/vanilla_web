@@ -1,81 +1,89 @@
-// Generate gallery
-function renderGallery() {
-    const gallery = document.getElementById("gallery");
-    console.log(paintings);
-    paintings.sort(() => Math.random() - 0.5);
 
-    paintings.forEach((painting) => {
-        if (painting.title !== "") {
-        const item = document.createElement('div');
-        item.className = "grid-item";
+// Convert availability string to boolean
+function mapAvailable(value) {
+    if (value === "yes") return true;
+    if (value === "no") return false;
+    return ""; // no filter
+}
 
-        item.innerHTML = `
-            <a target="_blank" href="infopage.html?id=${painting.id}" id="${painting.id}">
-                <img
-                 src="${painting.thumb}"
-                class="card-img"
-            alt="${painting.title}">
-            </a>`;
-            gallery.appendChild(item);
-}});
-     
-
-    imagesLoaded(gallery, () => {
-        layoutMasonry();
-        
+// Filter paintings
+function filterPaintings({ year, theme, available }) {
+    return paintings.filter(p => {
+        const yearFilter = !year || String(p.year) === year;
+        const themeFilter = !theme || p.theme === theme;
+        const availFilter = available === "" || p.available === available;
+        return yearFilter && themeFilter && availFilter;
     });
 }
 
+// Render gallery
+function renderGallery(paintingsArray) {
+    const gallery = document.getElementById("gallery");
+    gallery.innerHTML = "";
 
-// Masonry type layout
+    paintingsArray.forEach(p => {
+        if (!p.title) return;
+
+        const item = document.createElement('div');
+        item.className = "grid-item";
+        item.innerHTML = `
+            <a target="_blank" href="infopage.html?id=${p.id}" id="${p.id}">
+                <img src="${p.thumb}" class="card-img" alt="${p.title}">
+            </a>`;
+        gallery.appendChild(item);
+    });
+
+    imagesLoaded(gallery, layoutMasonry);
+}
+
+// Optimized masonry layout
+let resizeTimeout;
 function layoutMasonry() {
-
     const container = document.getElementById("gallery");
-     container.style.height = '';
+    container.style.height = '';
 
-    function getColumnCount() {
-        const width = window.innerWidth;
-        if (width < 600) return 1;
-        if (width < 900) return 2;
-        if (width < 1200) return 3;
-        return 4;
-    };
-
-    //calculating column widths
+    const width = window.innerWidth;
+    let columnCount = 4;
+    if (width < 1200) columnCount = 3;
+    if (width < 900) columnCount = 2;
+    if (width < 600) columnCount = 1;
 
     const gap = 25;
-    const columnCount = getColumnCount();
-
     const containerWidth = container.clientWidth;
     const totalGap = (columnCount - 1) * gap;
     const columnWidth = Math.floor((containerWidth - totalGap) / columnCount);
-
     const colLefts = Array.from({ length: columnCount }, (_, i) => i * (columnWidth + gap));
 
-    //positioning items
-    const columnHeights = new Array(columnCount).fill(0);//track column height
-    const gridItems = document.querySelectorAll(".grid-item");
-    gridItems.forEach(item => {
-    item.removeAttribute('style');
-        });
+    const columnHeights = new Array(columnCount).fill(0);
+    const gridItems = container.querySelectorAll(".grid-item");
+    gridItems.forEach(item => item.removeAttribute('style'));
+
     gridItems.forEach(item => {
         item.style.width = `${columnWidth}px`;
         item.style.position = 'absolute';
-        const itemHeight = item.offsetHeight; //measure height
+        const itemHeight = item.offsetHeight;
 
-        let minHeight = Math.min(...columnHeights);
-        let columnIndex = columnHeights.indexOf(minHeight);
+        const minHeight = Math.min(...columnHeights);
+        const columnIndex = columnHeights.indexOf(minHeight);
 
         item.style.left = `${colLefts[columnIndex]}px`;
         item.style.top = `${minHeight}px`;
-        
+
         columnHeights[columnIndex] += itemHeight + gap;
     });
 
-    const maxHeight = Math.max(...columnHeights);
-    container.style.height = `${maxHeight}px`;
-};
+    container.style.height = `${Math.max(...columnHeights)}px`;
+}
 
+// Debounced resize event
+window.addEventListener("resize", () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+        requestAnimationFrame(layoutMasonry);
+    }, 100);
+});
+
+// Wait for images to load before layout
 function imagesLoaded(container, callback) {
     const images = container.getElementsByTagName('img');
     let loaded = 0;
@@ -95,42 +103,22 @@ function imagesLoaded(container, callback) {
     }
 
     if (loaded === total) callback();
-};
-
-
-window.addEventListener('load', renderGallery);
-window.addEventListener("resize", layoutMasonry);
-
-
-// Lazy loading
-
-function initLazyLoading() {
-    const lazyImages = document.querySelectorAll('img.lazy-img');
-
-    const observer = new IntersectionObserver((entries, obs) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const img = entry.target;
-
-                img.src = img.dataset.src;
-                img.removeAttribute('data-src');
-
-                img.onload = () => {
-                    img.classList.remove('lazy-img');
-                    
-                };
-
-                obs.unobserve(img);
-            }
-        });
-    }, {
-        rootMargin: '500px', 
-        threshold: 0.5
-    });
-
-    lazyImages.forEach(img => {
-        observer.observe(img);
-    });
 }
 
+// Apply filters and render gallery
+function applyFilters() {
+    const year = document.getElementById("year-filter").value;
+    const theme = document.getElementById("theme-filter").value;
+    const available = mapAvailable(document.getElementById("available-filter").value);
 
+    const filtered = filterPaintings({ year, theme, available });
+    renderGallery(filtered);
+}
+
+// Live filter listeners
+document.querySelectorAll(".filter").forEach(select => {
+    select.addEventListener("change", applyFilters);
+});
+
+// Initial render
+window.addEventListener("load", applyFilters);
