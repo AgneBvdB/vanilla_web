@@ -4,7 +4,7 @@ function renderGallery() {
     console.log(paintings);
     paintings.sort(() => Math.random() - 0.5);
 
-    paintings.forEach((painting, index) => {
+    paintings.forEach((painting) => {
         if (painting.title !== "") {
         const item = document.createElement('div');
         item.className = "grid-item";
