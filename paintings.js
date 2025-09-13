@@ -972,7 +972,7 @@ const paintings = [
     {
     title: "GUBOJOS KOPOSE",
     src: "assets/full_2018/GUBOJOS KOPOSE, Pop., pastelė, 34x49.webp",
-    thumb: "assets/thumbs_2018/GUBOJOS KOPOSE, Pop., pastelė, 34X49.webp",
+    thumb: "assets/thumbs_2018/GUBOJOS KOPOSE, Pop., pastelė, 34x49.webp",
     year: 2018,
     description: "Popierius, pastelė 34x49 cm",
     available: false,
