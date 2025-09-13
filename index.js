@@ -10,7 +10,7 @@ function renderGallery() {
         item.className = "grid-item";
 
         item.innerHTML = `
-            <a href="infopage.html?id=${painting.id}" id="${painting.id}">
+            <a target="_blank" href="infopage.html?id=${painting.id}" id="${painting.id}">
                 <img
                  src="${painting.thumb}"
                 class="card-img"

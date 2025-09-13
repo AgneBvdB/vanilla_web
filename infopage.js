@@ -12,6 +12,7 @@ if (painting) {
   document.getElementById("description").textContent = painting.description;
   document.getElementById("year").textContent = painting.year;
   document.getElementById("painting").src = painting.src;
+  document.getElementById("head-title").textContent = painting.title;
   // ModalImage src
 document.getElementById("modalImage").src = painting.src;
 }
