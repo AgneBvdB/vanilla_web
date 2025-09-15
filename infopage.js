@@ -13,6 +13,9 @@ if (painting) {
   document.getElementById("year").textContent = painting.year;
   document.getElementById("painting").src = painting.src;
   document.getElementById("head-title").textContent = painting.title;
+  if(painting.available === false){
+    document.getElementById("buy").classList.add("hidden");
+  }
   // ModalImage src
 document.getElementById("modalImage").src = painting.src;
 }
@@ -52,6 +55,7 @@ document.addEventListener("keydown", (e) => {
     modal.classList.add("hidden");
   }
 });
+
 
 
 
