@@ -1,124 +1,143 @@
-
-// Convert availability string to boolean
 function mapAvailable(value) {
-    if (value === "yes") return true;
-    if (value === "no") return false;
-    return ""; // no filter
+    if (value === "yes") {
+        return true;
+    }
+    if (value === "no") {
+        return false;
+    }
+    return ""; 
 }
 
-// Filter paintings
-function filterPaintings({ year, theme, available }) {
-    return paintings.filter(p => {
-        const yearFilter = !year || String(p.year) === year;
-        const themeFilter = !theme || p.theme === theme;
-        const availFilter = available === "" || p.available === available;
-        return yearFilter && themeFilter && availFilter;
+function filterPaintings(filters) {
+    return paintings.filter(function(painting) {
+        const yearMatch = !filters.year || String(painting.year) === filters.year;
+        const themeMatch = !filters.theme || painting.theme === filters.theme;
+        const availableMatch = filters.available === "" || painting.available === filters.available;
+
+        return yearMatch && themeMatch && availableMatch;
     });
 }
 
-// Render gallery
 function renderGallery(paintingsArray) {
     const gallery = document.getElementById("gallery");
     gallery.innerHTML = "";
+    
+    paintingsArray.forEach(function(p) {
+        if (!p.title) {
+            return; // skip if no title
+        }
 
-    paintingsArray.forEach(p => {
-        if (!p.title) return;
-
-        const item = document.createElement('div');
+        const item = document.createElement("div");
         item.className = "grid-item";
+        item.style.position = "absolute"; 
+
         item.innerHTML = `
             <a target="_blank" href="infopage.html?id=${p.id}" id="${p.id}">
-                <img src="${p.thumb}" class="card-img" alt="${p.title}">
-            </a>`;
+                <img src="${p.thumb}" class="card-img" alt="${p.title}" style="width: 100%; height: auto;">
+            </a>
+        `;
+
         gallery.appendChild(item);
     });
 
+    // wait for images to load before applying masonry layout
     imagesLoaded(gallery, layoutMasonry);
 }
 
-// Optimized masonry layout
-let resizeTimeout;
 function layoutMasonry() {
     const container = document.getElementById("gallery");
-    container.style.height = '';
+    container.style.height = "";
 
-    const width = window.innerWidth;
+    const screenWidth = window.innerWidth;
     let columnCount = 4;
-    if (width < 1200) columnCount = 3;
-    if (width < 900) columnCount = 2;
-    if (width < 600) columnCount = 1;
+    if (screenWidth < 1200) columnCount = 3;
+    if (screenWidth < 900) columnCount = 2;
+    if (screenWidth < 600) columnCount = 1;
 
     const gap = 25;
     const containerWidth = container.clientWidth;
     const totalGap = (columnCount - 1) * gap;
     const columnWidth = Math.floor((containerWidth - totalGap) / columnCount);
-    const colLefts = Array.from({ length: columnCount }, (_, i) => i * (columnWidth + gap));
+
+    const colLefts = [];
+    for (let i = 0; i < columnCount; i++) {
+        colLefts.push(i * (columnWidth + gap));
+    }
 
     const columnHeights = new Array(columnCount).fill(0);
     const gridItems = container.querySelectorAll(".grid-item");
-    gridItems.forEach(item => item.removeAttribute('style'));
 
-    gridItems.forEach(item => {
-        item.style.width = `${columnWidth}px`;
-        item.style.position = 'absolute';
-        const itemHeight = item.offsetHeight;
+    gridItems.forEach(function(item) {
+        item.style.width = columnWidth + "px";
+        item.style.position = "absolute";
 
-        const minHeight = Math.min(...columnHeights);
+        const img = item.querySelector("img");
+        const itemHeight = img.offsetHeight;
+
+        const minHeight = Math.min.apply(null, columnHeights);
         const columnIndex = columnHeights.indexOf(minHeight);
 
-        item.style.left = `${colLefts[columnIndex]}px`;
-        item.style.top = `${minHeight}px`;
+        item.style.left = colLefts[columnIndex] + "px";
+        item.style.top = minHeight + "px";
 
         columnHeights[columnIndex] += itemHeight + gap;
     });
 
-    container.style.height = `${Math.max(...columnHeights)}px`;
+    const maxHeight = Math.max.apply(null, columnHeights);
+    container.style.height = maxHeight + "px";
 }
 
-// Debounced resize event
-window.addEventListener("resize", () => {
-    clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(() => {
-        requestAnimationFrame(layoutMasonry);
-    }, 100);
-});
-
-// Wait for images to load before layout
 function imagesLoaded(container, callback) {
-    const images = container.getElementsByTagName('img');
-    let loaded = 0;
+    const images = container.getElementsByTagName("img");
+    let loaded = 0; // can change
     const total = images.length;
 
-    if (total === 0) return callback();
+    if (total === 0) {
+        callback();
+        return;
+    }
 
-    for (let img of images) {
+    for (let i = 0; i < total; i++) {
+        const img = images[i];
+
         if (img.complete) {
             loaded++;
+            if (loaded === total) callback();
         } else {
-            img.onload = img.onerror = () => {
+            img.onload = img.onerror = function() {
                 loaded++;
-                if (loaded === total) callback();
+                if (loaded === total) {
+                    callback();
+                }
             };
         }
     }
-
-    if (loaded === total) callback();
 }
 
-// Apply filters and render gallery
 function applyFilters() {
     const year = document.getElementById("year-filter").value;
     const theme = document.getElementById("theme-filter").value;
     const available = mapAvailable(document.getElementById("available-filter").value);
 
-    const filtered = filterPaintings({ year, theme, available });
+    const filtered = filterPaintings({
+        year: year,
+        theme: theme,
+        available: available
+    });
+
     renderGallery(filtered);
 }
 
-// Live filter listeners
-document.querySelectorAll(".filter").forEach(select => {
-    select.addEventListener("change", applyFilters);
-});
+// --- Event listeners ---
+window.addEventListener("DOMContentLoaded", function() {
+    const filters = document.querySelectorAll(".filter");
+    filters.forEach(function(select) {
+        select.addEventListener("change", applyFilters);
+    });
 
-// Initial render
-window.addEventListener("load", applyFilters);
+    // Run when page loads
+    applyFilters();
+
+    // Re-run layout when screen resizes
+    window.addEventListener("resize", layoutMasonry);
+});
