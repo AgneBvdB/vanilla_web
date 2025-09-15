@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Susisiekime!</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -30,7 +30,21 @@
         </div>
         </nav>
     </header>
+    <main id="contact-main">
+        <h2>Susisiekti</h2>
+        <form id="contactForm">
+            <label for="name">Vardas</label>
+            <input type="text" id="name" name="name" required>
 
+            <label for="email">Elektroninis paštas</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Žinutė</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+
+            <input type="submit" value="send">
+        </form>
+    </main>
     <footer>
         <p>© 2025 Vilma Smilgienė — Klaipėda</p>
     </footer>
