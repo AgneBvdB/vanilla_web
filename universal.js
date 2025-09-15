@@ -26,7 +26,7 @@ form.addEventListener("submit", function(event) {
     event.preventDefault();
 
     const serviceID = "service_l242rda";
-    const templateID = "template_gl1eduq";
+    const templateID = "template_0k7c9jk";
 
     const templateParams = {
         name: document.getElementById("name").value,
