@@ -472,21 +472,21 @@ nav a {
   margin-bottom: 20px;
 }
 
-#buy {
- width: 9em;
- height: 3em;
- border-radius: 30em;
- font-size: 15px;
- font-family: inherit;
- border: none;
- position: relative;
- overflow: hidden;
- z-index: 1;
- box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+.button {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+              -6px -6px 12px #ffffff;
 }
 
-#buy::before {
+.button::before {
  content: '';
  width: 0;
  height: 3em;
@@ -500,7 +500,7 @@ nav a {
  z-index: -1;
 }
 
-#buy:hover::before {
+.button:hover::before {
  width: 9em;
 }
 
@@ -540,6 +540,15 @@ nav a {
   flex-direction:column;
   gap:60px;
   max-width: 960px;
+}
+
+#about-cta {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .row{
