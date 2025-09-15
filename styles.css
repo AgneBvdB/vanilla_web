@@ -542,7 +542,7 @@ nav a {
   max-width: 960px;
 }
 
-#about-cta {
+.about-cta {
   align-self: center;
   display: flex;
   justify-content: center;
@@ -616,8 +616,38 @@ nav a {
   border-radius: 18px;
 }
 
-/*test*/
+/* Contact form */
 
-label {
-  border: solid green 2px;
+#contactH2 {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.label {
+  margin: 0.5em;
+  border-radius: 18px;
+
+}
+
+.input{
+  text-align: center;
+  border-radius: 18px;
+  border: solid var(--accent-color-2) 2px;
+}
+
+#message{
+  width: 30%;
+}
+
+#sendBtn{
+margin-top: 1rem;
+
 }
