@@ -55,7 +55,7 @@ const paintings = [
     thumb: "2016_WebP/thumbs_2016/IEVOS II,pop., pastelė, 36x50.webp",
     year: 2016,
     description: "Popierius, sausa pastelė 36x50 cm",
-    available: false,
+    available: true,
     id: "p6",
     theme: "flora"
 },
@@ -75,7 +75,7 @@ const paintings = [
     thumb: "2016_WebP/thumbs_2016/Iš Audronės gėlynų.Šalavijai. Pop., pastelė, 36x50 true.webp",
     year: 2016,
     description: "Popierius, pastelė 36x50 cm",
-    available: false,
+    available: true,
     id: "p8",
     theme: "flora"
 },
@@ -125,7 +125,7 @@ const paintings = [
     thumb: "2016_WebP/thumbs_2016/PO DU. pop., akvarelė 45x60-false.webp",
     year: 2016,
     description: "Popierius, akvarelė 45x60 cm",
-    available: false,
+    available: true,
     id: "p13",
     theme: "forrest"
 },
@@ -225,7 +225,7 @@ const paintings = [
     thumb: "2016_WebP/thumbs_2016/VĖJAS KOPOSE, pop., pastelė, 46x66 true.webp",
     year: 2016,
     description: "Popierius, pastelė 46x66 cm",
-    available: false,
+    available: true,
     id: "p23",
     theme: "dunes"
 },
@@ -255,7 +255,7 @@ const paintings = [
     thumb: "2016_WebP/thumbs_2016/VYŠNIA ŽYDI, pop.,pastelė 42x62-true.webp",
     year: 2016,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p26",
     theme: "forrest"
 },
@@ -315,7 +315,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/GELTONA PIEVA TEN. Pop., pastelė, 41x62.webp",
     year: 2017,
     description: "Popierius, pastelė 41x62 cm",
-    available: false,
+    available: true,
     id: "p32",
     theme: "water"
 },
@@ -405,7 +405,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/NERIMAS. Pop., pastelė, 45x63.webp",
     year: 2017,
     description: "Popierius, pastelė 45x63 cm",
-    available: false,
+    available: true,
     id: "p41",
     theme: "water"
 },
@@ -415,7 +415,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/NOSTALGIŠKAS. Pop., pastelė, 35x50.webp",
     year: 2017,
     description: "Popierius, pastelė 35x50 cm",
-    available: false,
+    available: true,
     id: "p42",
     theme: "water"
 },
@@ -425,7 +425,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/PABRAIDŽIOK PO BIRŽELIO PIEVAS. Pop., pastelė, 50,5x34,5.webp",
     year: 2017,
     description: "Popierius, pastelė 50,5x34,5 cm",
-    available: false,
+    available: true,
     id: "p43",
     theme: "flora"
 },
@@ -445,7 +445,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/Pasiilgau jūros. Pop., pastelė 63x45.webp",
     year: 2017,
     description: "Popierius, pastelė 63x45 cm",
-    available: false,
+    available: true,
     id: "p45",
     theme: "water"
 },
@@ -465,7 +465,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/PAVASARĖJA. Pop., pastelė, 63x43.webp",
     year: 2017,
     description: "Popierius, pastelė 63x43 cm",
-    available: false,
+    available: true,
     id: "p47",
     theme: "dunes"
 },
@@ -475,7 +475,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/PAŽVELK AUKŠTYN, Pop., pastelė, 43x63.webp",
     year: 2017,
     description: "Popierius, pastelė 43x63 cm",
-    available: false,
+    available: true,
     id: "p48",
     theme: "forrest"
 },
@@ -485,7 +485,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/Prie jūros ramu. Pop., pastelė 42x62.webp",
     year: 2017,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p49",
     theme: "dunes"
 },
@@ -515,7 +515,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/RUDENIŠKAI. Pop., pastelė, 41x61.webp",
     year: 2017,
     description: "Popierius, pastelė 41x61 cm",
-    available: false,
+    available: true,
     id: "p52",
     theme: "forrest"
 },
@@ -525,7 +525,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/RUDENS EKSPRESIJA. Pop., pastelė, 35x50.webp",
     year: 2017,
     description: "Popierius, pastelė 35x50 cm",
-    available: false,
+    available: true,
     id: "p53",
     theme: "forrest"
 },
@@ -535,7 +535,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/RUDENS PALETĖ. Pop., pastelė, 43x63.webp",
     year: 2017,
     description: "Popierius, pastelė 43x63 cm",
-    available: false,
+    available: true,
     id: "p54",
     theme: "forrest"
 },
@@ -545,7 +545,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/Rytas.Pop., pastelė, 36x50.webp",
     year: 2017,
     description: "Popierius, pastelė 36x50 cm",
-    available: false,
+    available: true,
     id: "p55",
     theme: "forrest"
 },
@@ -585,7 +585,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/ŠERMUKŠNIAI. Pop., pastelė, 34x49.webp",
     year: 2017,
     description: "Popierius, pastelė 34x49 cm",
-    available: false,
+    available: true,
     id: "p59",
     theme: "flora"
 },
@@ -605,7 +605,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/ŠIUGŽDESIAI. Pop., pastelė, 36x50.webp",
     year: 2017,
     description: "Popierius, pastelė 36x50 cm",
-    available: false,
+    available: true,
     id: "p61",
     theme: "flora"
 },
@@ -625,7 +625,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/ŠVYTĖJIMAS. Pop., pastelė 65x45.webp",
     year: 2017,
     description: "Popierius, pastelė 65x45 cm",
-    available: false,
+    available: true,
     id: "p63",
     theme: "water"
 },
@@ -675,7 +675,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/VAKARO KARAMELĖ. Pop., pastelė,44x63.webp",
     year: 2017,
     description: "Popierius, pastelė 44x63 cm",
-    available: false,
+    available: true,
     id: "p67",
     theme: "water"
 },
@@ -685,7 +685,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/Žalia banga. Pop., pastelė, 64x45.webp",
     year: 2017,
     description: "Popierius, pastelė 64x45 cm",
-    available: false,
+    available: true,
     id: "p68",
     theme: "water"
 },
@@ -695,7 +695,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/ŽALIAI ŽALIAI. Pop., pastelė, 50x36.webp",
     year: 2017,
     description: "Popierius, pastelė 50x36 cm",
-    available: false,
+    available: true,
     id: "p69",
     theme: "flora"
 },
@@ -715,7 +715,7 @@ const paintings = [
     thumb: "assets/thumbs_2017/ŽYDI. Pop., pastelė. 36x50.webp",
     year: 2017,
     description: "Popierius, pastelė 36x50 cm",
-    available: false,
+    available: true,
     id: "p71",
     theme: "flora"
 },
@@ -785,7 +785,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/Ateis ir pavasaris... KAdanoRs. Pop., pastelė, 35x50.webp",
     year: 2018,
     description: "Popierius, pastelė 35x50 cm",
-    available: false,
+    available: true,
     id: "p78",
     theme: "other"
 },
@@ -795,7 +795,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/ATSISPINDINTYS. Pop., pastelė, 44x64 cm.webp",
     year: 2018,
     description: "Popierius, pastelė 44x64 cm",
-    available: false,
+    available: true,
     id: "p79",
     theme: "water"
 },
@@ -865,7 +865,7 @@ const paintings = [
     thumb: "assets/thumbs_2019/BUS RAUDONI VAKARAI. Pop., pastelė, 42x62.webp",
     year: 2019,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p86",
     theme: "dunes"
 },
@@ -915,7 +915,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/DIENA . Pop., pastelė. 62x42.webp",
     year: 2018,
     description: "Popierius, pastelė 62x42 cm",
-    available: false,
+    available: true,
     id: "p91",
     theme: "water"
 },
@@ -965,7 +965,7 @@ const paintings = [
     thumb: "assets/thumbs_2019/Gera būti. Pop., pastelė, 42x62.webp",
     year: 2019,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p96",
     theme: "water"
 },
@@ -1005,7 +1005,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/IKI RYTOJAUS. Sp. pop. pastelė, 42x62.webp",
     year: 2018,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p100",
     theme: "water"
 },
@@ -1055,7 +1055,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/JŪRA PASIPUOŠĖ RUDENIU 62X42 NEBETURIU.webp",
     year: 2018,
     description: "Popierius, pastelė 62x42 cm",
-    available: false,
+    available: true,
     id: "p105",
     theme: "water"
 },
@@ -1065,7 +1065,7 @@ const paintings = [
     thumb: "assets/thumbs_2019/JŪRA VĖLYVĄ PAVASARĮ. Pop., pastelė. 42x62 cm.webp",
     year: 2019,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p106",
     theme: "water"
 },
@@ -1075,7 +1075,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/KAARRR 35x50.webp",
     year: 2018,
     description: "Popierius, pastelė 35x50 cm",
-    available: false,
+    available: true,
     id: "p107",
     theme: "other"
 },
@@ -1115,7 +1115,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/KITAS ŽIEMOS VAKARAS. Pop., pastelė, 36X47.webp",
     year: 2018,
     description: "Popierius, pastelė 36x47 cm",
-    available: false,
+    available: true,
     id: "p111",
     theme: "forrest"
 },
@@ -1125,7 +1125,7 @@ const paintings = [
     thumb: "assets/thumbs_2019/KUNKULIUOJANTI. Pop., pastelė,42x62 cm.webp",
     year: 2019,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p112",
     theme: "water"
 },
@@ -1145,7 +1145,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/Liūdna varna laukia pavasario 35x50.webp",
     year: 2018,
     description: "Popierius, pastelė 35x50 cm",
-    available: false,
+    available: true,
     id: "p114",
     theme: "other"
 },
@@ -1155,7 +1155,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/LUBINAI. Popierius, pastelė, 34x49cm.webp",
     year: 2018,
     description: "Popierius, pastelė 34x49 cm",
-    available: false,
+    available: true,
     id: "p115",
     theme: "flora"
 },
@@ -1185,7 +1185,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/PAKRANTĖ. Pop., pastelė, 39x73.webp",
     year: 2018,
     description: "Popierius, pastelė 39x73 cm",
-    available: false,
+    available: true,
     id: "p118",
     theme: "water"
 },
@@ -1195,7 +1195,7 @@ const paintings = [
     thumb: "assets/thumbs_2019/PALIKO PĖDSAKUS AR PRIPĖDAVO 62x42.webp",
     year: 2019,
     description: "Popierius, pastelė 62x42 cm",
-    available: false,
+    available: true,
     id: "p119",
     theme: "water"
 },
@@ -1205,7 +1205,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/PASKUTINĖ ŽIEMOS DIENA. Pop., pastelė, 35X50.webp",
     year: 2018,
     description: "Popierius, pastelė 35x50 cm",
-    available: false,
+    available: true,
     id: "p120",
     theme: "forrest"
 },
@@ -1295,7 +1295,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/ROMANTIŠKAS. Pop., pastelė, 35x50.webp",
     year: 2018,
     description: "Popierius, pastelė 35x50 cm",
-    available: false,
+    available: true,
     id: "p129",
     theme: "water"
 },
@@ -1425,7 +1425,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/Tamsūs debesiai. Pop., pastelė, 42x62.webp",
     year: 2018,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p142",
     theme: "water"
 },
@@ -1495,7 +1495,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/VAKARO ŠVELNUMAS 42x62.webp",
     year: 2018,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p149",
     theme: "dunes"
 },
@@ -1505,7 +1505,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/VASARIO SAULĖ. Pop., pastelė, 50x35.webp",
     year: 2018,
     description: "Popierius, pastelė 50x35 cm",
-    available: false,
+    available: true,
     id: "p150",
     theme: "forrest"
 },
@@ -1545,7 +1545,7 @@ const paintings = [
     thumb: "assets/thumbs_2018/ŽIEMIŠKAI PASIPUOŠĘ. Pop., pastelė, 35x50.webp",
     year: 2018,
     description: "Popierius, pastelė 35x50 cm",
-    available: false,
+    available: true,
     id: "p154",
     theme: "forrest"
 },
@@ -1575,7 +1575,7 @@ const paintings = [
     thumb: "assets/thumbs_2020/ATSISUKTI Į SAULĘ. Pop., sausa pastelė, 42x62.webp",
     year: 2020,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p157",
     theme: "flora"
 },
@@ -1585,7 +1585,7 @@ const paintings = [
     thumb: "assets/thumbs_2020/Balandis jau... ar pastebėjai Sp. pop.,pastelė, 62×42.webp",
     year: 2020,
     description: "Popierius, pastelė 62×42 cm",
-    available: false,
+    available: true,
     id: "p158",
     theme: "forrest"
 },
@@ -1595,7 +1595,7 @@ const paintings = [
     thumb: "assets/thumbs_2020/Bijūnai dar nenuvyto. Pop., pastelė,42×62.webp",
     year: 2020,
     description: "Popierius, pastelė 42×62 cm",
-    available: false,
+    available: true,
     id: "p159",
     theme: "flora"
 },
@@ -1605,7 +1605,7 @@ const paintings = [
     thumb: "assets/thumbs_2020/BITKRĖSLĖS BALTOJE VAZOJE, Pop., pastelė, 49x32.webp",
     year: 2020,
     description: "Popierius, pastelė 49x32 cm",
-    available: false,
+    available: true,
     id: "p160",
     theme: "flora"
 },
@@ -1635,7 +1635,7 @@ const paintings = [
     thumb: "assets/thumbs_2020/HORTENZIJA. Pop., pastelė, 57x42.webp",
     year: 2020,
     description: "Popierius, pastelė 57x42 cm",
-    available: false,
+    available: true,
     id: "p163",
     theme: "flora"
 },
@@ -1645,7 +1645,7 @@ const paintings = [
     thumb: "assets/thumbs_2020/Jiems žmonių problemos nerūpi. Pop.,pastelė, 42×62.webp",
     year: 2020,
     description: "Popierius, pastelė 42×62 cm",
-    available: false,
+    available: true,
     id: "p164",
     theme: "forrest"
 },
@@ -1715,7 +1715,7 @@ const paintings = [
     thumb: "assets/thumbs_2020/SAULĖTAS PUŠYNAS. Sp. pop., pastelė, 42x62.webp",
     year: 2020,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p171",
     theme: "forrest"
 },
@@ -1735,7 +1735,7 @@ const paintings = [
     thumb: "assets/thumbs_2020/TRUMPAS TAVO ŽYDĖJIMAS. Pop., pastelė, 42x62.webp",
     year: 2020,
     description: "Popierius, pastelė 42x62 cm",
-    available: false,
+    available: true,
     id: "p173",
     theme: "flora"
 },
@@ -1825,7 +1825,7 @@ const paintings = [
     thumb: "assets/thumbs_2021/Natiurmortas su kiaulpienėm. Sp. pop., pastelė, 50x40.webp",
     year: 2021,
     description: "Popierius, pastelė 50x40 cm",
-    available: false,
+    available: true,
     id: "p182",
     theme: "flora"
 },
@@ -1895,7 +1895,7 @@ const paintings = [
     thumb: "assets/thumbs_2021/Šviežių burokėlių sezonas. Pop., pastelė, 42×62 cm.webp",
     year: 2021,
     description: "Popierius, pastelė 42×62 cm",
-    available: false,
+    available: true,
     id: "p189",
     theme: "flora"
 },
@@ -2035,7 +2035,7 @@ const paintings = [
     thumb: "assets/thumbs_2022/Truputį debesuota. Pop., pastelė, 35×49.webp",
     year: 2022,
     description: "Popierius, pastelė 35×49 cm",
-    available: false,
+    available: true,
     id: "p203",
     theme: "dunes"
 },
@@ -2055,7 +2055,7 @@ const paintings = [
     thumb: "assets/thumbs_2022/Vėjas kopoms nebaisus. Pop., pastelė, 35×49.webp",
     year: 2022,
     description: "Popierius, pastelė 35×49 cm",
-    available: false,
+    available: true,
     id: "p205",
     theme: "dunes"
 },
