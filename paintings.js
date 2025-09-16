@@ -646,8 +646,8 @@ const paintings = [
     year: 2017,
     description: "Popierius, pastelė 46x46 cm",
     available: false,
-    id: "p64",
-    theme: "other"
+    id: "p232",
+    theme: "flora"
 },
     {
     title: "TIK AKIMIRKA",
@@ -2319,6 +2319,8 @@ const paintings = [
     id: "p231",
     theme: "buildings"
 }
+/*next id: "p233". 
+p232 is after p64 */
 ];
 
 
