@@ -15,7 +15,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 });
 
 // EmailJs initialize
-
+/*
 const form = document.getElementById("contactForm");
 
 form.addEventListener("submit", function(event) {
@@ -38,3 +38,4 @@ form.addEventListener("submit", function(event) {
         console.error(err);
     });
 });
+*/

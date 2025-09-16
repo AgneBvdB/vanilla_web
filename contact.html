@@ -50,15 +50,25 @@
         <p>© 2025 Vilma Smilgienė — Klaipėda</p>
     </footer>
     <script src="/universal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+    // Initialize EmailJS
+    emailjs.init({
+      publicKey: "sPrAzL76zQ6Lp9Rqp", // replace with your public key
+    });
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      
+
+      emailjs.sendForm("service_l242rda", "template_0k7c9jk", this)
+        .then(() => {
+          alert("Žinutė sėkmingai išsiųsta!");
+          this.reset();
+        }, (error) => {
+          alert("Klaida siunčiant žinutę: " + JSON.stringify(error));
+        });
+    });
+    </script>
     </body>
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "sPrAzL76zQ6Lp9Rqp",
-      });
-   })();
-</script>
 </html>
