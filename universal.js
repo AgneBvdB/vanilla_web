@@ -17,7 +17,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 // EmailJs initialize
 
 (function(){
-    emailjs.init("o7om_pdzoxw9QgdCE");
+    emailjs.init("sPrAzL76zQ6Lp9Rqp");
 })();
 
 const form = document.getElementById("contactForm");
