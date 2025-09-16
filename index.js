@@ -1,49 +1,95 @@
+// --- CONFIG ---
+const BATCH_SIZE = 20; // number of paintings per scroll batch
+
+// --- GLOBAL STATE ---
+let currentBatch = 0;
+let currentPaintings = [];
+
+// --- HELPERS ---
 function mapAvailable(value) {
-    if (value === "yes") {
-        return true;
-    }
-    if (value === "no") {
-        return false;
-    }
-    return ""; 
+    if (value === "yes") return true;
+    if (value === "no") return false;
+    return "";
 }
 
 function filterPaintings(filters) {
-    return paintings.filter(function(painting) {
+    return paintings.filter(function (painting) {
         const yearMatch = !filters.year || String(painting.year) === filters.year;
         const themeMatch = !filters.theme || painting.theme === filters.theme;
-        const availableMatch = filters.available === "" || painting.available === filters.available;
+        const availableMatch =
+            filters.available === "" || painting.available === filters.available;
 
         return yearMatch && themeMatch && availableMatch;
     });
 }
 
-function renderGallery(paintingsArray) {
+// --- RENDER FUNCTIONS ---
+function renderBatch() {
     const gallery = document.getElementById("gallery");
-    gallery.innerHTML = "";
-    
-    paintingsArray.forEach(function(p) {
-        if (!p.title) {
-            return; // skip if no title
-        }
+
+    const start = currentBatch * BATCH_SIZE;
+    const end = start + BATCH_SIZE;
+    const batch = currentPaintings.slice(start, end);
+
+    batch.forEach(function (p) {
+        if (!p.title) return;
 
         const item = document.createElement("div");
         item.className = "grid-item";
-        item.style.position = "absolute"; 
+        item.style.position = "absolute";
 
         item.innerHTML = `
             <a target="_blank" href="infopage.html?id=${p.id}" id="${p.id}">
-                <img src="${p.thumb}" class="card-img" alt="${p.title}" style="width: 100%; height: auto;">
+                <img 
+                    src="placeholder.jpg" 
+                    data-src="${p.thumb}" 
+                    class="card-img lazy" 
+                    alt="${p.title}" 
+                    style="width: 100%; height: auto; opacity: 0; transition: opacity 0.5s ease-in-out;"
+                >
             </a>
         `;
 
         gallery.appendChild(item);
     });
 
-    // wait for images to load before applying masonry layout
+    setupLazyLoading();
+
     imagesLoaded(gallery, layoutMasonry);
+
+    currentBatch++;
 }
 
+function setupLazyLoading() {
+    const lazyImages = document.querySelectorAll("img.lazy");
+
+    if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src;
+                    img.onload = () => {
+                        img.style.opacity = 1;
+                    };
+                    img.classList.remove("lazy");
+                    obs.unobserve(img);
+                }
+            });
+        });
+
+        lazyImages.forEach(img => observer.observe(img));
+    } else {
+        // fallback
+        lazyImages.forEach(img => {
+            img.src = img.dataset.src;
+            img.onload = () => (img.style.opacity = 1);
+            img.classList.remove("lazy");
+        });
+    }
+}
+
+// --- LAYOUT ---
 function layoutMasonry() {
     const container = document.getElementById("gallery");
     container.style.height = "";
@@ -67,14 +113,14 @@ function layoutMasonry() {
     const columnHeights = new Array(columnCount).fill(0);
     const gridItems = container.querySelectorAll(".grid-item");
 
-    gridItems.forEach(function(item) {
+    gridItems.forEach(function (item) {
         item.style.width = columnWidth + "px";
         item.style.position = "absolute";
 
         const img = item.querySelector("img");
         const itemHeight = img.offsetHeight;
 
-        const minHeight = Math.min.apply(null, columnHeights);
+        const minHeight = Math.min(...columnHeights);
         const columnIndex = columnHeights.indexOf(minHeight);
 
         item.style.left = colLefts[columnIndex] + "px";
@@ -83,13 +129,13 @@ function layoutMasonry() {
         columnHeights[columnIndex] += itemHeight + gap;
     });
 
-    const maxHeight = Math.max.apply(null, columnHeights);
+    const maxHeight = Math.max(...columnHeights);
     container.style.height = maxHeight + "px";
 }
 
 function imagesLoaded(container, callback) {
     const images = container.getElementsByTagName("img");
-    let loaded = 0; // can change
+    let loaded = 0;
     const total = images.length;
 
     if (total === 0) {
@@ -104,40 +150,53 @@ function imagesLoaded(container, callback) {
             loaded++;
             if (loaded === total) callback();
         } else {
-            img.onload = img.onerror = function() {
+            img.onload = img.onerror = function () {
                 loaded++;
-                if (loaded === total) {
-                    callback();
-                }
+                if (loaded === total) callback();
             };
         }
     }
 }
 
+// --- FILTER + RESET ---
 function applyFilters() {
     const year = document.getElementById("year-filter").value;
     const theme = document.getElementById("theme-filter").value;
     const available = mapAvailable(document.getElementById("available-filter").value);
 
-    const filtered = filterPaintings({
+    currentPaintings = filterPaintings({
         year: year,
         theme: theme,
-        available: available
+        available: available,
     });
 
-    renderGallery(filtered);
+    currentBatch = 0;
+    document.getElementById("gallery").innerHTML = "";
+    renderBatch();
 }
 
-// --- Event listeners ---
-window.addEventListener("DOMContentLoaded", function() {
+// --- INFINITE SCROLL ---
+function handleScroll() {
+    const scrollY = window.scrollY || window.pageYOffset;
+    const viewportHeight = window.innerHeight;
+    const fullHeight = document.body.offsetHeight;
+
+    if (scrollY + viewportHeight >= fullHeight - 300) {
+        if (currentBatch * BATCH_SIZE < currentPaintings.length) {
+            renderBatch();
+        }
+    }
+}
+
+// --- INIT ---
+window.addEventListener("DOMContentLoaded", function () {
     const filters = document.querySelectorAll(".filter");
-    filters.forEach(function(select) {
+    filters.forEach(function (select) {
         select.addEventListener("change", applyFilters);
     });
 
-    // Run when page loads
-    applyFilters();
+    applyFilters(); // first load
 
-    // Re-run layout when screen resizes
     window.addEventListener("resize", layoutMasonry);
+    window.addEventListener("scroll", handleScroll);
 });

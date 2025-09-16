@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Vilma Smilgienė</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -92,6 +92,39 @@
     <script src="paintings.js"></script>
     <script src="universal.js"></script>
     <script src="index.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const lazyImages = document.querySelectorAll("img.lazy");
+
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src;
+          img.classList.remove("lazy");
+          obs.unobserve(img);
+        }
+      });
+    });
+
+    lazyImages.forEach(img => observer.observe(img));
+  } else {
+    // Fallback for very old browsers
+    const loadLazyImages = () => {
+      lazyImages.forEach(img => {
+        if (img.offsetTop < window.innerHeight + window.scrollY) {
+          img.src = img.dataset.src;
+          img.classList.remove("lazy");
+        }
+      });
+    };
+    window.addEventListener("scroll", loadLazyImages);
+    window.addEventListener("resize", loadLazyImages);
+    window.addEventListener("orientationchange", loadLazyImages);
+  }
+});
+</script>
 
 </body>
 </html>
