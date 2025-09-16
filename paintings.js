@@ -2095,7 +2095,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2022/be pavadinimo Nebeturiu.webp",
     year: 2022,
     description: "Popierius, pastelė",
-    available: false,
+    available: true,
     id: "p209",
     theme: "dunes"
 },
@@ -2115,7 +2115,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2022/Kreivas miškas Nebeturiu.webp",
     year: 2022,
     description: "Popierius, pastelė",
-    available: false,
+    available: true,
     id: "p211",
     theme: "forrest"
 },
@@ -2125,7 +2125,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2022/Lelijų prūdelis Nebeturiu.webp",
     year: 2022,
     description: "Popierius, pastelė",
-    available: false,
+    available: true,
     id: "p212",
     theme: "water"
 },
@@ -2135,7 +2135,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2022/Miške Nebeturiu.webp",
     year: 2022,
     description: "Popierius, pastelėm",
-    available: false,
+    available: true,
     id: "p213",
     theme: "forrest"
 },
@@ -2145,7 +2145,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2022/Nebeturiu.webp",
     year: 2022,
     description: "Popierius, pastelė",
-    available: false,
+    available: true,
     id: "p214",
     theme: "forrest"
 },
@@ -2165,7 +2165,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2022/Popierius PASTELMAT nuostabus. Puikiai dengia Nebeturiu.webp",
     year: 2022,
     description: "Popierius, pastelė",
-    available: false,
+    available: true,
     id: "p216",
     theme: "dunes"
 },
@@ -2185,7 +2185,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2022/Švyturys Nebeturiu.webp",
     year: 2022,
     description: "Popierius, pastelė",
-    available: false,
+    available: true,
     id: "p218",
     theme: "buildings"
 },
@@ -2195,7 +2195,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2022/Vakaro spinduliuose Nebeturiu.webp",
     year: 2022,
     description: "Popierius, pastelė",
-    available: false,
+    available: true,
     id: "p219",
     theme: "buildings"
 },
@@ -2205,7 +2205,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2022/Vėjas kopose šiandien.Nebeturiu.webp",
     year: 2022,
     description: "Popierius, pastelė",
-    available: false,
+    available: true,
     id: "p220",
     theme: "dunes"
 },
@@ -2225,7 +2225,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2024/509398130_10238356793803257_2345329586630793267_n.webp",
     year: 2024,
     description: "Popierius, pastelė 30x40 cm",
-    available: false,
+    available: true,
     id: "p222",
     theme: "dunes"
 },
@@ -2235,7 +2235,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2024/armenhuis.webp",
     year: 2024,
     description: "Popierius, pastelė 30x40 cm",
-    available: false,
+    available: true,
     id: "p223",
     theme: "buildings"
 },
@@ -2245,7 +2245,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2024/be pavadinimo.webp",
     year: 2024,
     description: "Popierius, pastelė x cm",
-    available: false,
+    available: true,
     id: "p224",
     theme: "dunes"
 },
@@ -2255,7 +2255,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2024/jachts.webp",
     year: 2024,
     description: "Popierius, pastelė 30x40 cm",
-    available: false,
+    available: true,
     id: "p225",
     theme: "water"
 },
@@ -2265,7 +2265,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2024/Jachtų uostelyje. Pastelė ant pastelmat popieriaus, 40×30.webp",
     year: 2024,
     description: "Popierius, pastelė 30x40 cm",
-    available: false,
+    available: true,
     id: "p226",
     theme: "water"
 },
@@ -2275,7 +2275,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2024/Kopose. Pastelė ant pastelmat, 30×40.webp",
     year: 2024,
     description: "Popierius, pastelė 40x30 cm",
-    available: false,
+    available: true,
     id: "p227",
     theme: "dunes"
 },
@@ -2285,7 +2285,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2024/Prie prūdelio. Pastelė ant pastelmat popieriaus. 40×30.webp",
     year: 2024,
     description: "Popierius, pastelė 30x40 cm",
-    available: false,
+    available: true,
     id: "p228",
     theme: "water"
 },
@@ -2305,7 +2305,7 @@ const paintings = [
     thumb: "assets/thumbs_v_2024/pro langa.webp",
     year: 2024,
     description: "Popierius, pastelė 30x40 cm",
-    available: false,
+    available: true,
     id: "p230",
     theme: "buildings"
 },
