@@ -17,7 +17,7 @@ const paintings = [
     description: "Popierius, sausa pastelė 45x58 cm",
     available: false,
     id: "p2",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "AGUONOS TAU",
@@ -27,7 +27,7 @@ const paintings = [
     description: "Popierius, sausa pastelė 45x58 cm",
     available: false,
     id: "p3",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ALYVOS",
@@ -37,7 +37,7 @@ const paintings = [
     description: "Popierius, sausa pastelė 46x61 cm",
     available: false,
     id: "p4",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "BERŽŲ AUKSAS",
@@ -47,7 +47,7 @@ const paintings = [
     description: "Popierius, sausa pastelė 64x46 cm",
     available: false,
     id: "p5",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "IEVOS II",
@@ -57,7 +57,7 @@ const paintings = [
     description: "Popierius, sausa pastelė 36x50 cm",
     available: false,
     id: "p6",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "IEVOS",
@@ -67,7 +67,7 @@ const paintings = [
     description: "Popierius, sausa pastelė 44x50 cm",
     available: false,
     id: "p7",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "AUDRONĖS ŠALAVIJAI",
@@ -77,7 +77,7 @@ const paintings = [
     description: "Popierius, pastelė 36x50 cm",
     available: false,
     id: "p8",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "KIAULPIENĖS",
@@ -87,7 +87,7 @@ const paintings = [
     description: "Popierius, pastelė 50x37 cm",
     available: false,
     id: "p9",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "KLEVAI",
@@ -97,7 +97,7 @@ const paintings = [
     description: "Popierius, pastelė 46x66 cm",
     available: false,
     id: "p10",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "MĖLYNOS PUŠYS",
@@ -107,7 +107,7 @@ const paintings = [
     description: "Popierius, pastelė 42x55 cm",
     available: false,
     id: "p11",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "PAVASARIS KOPOSE",
@@ -117,7 +117,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p12",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "PO DU",
@@ -127,7 +127,7 @@ const paintings = [
     description: "Popierius, akvarelė 45x60 cm",
     available: false,
     id: "p13",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "RAMUNĖS II",
@@ -137,7 +137,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p14",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "RAMUNĖS",
@@ -147,7 +147,7 @@ const paintings = [
     description: "Kartonas, pastelė 45x58 cm",
     available: false,
     id: "p15",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "RUDENINĖ NUOTAIKA",
@@ -157,7 +157,7 @@ const paintings = [
     description: "Popierius, pastelė 50x38 cm",
     available: false,
     id: "p16",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "RŪKAS SKLAIDOSI",
@@ -167,7 +167,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p17",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "TAKAS IŠ PUŠYNO",
@@ -177,7 +177,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p18",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "TAS SALDUS ALYVŲ KVAPAS",
@@ -187,7 +187,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p19",
-    theme: ""
+    theme: "forrest"
     },
     {
     title: "TIK NENUPŪSK",
@@ -197,7 +197,7 @@ const paintings = [
     description: "Popierius, pastelė 46x61 cm",
     available: false,
     id: "p20",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "BE PAVADINIMO",
@@ -207,7 +207,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p21",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "BE PAVADINIMO",
@@ -217,7 +217,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p22",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "VĖJAS KOPOSE",
@@ -227,7 +227,7 @@ const paintings = [
     description: "Popierius, pastelė 46x66 cm",
     available: false,
     id: "p23",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "VIENADIENĖS",
@@ -237,7 +237,7 @@ const paintings = [
     description: "Popierius, pastelė 36x50 cm",
     available: false,
     id: "p24",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "VISIŠKA IMPRESIJA",
@@ -247,7 +247,7 @@ const paintings = [
     description: "Popierius, pastelė 46x66 cm",
     available: false,
     id: "p25",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "VYŠNIA ŽYDI",
@@ -257,7 +257,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p26",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "VYŠNIA",
@@ -267,7 +267,7 @@ const paintings = [
     description: "Popierius, pastelė 38x51 cm",
     available: false,
     id: "p27",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "ŽOLYNAI II",
@@ -277,7 +277,7 @@ const paintings = [
     description: "Popierius, pastelė 62x44 cm",
     available: false,
     id: "p28",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ŽOLYNAI",
@@ -287,7 +287,7 @@ const paintings = [
     description: "Popierius, pastelė 62x42 cm",
     available: false,
     id: "p29",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ŽYDINTI",
@@ -297,7 +297,7 @@ const paintings = [
     description: "Popierius, akvarelė 45x60 cm",
     available: false,
     id: "p30",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "ČIA GERA BŪTI",
@@ -307,7 +307,7 @@ const paintings = [
     description: "Popierius, pastelė 43x63 cm",
     available: false,
     id: "p31",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "GELTONA PIEVA TEN",
@@ -317,7 +317,7 @@ const paintings = [
     description: "Popierius, pastelė 41x62 cm",
     available: false,
     id: "p32",
-    theme: ""
+    theme: "water"
 },
     {
     title: "JŪRA PASIŠIAUŠĖ",
@@ -327,7 +327,7 @@ const paintings = [
     description: "Popierius, pastelė 62x44 cm",
     available: false,
     id: "p33",
-    theme: ""
+    theme: "water"
 },
     {
     title: "KAIP PIEVOS DEBESYS",
@@ -337,7 +337,7 @@ const paintings = [
     description: "Popierius, pastelė 50x36 cm",
     available: false,
     id: "p34",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "KOPOSE",
@@ -347,7 +347,7 @@ const paintings = [
     description: "Popierius, pastelė 41x59 cm",
     available: false,
     id: "p35",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "KOSMĖJOS",
@@ -357,7 +357,7 @@ const paintings = [
     description: "Popierius, pastelė 35x48 cm",
     available: false,
     id: "p36",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "SPALVINGAS SAULĖLYDIS",
@@ -367,7 +367,7 @@ const paintings = [
     description: "Popierius, pastelė 64x44 cm",
     available: false,
     id: "p37",
-    theme: ""
+    theme: "water"
 },
     {
     title: "MAGIJA",
@@ -377,7 +377,7 @@ const paintings = [
     description: "Popierius, pastelė 64x36 cm",
     available: false,
     id: "p38",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "MIGLELĖ",
@@ -387,7 +387,7 @@ const paintings = [
     description: "Popierius, pastelė 34x49 cm",
     available: false,
     id: "p39",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "MIŠKO TAKELIS",
@@ -397,7 +397,7 @@ const paintings = [
     description: "Popierius, pastelė 50x36 cm",
     available: false,
     id: "p40",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "NERIMAS",
@@ -407,7 +407,7 @@ const paintings = [
     description: "Popierius, pastelė 45x63 cm",
     available: false,
     id: "p41",
-    theme: ""
+    theme: "water"
 },
     {
     title: "NOSTALGIŠKAS",
@@ -417,7 +417,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p42",
-    theme: ""
+    theme: "water"
 },
     {
     title: "BIRŽELIO PIEVOS",
@@ -427,7 +427,7 @@ const paintings = [
     description: "Popierius, pastelė 50,5x34,5 cm",
     available: false,
     id: "p43",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "PAPYLĖ JŪRA SIDABRO",
@@ -437,7 +437,7 @@ const paintings = [
     description: "Popierius, pastelė 40x61 cm",
     available: false,
     id: "p44",
-    theme: ""
+    theme: "water"
 },
     {
     title: "PASIILGAU JŪROS",
@@ -447,7 +447,7 @@ const paintings = [
     description: "Popierius, pastelė 63x45 cm",
     available: false,
     id: "p45",
-    theme: ""
+    theme: "water"
 },
     {
     title: "PASKUTINIAI SPINDULIAI",
@@ -457,7 +457,7 @@ const paintings = [
     description: "Popierius, pastelė 49x38 cm",
     available: false,
     id: "p46",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "PAVASARĖJA",
@@ -467,7 +467,7 @@ const paintings = [
     description: "Popierius, pastelė 63x43 cm",
     available: false,
     id: "p47",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "PAŽVELK AUKŠTYN",
@@ -477,7 +477,7 @@ const paintings = [
     description: "Popierius, pastelė 43x63 cm",
     available: false,
     id: "p48",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "PRIE JŪROS RAMU",
@@ -487,7 +487,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p49",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "PRIE JŪROS VĖJUOTA",
@@ -497,7 +497,7 @@ const paintings = [
     description: "Popierius, pastelė 63x45 cm",
     available: false,
     id: "p50",
-    theme: ""
+    theme: "water"
 },
     {
     title: "RUDENĖJA",
@@ -507,7 +507,7 @@ const paintings = [
     description: "Popierius, pastelė 49x39 cm",
     available: false,
     id: "p51",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "RUDENIŠKAI",
@@ -517,7 +517,7 @@ const paintings = [
     description: "Popierius, pastelė 41x61 cm",
     available: false,
     id: "p52",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "RUDENS EKSPRESIJA",
@@ -527,7 +527,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p53",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "RUDENS PALETĖ",
@@ -537,7 +537,7 @@ const paintings = [
     description: "Popierius, pastelė 43x63 cm",
     available: false,
     id: "p54",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "RYTAS",
@@ -547,7 +547,7 @@ const paintings = [
     description: "Popierius, pastelė 36x50 cm",
     available: false,
     id: "p55",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "SAULĖGRĄŽA II",
@@ -557,7 +557,7 @@ const paintings = [
     description: "Popierius, pastelė 64x37 cm",
     available: false,
     id: "p56",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "SAULĖGRĄŽA",
@@ -567,7 +567,7 @@ const paintings = [
     description: "Popierius, pastelė 64x36 cm",
     available: false,
     id: "p57",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "SAULĖTA SPALIO DIENA",
@@ -577,7 +577,7 @@ const paintings = [
     description: "Popierius, pastelė 43x63 cm",
     available: false,
     id: "p58",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "ŠERMUKŠNIAI",
@@ -587,7 +587,7 @@ const paintings = [
     description: "Popierius, pastelė 34x49 cm",
     available: false,
     id: "p59",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ŠILAGĖLĖS",
@@ -597,7 +597,7 @@ const paintings = [
     description: "Popierius, pastelė 50x35 cm",
     available: false,
     id: "p60",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ŠIUGŽDESIAI",
@@ -607,7 +607,7 @@ const paintings = [
     description: "Popierius, pastelė 36x50 cm",
     available: false,
     id: "p61",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "SU BERŽELIAIS KOPOSE",
@@ -617,7 +617,7 @@ const paintings = [
     description: "Popierius, pastelė 49x36 cm",
     available: false,
     id: "p62",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "ŠVYTĖJIMAS",
@@ -627,7 +627,7 @@ const paintings = [
     description: "Popierius, pastelė 65x45 cm",
     available: false,
     id: "p63",
-    theme: ""
+    theme: "water"
 },
     {
     title: "TAKELIS",
@@ -637,7 +637,7 @@ const paintings = [
     description: "Popierius, pastelė 60x41 cm",
     available: false,
     id: "p64",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "TAU, MANO MAMYTE",
@@ -647,7 +647,7 @@ const paintings = [
     description: "Popierius, pastelė 46x46 cm",
     available: false,
     id: "p64",
-    theme: ""
+    theme: "other"
 },
     {
     title: "TIK AKIMIRKA",
@@ -657,7 +657,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p65",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "UPELIŪKŠTIS",
@@ -667,7 +667,7 @@ const paintings = [
     description: "Popierius, pastelė 61x44 cm",
     available: false,
     id: "p66",
-    theme: ""
+    theme: "water"
 },
     {
     title: "VAKARO KARAMELĖ",
@@ -677,7 +677,7 @@ const paintings = [
     description: "Popierius, pastelė 44x63 cm",
     available: false,
     id: "p67",
-    theme: ""
+    theme: "water"
 },
     {
     title: "ŽALIA BANGA",
@@ -687,7 +687,7 @@ const paintings = [
     description: "Popierius, pastelė 64x45 cm",
     available: false,
     id: "p68",
-    theme: ""
+    theme: "water"
 },
     {
     title: "ŽALIAI ŽALIAI",
@@ -697,7 +697,7 @@ const paintings = [
     description: "Popierius, pastelė 50x36 cm",
     available: false,
     id: "p69",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ŽIBUOKLĖS",
@@ -707,7 +707,7 @@ const paintings = [
     description: "Popierius, pastelė 46x46 cm",
     available: false,
     id: "p70",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ŽYDI",
@@ -717,7 +717,7 @@ const paintings = [
     description: "Popierius, pastelė 36x50 cm",
     available: false,
     id: "p71",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ŽYDROS PIEVŲ AKYS",
@@ -727,7 +727,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p72",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "AKMENYS AMŽINAI",
@@ -737,7 +737,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p73",
-    theme: ""
+    theme: "water"
 },
         {
     title: "ANT SKARDŽIO",
@@ -747,7 +747,7 @@ const paintings = [
     description: "Popierius, pastelė 50x35 cm",
     available: false,
     id: "p74",
-    theme: ""
+    theme: "dunes"
 },
         {
     title: "APSIPYLĖ ŽIEDAIS",
@@ -757,7 +757,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p75",
-    theme: ""
+    theme: "flora"
 },
         {
     title: "APSNIGTOS",
@@ -767,7 +767,7 @@ const paintings = [
     description: "Popierius, pastelė 40x60 cm",
     available: false,
     id: "p76",
-    theme: ""
+    theme: "forrest"
 },
         {
     title: "AR JAUTI? AR GIRDI? AR UŽUODI?",
@@ -777,7 +777,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p77",
-    theme: ""
+    theme: "water"
 },
         {
     title: "ATEIS IR PAVASARIS...",
@@ -787,7 +787,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p78",
-    theme: ""
+    theme: "other"
 },
         {
     title: "ATSISPINDINTYS",
@@ -797,7 +797,7 @@ const paintings = [
     description: "Popierius, pastelė 44x64 cm",
     available: false,
     id: "p79",
-    theme: ""
+    theme: "water"
 },
         {
     title: "AUDRA ARTINASI",
@@ -807,7 +807,7 @@ const paintings = [
     description: "Popierius, pastelė 61x42 cm",
     available: false,
     id: "p80",
-    theme: ""
+    theme: "water"
 },
     {
     title: "BALTAS ŽYDĖJIMAS",
@@ -817,7 +817,7 @@ const paintings = [
     description: "Popierius, pastelė 34x49 cm",
     available: false,
     id: "p81",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "BANGOS II",
@@ -827,7 +827,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p82",
-    theme: ""
+    theme: "water"
 },
     {
     title: "BANGOS PRAUSIA AKMENIS",
@@ -837,7 +837,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p83",
-    theme: ""
+    theme: "water"
 },
     {
     title: "BANGOS",
@@ -847,7 +847,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p84",
-    theme: ""
+    theme: "water"
 },
     {
     title: "BANGUOJA BALTIJA",
@@ -857,7 +857,7 @@ const paintings = [
     description: "Popierius, pastelė 40x50 cm",
     available: false,
     id: "p85",
-    theme: ""
+    theme: "water"
 },
     {
     title: "BUS RAUDONI VAKARAI",
@@ -867,7 +867,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p86",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "DAR VIS ŽIEMA",
@@ -877,7 +877,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p87",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "DAUG YRA AKMENŲ PRIE JŪROS",
@@ -887,7 +887,7 @@ const paintings = [
     description: "Popierius, pastelė 44x64 cm",
     available: false,
     id: "p88",
-    theme: ""
+    theme: "water"
 },
     {
     title: "DEBESYS NUSILEIDO ANT ŽEMĖS",
@@ -897,7 +897,7 @@ const paintings = [
     description: "Popierius, pastelė 34x49 cm",
     available: false,
     id: "p89",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "DIDINGOJI",
@@ -907,7 +907,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p90",
-    theme: ""
+    theme: "water"
 },
     {
     title: "DIENA",
@@ -917,7 +917,7 @@ const paintings = [
     description: "Popierius, pastelė 62x42 cm",
     available: false,
     id: "p91",
-    theme: ""
+    theme: "water"
 },
     {
     title: "DVI STICHIJOS",
@@ -927,7 +927,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p92",
-    theme: ""
+    theme: "water"
 },
     {
     title: "EIME PRIE JŪROS",
@@ -937,7 +937,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p93",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "GELSVAS PAPRASTUMAS",
@@ -947,7 +947,7 @@ const paintings = [
     description: "Popierius, pastelė 34x49 cm",
     available: false,
     id: "p94",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "GELTONŲ TULPIŲ DIENA",
@@ -957,7 +957,7 @@ const paintings = [
     description: "Popierius, pastelė 31x50 cm",
     available: false,
     id: "p95",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "GERA BŪTI",
@@ -967,7 +967,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p96",
-    theme: ""
+    theme: "water"
 },
     {
     title: "GUBOJOS KOPOSE",
@@ -977,7 +977,7 @@ const paintings = [
     description: "Popierius, pastelė 34x49 cm",
     available: false,
     id: "p97",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "GUBOJOS PALEI TAKĄ",
@@ -987,7 +987,7 @@ const paintings = [
     description: "Popierius, pastelė 34x49 cm",
     available: false,
     id: "p98",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "IEŠKANTI",
@@ -997,7 +997,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p99",
-    theme: ""
+    theme: "other"
 },
     {
     title: "IKI RYTOJAUS",
@@ -1007,7 +1007,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p100",
-    theme: ""
+    theme: "water"
 },
     {
     title: "IR ATGAIVINS TAVO PAVARGUSIAS PĖDAS",
@@ -1017,7 +1017,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p101",
-    theme: ""
+    theme: "water"
 },
     {
     title: "IŠ TEN",
@@ -1027,7 +1027,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p102",
-    theme: ""
+    theme: "water"
 },
     {
     title: "JAU VAKARĖJA II",
@@ -1037,7 +1037,7 @@ const paintings = [
     description: "Popierius, pastelė 35x49 cm",
     available: false,
     id: "p103",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "JAU VAKARĖJA",
@@ -1047,7 +1047,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p104",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "JŪRA PASIPUOŠĖ RUDENIU",
@@ -1057,7 +1057,7 @@ const paintings = [
     description: "Popierius, pastelė 62x42 cm",
     available: false,
     id: "p105",
-    theme: ""
+    theme: "water"
 },
     {
     title: "JŪRA VĖLYVĄ PAVASARĮ",
@@ -1067,7 +1067,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p106",
-    theme: ""
+    theme: "water"
 },
     {
     title: "KAARRR",
@@ -1077,7 +1077,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p107",
-    theme: ""
+    theme: "other"
 },
     {
     title: "KAPRIZINGOJI",
@@ -1087,7 +1087,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p108",
-    theme: ""
+    theme: "water"
 },
     {
     title: "KARKLAI",
@@ -1097,7 +1097,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p109",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "KASDIEN KITOKIA",
@@ -1107,7 +1107,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p110",
-    theme: ""
+    theme: "water"
 },
     {
     title: "KITAS ŽIEMOS VAKARAS",
@@ -1117,7 +1117,7 @@ const paintings = [
     description: "Popierius, pastelė 36x47 cm",
     available: false,
     id: "p111",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "KUNKULIUOJANTI",
@@ -1127,7 +1127,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p112",
-    theme: ""
+    theme: "water"
 },
     {
     title: "KVEPIA PAVASARIU",
@@ -1137,7 +1137,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p113",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "LIŪDNA VARNA LAUKIA PAVASARIO",
@@ -1147,7 +1147,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p114",
-    theme: ""
+    theme: "other"
 },
     {
     title: "LUBINAI",
@@ -1157,7 +1157,7 @@ const paintings = [
     description: "Popierius, pastelė 34x49 cm",
     available: false,
     id: "p115",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "PAJŪRIO VĖJŲ LENKIAMI",
@@ -1167,7 +1167,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p116",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "PAKRANTĖ TIES KARKLE",
@@ -1177,7 +1177,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p117",
-    theme: ""
+    theme: "water"
 },
     {
     title: "PAKRANTĖ",
@@ -1187,7 +1187,7 @@ const paintings = [
     description: "Popierius, pastelė 39x73 cm",
     available: false,
     id: "p118",
-    theme: ""
+    theme: "water"
 },
     {
     title: "PALIKO PĖDSAKUS AR PRIPĖDAVO",
@@ -1197,7 +1197,7 @@ const paintings = [
     description: "Popierius, pastelė 62x42 cm",
     available: false,
     id: "p119",
-    theme: ""
+    theme: "water"
 },
     {
     title: "PASKUTINĖ ŽIEMOS DIENA",
@@ -1207,7 +1207,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p120",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "PAVASARIO LAUKIANČIOS",
@@ -1217,7 +1217,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p121",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "PEIZAŽAS",
@@ -1227,7 +1227,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p122",
-    theme: ""
+    theme: "water"
 },
     {
     title: "PRISNIGO",
@@ -1237,7 +1237,7 @@ const paintings = [
     description: "Popierius, pastelė 41,5x62 cm",
     available: false,
     id: "p123",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "PURSLAI",
@@ -1247,7 +1247,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p124",
-    theme: ""
+    theme: "water"
 },
     {
     title: "PUTOJANTI BALTIJA",
@@ -1257,7 +1257,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p125",
-    theme: ""
+    theme: "water"
 },
     {
     title: "RAMUS ŽIEMOS VAKARAS",
@@ -1267,7 +1267,7 @@ const paintings = [
     description: "Popierius, pastelė 62x42 cm",
     available: false,
     id: "p126",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "RAMYBĖ",
@@ -1277,7 +1277,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p127",
-    theme: ""
+    theme: "water"
 },
     {
     title: "RIKIS",
@@ -1287,7 +1287,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p128",
-    theme: ""
+    theme: "other"
 },
     {
     title: "ROMANTIŠKAS",
@@ -1297,7 +1297,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p129",
-    theme: ""
+    theme: "water"
 },
     {
     title: "RUDENINĖ PILKUMA",
@@ -1307,7 +1307,7 @@ const paintings = [
     description: "Popierius, pastelė 62x42 cm",
     available: false,
     id: "p130",
-    theme: ""
+    theme: "water"
 },
     {
     title: "RYTO SKAIDRUMAS",
@@ -1317,7 +1317,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p131",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "RUDENINĖ PILKUMA",
@@ -1327,7 +1327,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p132",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "SALDUMYNŲ MĖGĖJAMS",
@@ -1337,7 +1337,7 @@ const paintings = [
     description: "Popierius, pastelė 31x50cm cm",
     available: false,
     id: "p133",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "",
@@ -1347,7 +1347,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62cm cm",
     available: false,
     id: "p134",
-    theme: ""
+    theme: "other"
 },
     {
     title: "SENAS TAKAS",
@@ -1357,7 +1357,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p135",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "SKRYDIS VIRŠ BANGŲ",
@@ -1367,7 +1367,7 @@ const paintings = [
     description: "Popierius, pastelė 62x42 cm",
     available: false,
     id: "p136",
-    theme: ""
+    theme: "water"
 },
     {
     title: "SKRYDIS VIRŠ ŽALIŲ BANGŲ",
@@ -1377,7 +1377,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p137",
-    theme: ""
+    theme: "water"
 },
     {
     title: "SKRYDIS",
@@ -1387,7 +1387,7 @@ const paintings = [
     description: "Popierius, pastelė 40x50 cm",
     available: false,
     id: "p138",
-    theme: ""
+    theme: "water"
 },
     {
     title: "SPALVOTA PILKUMA",
@@ -1397,7 +1397,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p139",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "SUTEMOS",
@@ -1407,7 +1407,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p140",
-    theme: ""
+    theme: "water"
 },
     {
     title: "ŠVIESA",
@@ -1417,7 +1417,7 @@ const paintings = [
     description: "Popierius, pastelė 36x47 cm",
     available: false,
     id: "p141",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "TAMSŪS DEBESIAI",
@@ -1427,7 +1427,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p142",
-    theme: ""
+    theme: "water"
 },
     {
     title: "TIK TAKĄ PER KOPAS, MALDAUJU, PALIK",
@@ -1437,7 +1437,7 @@ const paintings = [
     description: "Popierius, pastelė 36x50 cm",
     available: false,
     id: "p143",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "TOBULAS VAKARAS",
@@ -1447,7 +1447,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p144",
-    theme: ""
+    theme: "water"
 },
     {
     title: "TOKIA GRAŽI PILKA DIENA",
@@ -1457,7 +1457,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p145",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "TYLUMA RAMUMA",
@@ -1467,7 +1467,7 @@ const paintings = [
     description: "Popierius, pastelė 62x42 cm",
     available: false,
     id: "p146",
-    theme: ""
+    theme: "water"
 },
     {
     title: "ŪKANOS",
@@ -1477,7 +1477,7 @@ const paintings = [
     description: "Popierius, pastelė 40x60 cm",
     available: false,
     id: "p147",
-    theme: ""
+    theme: "water"
 },
     {
     title: "VAKARO JUDĖJIMAS",
@@ -1487,7 +1487,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p148",
-    theme: ""
+    theme: "water"
 },
     {
     title: "VAKARO ŠVELNUMAS",
@@ -1497,7 +1497,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p149",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "VASARIO SAULĖ",
@@ -1507,7 +1507,7 @@ const paintings = [
     description: "Popierius, pastelė 50x35 cm",
     available: false,
     id: "p150",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "VASARIŠKAI GAIVI BANGA",
@@ -1517,7 +1517,7 @@ const paintings = [
     description: "Popierius, pastelė 35x57 cm",
     available: false,
     id: "p151",
-    theme: ""
+    theme: "water"
 },
     {
     title: "VASAROS BANGOS",
@@ -1527,7 +1527,7 @@ const paintings = [
     description: "Popierius, pastelė 35x57 cm",
     available: false,
     id: "p152",
-    theme: ""
+    theme: "water"
 },
     {
     title: "VILTIES SPINDULYS",
@@ -1537,7 +1537,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p153",
-    theme: ""
+    theme: "water"
 },
     {
     title: "ŽIEMIŠKAI PASIPUOŠĘ",
@@ -1547,7 +1547,7 @@ const paintings = [
     description: "Popierius, pastelė 35x50 cm",
     available: false,
     id: "p154",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "ALYVŲ ŽYDĖJIMO METAS",
@@ -1557,7 +1557,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p155",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ATSIGRĘŽIAU Į TAVE",
@@ -1567,7 +1567,7 @@ const paintings = [
     description: "Popierius, pastelė 62×42 cm",
     available: false,
     id: "p156",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "ATSISUKTI Į SAULĘ",
@@ -1577,7 +1577,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p157",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "BALANDIS JAU... AR PASTEBĖJAI?",
@@ -1587,7 +1587,7 @@ const paintings = [
     description: "Popierius, pastelė 62×42 cm",
     available: false,
     id: "p158",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "BIJŪNAI DAR NENUVYTO",
@@ -1597,7 +1597,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p159",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "BITKRĖSLĖS BALTOJE VAZOJE",
@@ -1607,7 +1607,7 @@ const paintings = [
     description: "Popierius, pastelė 49x32 cm",
     available: false,
     id: "p160",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "DAR VIENAS TAKAS, KVIEČIANTIS PRIE JŪROS",
@@ -1617,7 +1617,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p161",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "GALINGAS",
@@ -1627,7 +1627,7 @@ const paintings = [
     description: "Popierius, pastelė 62×42 cm",
     available: false,
     id: "p162",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "HORTENZIJA",
@@ -1637,7 +1637,7 @@ const paintings = [
     description: "Popierius, pastelė 57x42 cm",
     available: false,
     id: "p163",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "JIEMS ŽMONIŲ PROBLEMOS NERŪPI",
@@ -1647,7 +1647,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p164",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "KIAULPIENĖS ŽYDI GAUSIAI",
@@ -1657,7 +1657,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p165",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "NAMAI KVEPIA IEVOMIS",
@@ -1667,7 +1667,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p166",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "NIEKADA NEPAILSTANTI",
@@ -1677,7 +1677,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p167",
-    theme: ""
+    theme: "water"
 },
     {
     title: "OBELIS PASIPUOŠĖ",
@@ -1687,7 +1687,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p168",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "PASIKALBĖJIMAS",
@@ -1697,7 +1697,7 @@ const paintings = [
     description: "Popierius, pastelė 62×42 cm",
     available: false,
     id: "p169",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "RAUSVUMAS",
@@ -1707,7 +1707,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p170",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "SAULĖTAS PUŠYNAS",
@@ -1717,7 +1717,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p171",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "SENTIMENTALUS",
@@ -1727,7 +1727,7 @@ const paintings = [
     description: "Popierius, pastelė 62×42 cm",
     available: false,
     id: "p172",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "TRUMPAS TAVO ŽYDĖJIMAS",
@@ -1737,7 +1737,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p173",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "VAKARO SPINDULIŲ NUAUKSINTOS",
@@ -1747,7 +1747,7 @@ const paintings = [
     description: "Popierius, pastelė 62×42 cm",
     available: false,
     id: "p174",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "VĖL PAVASARĖJA",
@@ -1757,7 +1757,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p175",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "ŽYDI VIKIAI PIEVOS PAKRAŠTY",
@@ -1767,7 +1767,7 @@ const paintings = [
     description: "Popierius, pastelė 62x42 cm",
     available: false,
     id: "p176",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "AKMENUOTA PAKRANTĖ",
@@ -1777,7 +1777,7 @@ const paintings = [
     description: "Popierius, pastelė 63×43 cm",
     available: false,
     id: "p177",
-    theme: ""
+    theme: "water"
 },
     {
     title: "BANGA GENA BANGĄ",
@@ -1787,7 +1787,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p178",
-    theme: ""
+    theme: "water"
 },
     {
     title: "ČIA IR TEN",
@@ -1797,7 +1797,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p179",
-    theme: ""
+    theme: "water"
 },
     {
     title: "DAR BIJŪNAI NENUVYTO",
@@ -1807,7 +1807,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p180",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "FLIOKSAI PRIE APSILAUPIUSIOS SIENOS",
@@ -1817,7 +1817,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p181",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "NATIURMORTAS SU KIAULPIENĖM",
@@ -1827,7 +1827,7 @@ const paintings = [
     description: "Popierius, pastelė 50x40 cm",
     available: false,
     id: "p182",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "PAUPIO SARGYBOJE",
@@ -1837,7 +1837,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p183",
-    theme: ""
+    theme: "water"
 },
     {
     title: "PUŠŲ VIRŠŪNĖMIS NUBĖGO VĖJAS",
@@ -1847,7 +1847,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p184",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "RAUSVAS VAKARAS PRIE UPĖS",
@@ -1857,7 +1857,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p185",
-    theme: ""
+    theme: "water"
 },
     {
     title: "RŪKAS VIRŠ DANGĖS",
@@ -1867,7 +1867,7 @@ const paintings = [
     description: "Popierius, pastelė 43x63 cm",
     available: false,
     id: "p186",
-    theme: ""
+    theme: "water"
 },
     {
     title: "SLYVOS ŠAKELĖ",
@@ -1877,7 +1877,7 @@ const paintings = [
     description: "Popierius, pastelė 49×34 cm",
     available: false,
     id: "p187",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "SPINDI ŽAIŽARUOJA",
@@ -1887,7 +1887,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p188",
-    theme: ""
+    theme: "water"
 },
     {
     title: "ŠVIEŽIŲ BUROKĖLIŲ SEZONAS",
@@ -1897,7 +1897,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p189",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "SVYRA SERBENTŲ KEKĖS",
@@ -1907,7 +1907,7 @@ const paintings = [
     description: "Popierius, pastelė 43,5 x 63,5 cm",
     available: false,
     id: "p190",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "TARP VANDENS IR DEBESŲ",
@@ -1917,7 +1917,7 @@ const paintings = [
     description: "Popierius, pastelė 63x43 cm",
     available: false,
     id: "p191",
-    theme: ""
+    theme: "water"
 },
     {
     title: "UPĖ",
@@ -1927,7 +1927,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p192",
-    theme: ""
+    theme: "water"
 },
     {
     title: "Aguonėlės",
@@ -1937,7 +1937,7 @@ const paintings = [
     description: "Popierius, pastelė 47×61 cm",
     available: false,
     id: "p193",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "Atspindžiai",
@@ -1947,7 +1947,7 @@ const paintings = [
     description: "Popierius, pastelė 47×61,5 cm",
     available: false,
     id: "p194",
-    theme: ""
+    theme: "water"
 },
     {
     title: "Dvi pienės pavėsyje",
@@ -1957,7 +1957,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p195",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "Ir apie orus- saulėta, vėjuota, šalta",
@@ -1967,7 +1967,7 @@ const paintings = [
     description: "Popierius, pastelė 51,5×71,5 cm",
     available: false,
     id: "p196",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "Kai skamba vasara",
@@ -1977,7 +1977,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p197",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "Linguoja vėjyje",
@@ -1997,7 +1997,7 @@ const paintings = [
     description: "Popierius, pastelė 45×64 cm",
     available: false,
     id: "p199",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "Prie upeliuko",
@@ -2007,7 +2007,7 @@ const paintings = [
     description: "Popierius, pastelė 62×42 cm",
     available: false,
     id: "p200",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "Ramunių pasaka tau",
@@ -2017,7 +2017,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p201",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "Saulė leidžias pamažu",
@@ -2027,7 +2027,7 @@ const paintings = [
     description: "Popierius, pastelė 47×61 cm",
     available: false,
     id: "p202",
-    theme: ""
+    theme: "water"
 },
     {
     title: "Truputį debesuota",
@@ -2037,7 +2037,7 @@ const paintings = [
     description: "Popierius, pastelė 35×49 cm",
     available: false,
     id: "p203",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "Vakarėja",
@@ -2047,7 +2047,7 @@ const paintings = [
     description: "Popierius, pastelė 42×62 cm",
     available: false,
     id: "p204",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "Vėjas kopoms nebaisus",
@@ -2057,7 +2057,7 @@ const paintings = [
     description: "Popierius, pastelė 35×49 cm",
     available: false,
     id: "p205",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "Vėl žydi kaštonai",
@@ -2067,7 +2067,7 @@ const paintings = [
     description: "Popierius, pastelė 61×47 cm",
     available: false,
     id: "p206",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "Visokie švelnumai žydi kopose",
@@ -2077,7 +2077,7 @@ const paintings = [
     description: "Popierius, pastelė 42x62 cm",
     available: false,
     id: "p207",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "Žydinti vasara",
@@ -2097,7 +2097,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p209",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "be pavadinimo",
@@ -2107,7 +2107,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p210",
-    theme: ""
+    theme: "flora"
 },
     {
     title: "Kreivas miškas",
@@ -2117,7 +2117,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p211",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "Lelijų prūdelis",
@@ -2127,7 +2127,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p212",
-    theme: ""
+    theme: "water"
 },
     {
     title: "Miške",
@@ -2137,7 +2137,7 @@ const paintings = [
     description: "Popierius, pastelėm",
     available: false,
     id: "p213",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "be pavadinimo",
@@ -2147,7 +2147,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p214",
-    theme: ""
+    theme: "forrest"
 },
     {
     title: "be pavadinimo",
@@ -2157,7 +2157,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p215",
-    theme: ""
+    theme: "water"
 },
     {
     title: "be pavadinimo",
@@ -2167,7 +2167,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p216",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "Šiaurės jūra",
@@ -2177,7 +2177,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p217",
-    theme: ""
+    theme: "water"
 },
     {
     title: "Švyturys",
@@ -2187,7 +2187,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p218",
-    theme: ""
+    theme: "buildings"
 },
     {
     title: "Vakaro spinduliuose",
@@ -2197,7 +2197,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p219",
-    theme: ""
+    theme: "buildings"
 },
     {
     title: "Vėjas kopose šiandien",
@@ -2207,7 +2207,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p220",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "Vlielando stogai",
@@ -2217,7 +2217,7 @@ const paintings = [
     description: "Popierius, pastelė",
     available: false,
     id: "p221",
-    theme: ""
+    theme: "buildings"
 },
     {
     title: "be pavadinimo",
@@ -2227,7 +2227,7 @@ const paintings = [
     description: "Popierius, pastelė 30x40 cm",
     available: false,
     id: "p222",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "armenhuis",
@@ -2237,7 +2237,7 @@ const paintings = [
     description: "Popierius, pastelė 30x40 cm",
     available: false,
     id: "p223",
-    theme: ""
+    theme: "buildings"
 },
     {
     title: "be pavadinimo",
@@ -2247,7 +2247,7 @@ const paintings = [
     description: "Popierius, pastelė x cm",
     available: false,
     id: "p224",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "jachtos",
@@ -2257,7 +2257,7 @@ const paintings = [
     description: "Popierius, pastelė 30x40 cm",
     available: false,
     id: "p225",
-    theme: ""
+    theme: "water"
 },
     {
     title: "Jachtų uostelyje",
@@ -2267,7 +2267,7 @@ const paintings = [
     description: "Popierius, pastelė 30x40 cm",
     available: false,
     id: "p226",
-    theme: ""
+    theme: "water"
 },
     {
     title: "kopose",
@@ -2277,7 +2277,7 @@ const paintings = [
     description: "Popierius, pastelė 40x30 cm",
     available: false,
     id: "p227",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "prie prūdelio",
@@ -2287,7 +2287,7 @@ const paintings = [
     description: "Popierius, pastelė 30x40 cm",
     available: false,
     id: "p228",
-    theme: ""
+    theme: "water"
 },
     {
     title: "Prie Šiaurės jūros ir vėl vėjuota",
@@ -2297,7 +2297,7 @@ const paintings = [
     description: "Popierius, pastelė 40x30 cm",
     available: false,
     id: "p229",
-    theme: ""
+    theme: "dunes"
 },
     {
     title: "pro langą",
@@ -2307,7 +2307,7 @@ const paintings = [
     description: "Popierius, pastelė 30x40 cm",
     available: false,
     id: "p230",
-    theme: ""
+    theme: "buildings"
 },
     {
     title: "švyturys",
@@ -2317,7 +2317,7 @@ const paintings = [
     description: "Popierius, pastelė 30x40 cm",
     available: false,
     id: "p231",
-    theme: ""
+    theme: "buildings"
 }
 ];
 
