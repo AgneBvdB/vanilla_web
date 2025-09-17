@@ -7,7 +7,7 @@ console.log("Painting ID:", id);
 
 const painting = paintings.find(p => p.id == id);
 
-    if(painting.available === true){
+    if(painting.available !== false){
     document.getElementById("buy-container").classList.remove("hidden");
   }
 

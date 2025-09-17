@@ -706,10 +706,27 @@ nav a {
   }
 }
 
+/* buy page */
+
 #buy-img{
-  width: 200px;
+  width: 80%;
   height: fit-content;
 } 
-.test {
-  border: solid red 2px;
+
+
+.buy-layout{
+  display: flex;
+}
+.id-box {
+  flex: 1;
+  padding: 2rem;
+}
+.form-box {
+  flex: 1;
+}
+
+.label{
+      font-weight: 500;
+    color: #333;
+    margin-bottom: 0.3rem;
 }
