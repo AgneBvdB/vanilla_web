@@ -36,7 +36,6 @@ function renderBatch() {
 
         const item = document.createElement("div");
         item.className = "grid-item";
-        item.style.position = "absolute";
 
         item.innerHTML = `
             <a target="_blank" href="infopage.html?id=${p.id}" id="${p.id}">
@@ -44,8 +43,7 @@ function renderBatch() {
                     src="placeholder.jpg" 
                     data-src="${p.thumb}" 
                     class="card-img lazy" 
-                    alt="${p.title}" 
-                    style="width: 100%; height: auto; opacity: 0; transition: opacity 0.5s ease-in-out;"
+                    alt="${p.title}"
                 >
             </a>
         `;
@@ -54,11 +52,9 @@ function renderBatch() {
     });
 
     setupLazyLoading();
-
-    imagesLoaded(gallery, layoutMasonry);
-
     currentBatch++;
 }
+
 
 function setupLazyLoading() {
     const lazyImages = document.querySelectorAll("img.lazy");
@@ -70,7 +66,7 @@ function setupLazyLoading() {
                     const img = entry.target;
                     img.src = img.dataset.src;
                     img.onload = () => {
-                        img.style.opacity = 1;
+                        img.classList.add("loaded");
                     };
                     img.classList.remove("lazy");
                     obs.unobserve(img);
@@ -80,83 +76,14 @@ function setupLazyLoading() {
 
         lazyImages.forEach(img => observer.observe(img));
     } else {
-        // fallback
         lazyImages.forEach(img => {
             img.src = img.dataset.src;
-            img.onload = () => (img.style.opacity = 1);
+            img.onload = () => img.classList.add("loaded");
             img.classList.remove("lazy");
         });
     }
 }
 
-// --- LAYOUT ---
-function layoutMasonry() {
-    const container = document.getElementById("gallery");
-    container.style.height = "";
-
-    const screenWidth = window.innerWidth;
-    let columnCount = 4;
-    if (screenWidth < 1200) columnCount = 3;
-    if (screenWidth < 900) columnCount = 2;
-    if (screenWidth < 600) columnCount = 1;
-
-    const gap = 25;
-    const containerWidth = container.clientWidth;
-    const totalGap = (columnCount - 1) * gap;
-    const columnWidth = Math.floor((containerWidth - totalGap) / columnCount);
-
-    const colLefts = [];
-    for (let i = 0; i < columnCount; i++) {
-        colLefts.push(i * (columnWidth + gap));
-    }
-
-    const columnHeights = new Array(columnCount).fill(0);
-    const gridItems = container.querySelectorAll(".grid-item");
-
-    gridItems.forEach(function (item) {
-        item.style.width = columnWidth + "px";
-        item.style.position = "absolute";
-
-        const img = item.querySelector("img");
-        const itemHeight = img.offsetHeight;
-
-        const minHeight = Math.min(...columnHeights);
-        const columnIndex = columnHeights.indexOf(minHeight);
-
-        item.style.left = colLefts[columnIndex] + "px";
-        item.style.top = minHeight + "px";
-
-        columnHeights[columnIndex] += itemHeight + gap;
-    });
-
-    const maxHeight = Math.max(...columnHeights);
-    container.style.height = maxHeight + "px";
-}
-
-function imagesLoaded(container, callback) {
-    const images = container.getElementsByTagName("img");
-    let loaded = 0;
-    const total = images.length;
-
-    if (total === 0) {
-        callback();
-        return;
-    }
-
-    for (let i = 0; i < total; i++) {
-        const img = images[i];
-
-        if (img.complete) {
-            loaded++;
-            if (loaded === total) callback();
-        } else {
-            img.onload = img.onerror = function () {
-                loaded++;
-                if (loaded === total) callback();
-            };
-        }
-    }
-}
 
 // --- FILTER + RESET ---
 function applyFilters() {
@@ -197,6 +124,5 @@ window.addEventListener("DOMContentLoaded", function () {
 
     applyFilters(); // first load
 
-    window.addEventListener("resize", layoutMasonry);
     window.addEventListener("scroll", handleScroll);
 });
