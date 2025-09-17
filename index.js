@@ -40,7 +40,6 @@ function renderBatch() {
         item.innerHTML = `
             <a target="_blank" href="infopage.html?id=${p.id}" id="${p.id}">
                 <img 
-                    src="placeholder.jpg" 
                     data-src="${p.thumb}" 
                     class="card-img lazy" 
                     alt="${p.title}"
