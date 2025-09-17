@@ -18,6 +18,8 @@ if (painting) {
   }
   // ModalImage src
 document.getElementById("modalImage").src = painting.src;
+document.getElementById("painting-id").textContent = painting.id;
+document.getElementById("buy-img").src = painting.thumb;
 }
 
 // Modal
@@ -56,6 +58,8 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
+
+// buy.html form fill 
 
 
 

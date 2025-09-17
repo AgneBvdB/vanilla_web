@@ -41,7 +41,7 @@
         </label>
         <label for="painting-id">Paveikslo ID:
           <input type="text" name="painting-id" id="painting-id">
-          <img src="" alt="">
+          <img id="buy-img" src="" alt="">
         </label>
         <label for="consent">Sutinku, kad su manimi būtų susisiekta dėl šio paveikslo.
           <input type="checkbox" name="consent" id="consent" required>
@@ -49,8 +49,9 @@
         <button class="button" type="submit">Klausti kainos</button>
       </form>
     </main>
+    <script src="/infopage.js"></script>
     <script src="/universal.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
     // Initialize EmailJS
     emailjs.init({
