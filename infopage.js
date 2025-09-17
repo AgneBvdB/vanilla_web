@@ -7,19 +7,22 @@ console.log("Painting ID:", id);
 
 const painting = paintings.find(p => p.id == id);
 
+    if(painting.available === true){
+    document.getElementById("buy-container").classList.remove("hidden");
+  }
+
 if (painting) {
   document.getElementById("title").textContent = painting.title;
   document.getElementById("description").textContent = painting.description;
   document.getElementById("year").textContent = painting.year;
-  document.getElementById("painting").src = painting.src;
+  let paintingImg = document.getElementById("painting").src = painting.src;
   document.getElementById("head-title").textContent = painting.title;
-  if(painting.available === false){
-    document.getElementById("buy").classList.add("hidden");
-  }
+
   // ModalImage src
 document.getElementById("modalImage").src = painting.src;
-document.getElementById("painting-id").textContent = painting.id;
-document.getElementById("buy-img").src = painting.thumb;
+
+//buy page painting id and img
+document.getElementById("buy-now").href = `buy.html?id=${painting.id}`
 }
 
 // Modal
@@ -57,9 +60,5 @@ document.addEventListener("keydown", (e) => {
     modal.classList.add("hidden");
   }
 });
-
-
-// buy.html form fill 
-
 
 

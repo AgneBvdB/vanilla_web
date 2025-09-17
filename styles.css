@@ -705,3 +705,11 @@ nav a {
     padding: 0.8rem 0;
   }
 }
+
+#buy-img{
+  width: 200px;
+  height: fit-content;
+} 
+.test {
+  border: solid red 2px;
+}
