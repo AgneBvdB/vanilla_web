@@ -716,17 +716,25 @@ nav a {
 
 .buy-layout{
   display: flex;
+  flex-wrap: wrap;
 }
 .id-box {
   flex: 1;
   padding: 2rem;
 }
 .form-box {
+  padding: 2rem;
   flex: 1;
 }
 
 .label{
-      font-weight: 500;
-    color: #333;
+    font-weight: 500;
+    color: var(--text-color);
     margin-bottom: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  .buy-layout{
+    display: block;
+  }
 }
