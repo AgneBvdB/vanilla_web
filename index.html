@@ -14,16 +14,16 @@
     <section class="hero-area main-body">
         <header>
             <nav class="navbar">
-                <a href="index.html" class="nav-branding">Vilma Smilgienė</a>
+                <a href="index.html" data-i18n="branding" class="nav-branding">Vilma Smilgienė</a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="#gallery-link" class="nav-link">Galerija</a>
+                        <a href="#gallery-link" data-i18n="gallery-link" class="nav-link">Galerija</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">Apie kūrybą</a>
+                        <a href="about.html" data-i18n="about-link" class="nav-link">Apie kūrybą</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Parašykite man</a>
+                        <a href="contact.html" data-i18n="contact-link" class="nav-link">Parašykite man</a>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -34,8 +34,8 @@
             </nav>
         </header>
         <div class="hero-container">
-            <h1 id="hero-h1">Įsileisk šviesą, spalvas ir lengvumą į savo kasdienybę</h1>
-            <a class="cta" href="#gallery-link">  <span class="hover-underline-animation"> Žiūrėti galeriją </span>
+            <h1 data-i18n="hero-h1" id="hero-h1">Įsileisk šviesą, spalvas ir lengvumą į savo kasdienybę</h1>
+            <a class="cta" href="#gallery-link"><span data-i18n="hero-cta" class="hover-underline-animation"> Žiūrėti galeriją </span>
                 <svg
                     id="arrow-horizontal"
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,9 +56,9 @@
     </section>
     <main id="gallery-link">
         <div class="filter-container">
-            <label for="year-filter" class="hidden">Metai</label>
+            <label data-i18n="year-filter" for="year-filter" class="hidden">Metai</label>
             <select class="filter" name="year" id="year-filter">
-                <option value="">Metai</option>
+                <option data-i18n="year"   value="">Metai</option>
                 <option value="2016">2016</option>
                 <option value="2017">2017</option>
                 <option value="2018">2018</option>
@@ -69,21 +69,21 @@
                 <option value="2024">2024</option>
                 <option value="2025">2025</option>
             </select>
-            <label for="theme-filter" class="hidden">Tema</label>
+            <label for="theme-filter" data-i18n="theme-filter" class="hidden">Tema</label>
             <select class="filter" name="theme" id="theme-filter">
-                <option value="">Tema</option>
-                <option value="flora">Augalija</option>
-                <option value="water">Vanduo</option>
-                <option value="forrest">Miškas</option>
-                <option value="dunes">Kopos</option>
-                <option value="buildings">Pastatai</option>
-                <option value="other">Kita</option>
+                <option data-i18n="theme"  value="">Tema</option>
+                <option data-i18n="flora"  value="flora">Augalija</option>
+                <option data-i18n="water"  value="water">Vanduo</option>
+                <option data-i18n="forrest" value="forrest">Miškas</option>
+                <option data-i18n="dunes" value="dunes">Kopos</option>
+                <option data-i18n="buildings" value="buildings">Pastatai</option>
+                <option data-i18n="other" value="other">Kita</option>
             </select>
-            <label for="available-filter" class="hidden">Galima įsigyti</label>
+            <label for="available-filter" data-i18n="available-filter" class="hidden">Galima įsigyti</label>
             <select class="filter" name="available" id="available-filter">
-                <option value="">Galima įsigyti</option>
-                <option value="yes">Taip</option>
-                <option value="no">Ne</option>
+                <option data-i18n="available" value="">Galima įsigyti</option>
+                <option data-i18n="yes" value="yes">Taip</option>
+                <option data-i18n="no" value="no">Ne</option>
             </select>
         </div>
         <div class="gallery" class="gallery-grid"  id="gallery"></div>

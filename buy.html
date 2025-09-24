@@ -12,16 +12,16 @@
 <body>
   <header id="info-header">
     <nav id="info-navbar" class="navbar">
-        <a href="index.html" id="info-nav-branding" class="nav-branding">Vilma Smilgienė</a>
+        <a href="index.html" id="info-nav-branding" data-i18n="branding" class="nav-branding">Vilma Smilgienė</a>
     <ul class="nav-menu dark-menu">
         <li class="nav-item">
-            <a href="index.html#gallery" class="nav-link dark-link">Galerija</a>
+            <a href="index.html#gallery" data-i18n="gallery-link" class="nav-link dark-link">Galerija</a>
         </li>
         <li class="nav-item">
-          <a href="about.html" class="nav-link dark-link">Apie kūrybą</a>
+          <a href="about.html" data-i18n="about-link" class="nav-link dark-link">Apie kūrybą</a>
         </li>
         <li class="nav-item">
-          <a href="contact.html" class="nav-link dark-link">Parašykite man</a>
+          <a href="contact.html" data-i18n="contact-link" class="nav-link dark-link">Parašykite man</a>
         </li>
     </ul>
     <div class="hamburger">
@@ -32,27 +32,27 @@
     </nav>
   </header>
   <main>
-    <h2 class="contactH2">Noriu įsigyti šį paveikslą</h2>
+    <h2 data-i18n="contactH2" class="contactH2">Noriu įsigyti šį paveikslą</h2>
     <div class="buy-layout">
       <div class="test id-box">
-      <p class="label">Paveikslo pavadinimas:</p>
+      <p data-i18n="painting-title" class="label">Paveikslo pavadinimas:</p>
       <span id="painting-title"></span>
-      <p class="label">Paveikslo ID: <span id="painting-id"></span></p>
+      <p data-i18n="painting-id" class="label">Paveikslo ID: <span id="painting-id"></span></p>
       <img id="buy-img" src="" alt="Paveikslas">
     </div>
     <div class="form-box">
       <form class="contact-form">
-      <label for="buyer-name">Vardas<br>
-        <input type="text" name="buyer-name" id="buyer-name" placeholder="Jūsų vardas" required>
+      <label data-i18n="buyer-name" for="buyer-name">Vardas<br>
+        <input type="text" name="buyer-name" id="buyer-name" data-i18n="name-placeholder" placeholder="Jūsų vardas" required>
       </label>
-      <label for="buyer-email">Elektroninis paštas<br>
-        <input type="email" name="buyer-email" id="buyer-email" placeholder="Jūsų el. paštas" required>
+      <label data-i18n="buyer-email" for="buyer-email">Elektroninis paštas<br>
+        <input type="email" name="buyer-email" id="buyer-email" data-i18n="email-placeholder" placeholder="Jūsų el. paštas" required>
       </label>
-      <label for="consent">Sutinku, kad su manimi būtų susisiekta dėl šio paveikslo.
+      <label data-i18n="consent" for="consent">Sutinku, kad su manimi būtų susisiekta dėl šio paveikslo.
         <input type="checkbox" name="consent" id="consent" required>
       </label>
-      <p class="privacy">*Mūsų svetainė nerenka jokios asmeninės informacijos iš lankytojų. Jums lankantis mūsų puslapyje, nereikia pateikti jokios asmens informacijos, ir mes nevykdome jokios duomenų sekimo ar kaupimo veiklos.</p>
-      <button class="button" type="submit">Klausti kainos</button>
+      <p data-i18n="privacy" class="privacy">*Mūsų svetainė nerenka jokios asmeninės informacijos iš lankytojų. Jums lankantis mūsų puslapyje, nereikia pateikti jokios asmens informacijos, ir mes nevykdome jokios duomenų sekimo ar kaupimo veiklos.</p>
+      <button data-i18n="button-price" class="button" type="submit">Klausti kainos</button>
     </form>
   </main>
     </div>
