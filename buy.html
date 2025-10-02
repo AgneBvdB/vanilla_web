@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="lt">
 <head>
-     <meta name="description" content="Vilma Smilgienė – Klaipėdos menininkė. Virtuali galerija smilgiene.art pristato originalius paveikslus, gamtos ir šviesos įkvėptą tapybą">
+    <meta name="description" content="Vilma Smilgienė – Klaipėdos menininkė. Virtuali galerija smilgiene.art pristato originalius paveikslus, gamtos ir šviesos įkvėptą tapybą">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
@@ -12,18 +12,41 @@
 <body>
   <header id="info-header">
     <nav id="info-navbar" class="navbar">
-        <a href="index.html" id="info-nav-branding" class="nav-branding">Vilma Smilgienė</a>
+      <a href="index.html" id="info-nav-branding" data-i18n="branding" class="nav-branding">Vilma Smilgienė</a>
     <ul class="nav-menu dark-menu">
-        <li class="nav-item">
-            <a href="index.html#gallery" class="nav-link dark-link">Galerija</a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link dark-link">Apie kūrybą</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link dark-link">Parašykite man</a>
-        </li>
+      <li class="nav-item">
+          <a href="index.html#gallery" data-i18n="gallery-link" class="nav-link dark-link">Galerija</a>
+      </li>
+      <li class="nav-item">
+        <a href="about.html" data-i18n="about-link" class="nav-link dark-link">Apie kūrybą</a>
+      </li>
+      <li class="nav-item">
+        <a href="contact.html" data-i18n="contact-link" class="nav-link dark-link">Parašykite man</a>
+      </li>
     </ul>
+    <div id="lang-switcher" class="lang-switcher" role="tablist" aria-label="Language selector">
+  <button class="lang-btn" data-lang="en" aria-pressed="false" title="English" aria-label="English">
+    <!-- UK / EN flag -->
+    <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
+      <rect width="64" height="64" fill="#012169"/>
+      <path d="M0 0L64 64M64 0L0 64" stroke="#fff" stroke-width="7"/>
+      <path d="M0 0L64 64M64 0L0 64" stroke="#C8102E" stroke-width="4"/>
+      <rect x="27" width="10" height="64" fill="#fff"/>
+      <rect y="27" width="64" height="10" fill="#fff"/>
+      <rect x="29" width="6" height="64" fill="#C8102E"/>
+      <rect y="29" width="64" height="6" fill="#C8102E"/>
+    </svg>
+  </button>
+
+  <button class="lang-btn" data-lang="lt" aria-pressed="false" title="Lietuvių" aria-label="Lietuvių">
+    <!-- LT flag -->
+    <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
+      <rect width="64" height="21.333" fill="#FDB913"/>
+      <rect y="21.333" width="64" height="21.333" fill="#006A44"/>
+      <rect y="42.666" width="64" height="21.334" fill="#C3183B"/>
+    </svg>
+  </button>
+</div>
     <div class="hamburger">
         <span class="bar darkbar"></span>
         <span class="bar darkbar"></span>
@@ -32,27 +55,27 @@
     </nav>
   </header>
   <main>
-    <h2 class="contactH2">Noriu įsigyti šį paveikslą</h2>
+    <h2 data-i18n="form.buy-h2" class="contactH2">Jūsų kolekcijai</h2>
     <div class="buy-layout">
       <div class="test id-box">
-      <p class="label">Paveikslo pavadinimas:</p>
+      <p data-i18n="infopage.painting-title" class="label">Paveikslo pavadinimas:</p>
       <span id="painting-title"></span>
-      <p class="label">Paveikslo ID: <span id="painting-id"></span></p>
-      <img id="buy-img" src="" alt="Paveikslas">
+      <p data-i18n="form.painting-id" class="label">Paveikslo ID: <span id="painting-id"></span></p>
+      <img id="buy-img" src="" alt="">
     </div>
     <div class="form-box">
       <form class="contact-form">
-      <label for="buyer-name">Vardas<br>
-        <input type="text" name="buyer-name" id="buyer-name" placeholder="Jūsų vardas" required>
+      <label data-i18n="form.buyer-name" for="buyer-name">Vardas<br>
+        <input type="text" name="buyer-name" id="buyer-name" data-i18n="form.name-placeholder" placeholder="Įveskite savo vardą" required>
       </label>
-      <label for="buyer-email">Elektroninis paštas<br>
-        <input type="email" name="buyer-email" id="buyer-email" placeholder="Jūsų el. paštas" required>
+      <label data-i18n="form.buyer-email" for="buyer-email">Elektroninis paštas<br>
+        <input type="email" name="buyer-email" id="buyer-email" data-i18n="form.email-placeholder" placeholder="Įveskite savo el. paštą" required>
       </label>
-      <label for="consent">Sutinku, kad su manimi būtų susisiekta dėl šio paveikslo.
+      <label data-i18n="form.consent" for="consent">Sutinku, kad su manimi būtų susisiekta dėl šio paveikslo.
         <input type="checkbox" name="consent" id="consent" required>
       </label>
-      <p class="privacy">*Mūsų svetainė nerenka jokios asmeninės informacijos iš lankytojų. Jums lankantis mūsų puslapyje, nereikia pateikti jokios asmens informacijos, ir mes nevykdome jokios duomenų sekimo ar kaupimo veiklos.</p>
-      <button class="button" type="submit">Klausti kainos</button>
+      <p data-i18n="form.privacy" class="privacy">*Mūsų svetainė nerenka jokios asmeninės informacijos iš lankytojų. Jums lankantis mūsų puslapyje, nevykdome jokios duomenų sekimo ar kaupimo veiklos.</p>
+      <button data-i18n="form.button-price" class="button" type="submit">Klausti kainos</button>
     </form>
   </main>
     </div>
@@ -62,6 +85,7 @@
   <script src="./paintings.js"></script>
   <script src="./infopage.js"></script>
   <script src="./universal.js"></script>
+  <script src="./translations.js"></script>
   
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 

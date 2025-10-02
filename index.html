@@ -17,15 +17,38 @@
                 <a href="index.html" class="nav-branding">Vilma Smilgienė</a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="#gallery-link" class="nav-link">Galerija</a>
+                        <a href="#gallery-link" data-i18n="nav.gallery-link" class="nav-link">Galerija</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">Apie kūrybą</a>
+                        <a href="about.html" data-i18n="nav.about-link" class="nav-link">Apie kūrybą</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Parašykite man</a>
+                        <a href="contact.html" data-i18n="nav.contact-link" class="nav-link">Parašykite man</a>
                     </li>
-                </ul>
+                </ul>                
+    <div id="lang-switcher" class="lang-switcher" role="tablist" aria-label="Language selector">
+  <button class="lang-btn" data-lang="en" aria-pressed="false" title="English" aria-label="English">
+    <!-- UK / EN flag -->
+    <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
+      <rect width="64" height="64" fill="#012169"/>
+      <path d="M0 0L64 64M64 0L0 64" stroke="#fff" stroke-width="7"/>
+      <path d="M0 0L64 64M64 0L0 64" stroke="#C8102E" stroke-width="4"/>
+      <rect x="27" width="10" height="64" fill="#fff"/>
+      <rect y="27" width="64" height="10" fill="#fff"/>
+      <rect x="29" width="6" height="64" fill="#C8102E"/>
+      <rect y="29" width="64" height="6" fill="#C8102E"/>
+    </svg>
+  </button>
+
+  <button class="lang-btn" data-lang="lt" aria-pressed="false" title="Lietuvių" aria-label="Lietuvių">
+    <!-- LT flag -->
+    <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
+      <rect width="64" height="21.333" fill="#FDB913"/>
+      <rect y="21.333" width="64" height="21.333" fill="#006A44"/>
+      <rect y="42.666" width="64" height="21.334" fill="#C3183B"/>
+    </svg>
+  </button>
+</div>
                 <div class="hamburger">
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -34,31 +57,16 @@
             </nav>
         </header>
         <div class="hero-container">
-            <h1 id="hero-h1">Įsileisk šviesą, spalvas ir lengvumą į savo kasdienybę</h1>
-            <a class="cta" href="#gallery-link">  <span class="hover-underline-animation"> Žiūrėti galeriją </span>
-                <svg
-                    id="arrow-horizontal"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="40"
-                    height="10"
-                    viewBox="0 0 46 16"
-                    
-                >
-                    <path
-                    id="Path_10"
-                    data-name="Path 10"
-                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    transform="translate(30)"
-                    ></path>
-                </svg>
-            </a>
+            <h1 data-i18n="index.hero-h1" id="hero-h1">Įsileisk šviesą,<br> spalvas ir lengvumą</h1>
+            <p data-i18n="index.hero-p" id="hero-p">į savo kasdienybę</p>
+            <button class="button" href="#gallery-link" data-i18n="index.hero-cta">Žiūrėti galeriją</button>
         </div>
     </section>
     <main id="gallery-link">
         <div class="filter-container">
-            <label for="year-filter" class="hidden">Metai</label>
+            <label data-i18n="index.year-filter" for="year-filter" class="hidden">Metai</label>
             <select class="filter" name="year" id="year-filter">
-                <option value="">Metai</option>
+                <option data-i18n="index.year"   value="">Metai</option>
                 <option value="2016">2016</option>
                 <option value="2017">2017</option>
                 <option value="2018">2018</option>
@@ -69,21 +77,21 @@
                 <option value="2024">2024</option>
                 <option value="2025">2025</option>
             </select>
-            <label for="theme-filter" class="hidden">Tema</label>
+            <label for="theme-filter" data-i18n="index.theme-filter" class="hidden">Tema</label>
             <select class="filter" name="theme" id="theme-filter">
-                <option value="">Tema</option>
-                <option value="flora">Augalija</option>
-                <option value="water">Vanduo</option>
-                <option value="forrest">Miškas</option>
-                <option value="dunes">Kopos</option>
-                <option value="buildings">Pastatai</option>
-                <option value="other">Kita</option>
+                <option data-i18n="index.theme"  value="">Tema</option>
+                <option data-i18n="index.flora"  value="flora">Augalija</option>
+                <option data-i18n="index.water"  value="water">Vanduo</option>
+                <option data-i18n="index.forrest" value="forrest">Miškas</option>
+                <option data-i18n="index.dunes" value="dunes">Kopos</option>
+                <option data-i18n="index.buildings" value="buildings">Pastatai</option>
+                <option data-i18n="index.other" value="other">Kita</option>
             </select>
-            <label for="available-filter" class="hidden">Galima įsigyti</label>
+            <label for="available-filter" data-i18n="index.available-filter" class="hidden">Galima įsigyti</label>
             <select class="filter" name="available" id="available-filter">
-                <option value="">Galima įsigyti</option>
-                <option value="yes">Taip</option>
-                <option value="no">Ne</option>
+                <option data-i18n="index.available-filter" value="">Galima įsigyti</option>
+                <option data-i18n="index.yes" value="yes">Taip</option>
+                <option data-i18n="index.no" value="no">Ne</option>
             </select>
         </div>
         <div class="gallery" class="gallery-grid"  id="gallery"></div>
@@ -93,9 +101,10 @@
         <p>© 2025 Vilma Smilgienė — Klaipėda</p>
     </footer>
 
-    <script src="paintings.js"></script>
-    <script src="universal.js"></script>
-    <script src="index.js"></script>
+    <script src="./paintings.js"></script>
+    <script src="./universal.js"></script>
+    <script src="./index.js"></script>
+    <script src="./translations.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const lazyImages = document.querySelectorAll("img.lazy");
