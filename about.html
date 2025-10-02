@@ -11,18 +11,41 @@
 <body>
   <header id="info-header">
     <nav id="info-navbar" class="navbar">
-      <a href="index.html" id="info-nav-branding" data-i18n="branding" class="nav-branding">Vilma Smilgienė</a>
+      <a href="index.html" id="info-nav-branding" class="nav-branding">Vilma Smilgienė</a>
       <ul class="nav-menu dark-menu">
           <li class="nav-item">
-              <a href="index.html#gallery" data-i18n="gallery-link" class="nav-link dark-link">Galerija</a>
+              <a href="index.html#gallery" data-i18n="nav.gallery-link" class="nav-link dark-link">Galerija</a>
           </li>
           <li class="nav-item">
-              <a href="about.html" data-i18n="about-link" class="nav-link dark-link">Apie kūrybą</a>
+              <a href="about.html" data-i18n="nav.about-link" class="nav-link dark-link">Apie kūrybą</a>
           </li>
           <li class="nav-item">
-              <a href="contact.html" data-i18n="contact-link" class="nav-link dark-link">Parašykite man</a>
+              <a href="contact.html" data-i18n="nav.contact-link" class="nav-link dark-link">Parašykite man</a>
           </li>
       </ul>
+    <div id="lang-switcher" class="lang-switcher" role="tablist" aria-label="Language selector">
+  <button class="lang-btn" data-lang="en" aria-pressed="false" title="English" aria-label="English">
+    <!-- UK / EN flag -->
+    <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
+      <rect width="64" height="64" fill="#012169"/>
+      <path d="M0 0L64 64M64 0L0 64" stroke="#fff" stroke-width="7"/>
+      <path d="M0 0L64 64M64 0L0 64" stroke="#C8102E" stroke-width="4"/>
+      <rect x="27" width="10" height="64" fill="#fff"/>
+      <rect y="27" width="64" height="10" fill="#fff"/>
+      <rect x="29" width="6" height="64" fill="#C8102E"/>
+      <rect y="29" width="64" height="6" fill="#C8102E"/>
+    </svg>
+  </button>
+
+  <button class="lang-btn" data-lang="lt" aria-pressed="false" title="Lietuvių" aria-label="Lietuvių">
+    <!-- LT flag -->
+    <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
+      <rect width="64" height="21.333" fill="#FDB913"/>
+      <rect y="21.333" width="64" height="21.333" fill="#006A44"/>
+      <rect y="42.666" width="64" height="21.334" fill="#C3183B"/>
+    </svg>
+  </button>
+</div>
       <div class="hamburger">
           <span class="bar darkbar"></span>
           <span class="bar darkbar"></span>
@@ -31,27 +54,27 @@
     </nav>
   </header>
   <section id="about-header">
-    <h1 data-i18n="about-h1" id="about-h1">Iš gamtos — idėjos, iš meilės — paveikslai</h1>
+    <h1 data-i18n="about.about-h1" id="about-h1">Iš gamtos — idėjos, iš meilės — paveikslai</h1>
     <div class="line-break"></div>
   </section>
   <main id="about-main">
     <section class="row">
       <div class="image">
-        <img src="./assets/thumbs_2018/DAUG YRA AKMENŲ PRIE JŪROS. past. pop 44x64 nebeturiu.webp" alt="DAUG YRA AKMENŲ PRIE JŪROS">
+        <img data-i18n="about.about-alt-1" src="./assets/thumbs_2018/DAUG YRA AKMENŲ PRIE JŪROS. past. pop 44x64 nebeturiu.webp" alt="DAUG YRA AKMENŲ PRIE JŪROS">
       </div>
       <div class="text">
-        <p data-i18n="about-1">Iš gamtos semiuosi idėjų – ji mane įkvepia ir uždega. Todėl dažniausiai tapau peizažus, jūrą. Peizažas, dažniausiai kamerinis, yra neatsiejama mano kūrybinio gyvenimo dalis, medžiaga meditacijai ir lavinimuisi. Tai savotiška laisvalaikio dailės terapija.</p>
-        <blockquote data-i18n="about-quote-1">„Jūra – mano meilė. Ji tokia įvairi, besikeičianti, gyva.“</blockquote>
+        <p data-i18n="about.about-1">Iš gamtos semiuosi idėjų – ji mane įkvepia ir uždega. Todėl dažniausiai tapau peizažus, jūrą. Peizažas, dažniausiai kamerinis, yra neatsiejama mano kūrybinio gyvenimo dalis, medžiaga meditacijai ir lavinimuisi. Tai savotiška laisvalaikio dailės terapija.</p>
+        <p data-i18n="about.about-2">Jūra - mano meilė. Ji tokia įvairi, besikeičianti, gyva. Jau vien pasivaikščiojimas pajūriu suteikia energijos ir apsivalymo jausmą. Jūrinis peizažas užima didelę dalį mano kūrybos. Perteikti tapybos priemonėmis jos nepastovumą, permainingumą labai nelengva užduotis.</p>
       </div>
     </section>
 
     <section class="row reverse">
       <div class="image">
-        <img src="./assets/thumbs_2018/PAKRANTĖ TIES KARKLE. Pop., pastelė, 35x50 nebeturiu.webp" alt="PAKRANTĖ TIES KARKLE">
+        <img src="./assets/thumbs_2018/PAKRANTĖ TIES KARKLE. Pop., pastelė, 35x50 nebeturiu.webp" data-i18n="about.about-alt-2" alt="PAKRANTĖ TIES KARKLE">
       </div>
       <div class="text">
-        <p data-i18n="about-2">Mano mylima technika – sausa pastelė. Ji man teikia galimybę perduoti darbams jaukumą, šilumą, subtilų apšvietimą, įvairius spalvų niuansus. Savęs ieškojimas ir tobulinimas yra būtinas dalykas, todėl mėgstu eksperimentuoti, atrasti vis naujas pastelės galimybes. Manau, kad viskas yra pasiekiama per meilę tam, ką darai, ir atkaklų darbą.</p>
-        <blockquote data-i18n="about-quote-2">„Savęs ieškojimas ir tobulinimas – kūrybos dalis.“</blockquote>
+        <blockquote data-i18n="about.about-quote-1">„Jūra – mano meilė. Ji tokia įvairi, besikeičianti, gyva.“</blockquote>
+        <p data-i18n="about.about-3">Mano mylima technika – sausa pastelė. Ji man teikia galimybę perduoti darbams jaukumą, šilumą, subtilų apšvietimą, įvairius spalvų niuansus. Savęs ieškojimas ir tobulinimas yra būtinas dalykas, todėl mėgstu eksperimentuoti, atrasti vis naujas pastelės galimybes. Manau, kad viskas yra pasiekiama per meilę tam, ką darai, ir atkaklų darbą.</p>
       </div>
     </section>
 
@@ -60,15 +83,17 @@
         <img src="./assets/Other pictures/about.pic.Vilma.jpg" alt="Vilma looks to distance">
       </div>
       <div class="text">
-        <blockquote data-i18n="about-quote-3">„Pajaučiau savo kelią ir juo einu.“</blockquote>
-        <p data-i18n="about-3">Mano manymu, šiuolaikinis menas tampa vis abstraktesnis. Tapyboje tarsi pranyksta individualumas. Aš neklaidžioju tarp stilių ir madų įvairovės. Pajaučiau savo kelią ir juo einu.</p>
-        <p data-i18n="about-4">Man patinka kalbėti nuoširdžiais ir daugeliui suprantamais vaizdais. Bet tai nėra tik peizažas. Tai emocija, impresija, gyvenimas.</p>
+        <blockquote data-i18n="about.about-quote-2">„Savęs ieškojimas ir tobulinimas – kūrybos dalis.“</blockquote>
+        <p data-i18n="about.about-4">Mano manymu, šiuolaikinis menas tampa vis abstraktesnis. Tapyboje tarsi pranyksta individualumas. Aš neklaidžioju tarp stilių ir madų įvairovės. Pajaučiau savo kelią ir juo einu.</p>
+        <p data-i18n="about.about-5">Man patinka kalbėti nuoširdžiais ir daugeliui suprantamais vaizdais. Bet tai nėra <em>tik</em> peizažas. Tai emocija, impresija, gyvenimas.</p>
+        
+        <blockquote data-i18n="about.about-quote-3">„Pajaučiau savo kelią ir juo einu.“</blockquote>
       </div>
     </section>
     <section id="cta-box">
-      <a class="button about-cta" data-i18n="about-btn-1" href="index.html#gallery">Išsirink savo</a>
-      <a class="button about-cta" data-i18n="about-btn-2" href="contact.html">Parašyk man</a>
-      <a target="_blank" href="https://www.facebook.com/vilma.smilgiene"data-i18n="about-btn-3" class="button about-cta">Facebook</a>
+      <a class="button about-cta" data-i18n="about.about-btn-1" href="index.html#gallery">Išsirink savo</a>
+      <a class="button about-cta" data-i18n="about.about-btn-2" href="contact.html">Parašyk man</a>
+      <a target="_blank" href="https://www.facebook.com/vilma.smilgiene"data-i18n="about.about-btn-3" class="button about-cta">Facebook</a>
     </section>
   </main>
    
@@ -76,5 +101,6 @@
         <p>© 2025 Vilma Smilgienė — Klaipėda</p>
     </footer>
     <script src="/universal.js"></script>
+    <script src="./translations.js"></script>
 </body>
 </html>

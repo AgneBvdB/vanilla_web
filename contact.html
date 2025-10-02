@@ -12,18 +12,41 @@
 <body>
     <header id="info-header">
         <nav id="info-navbar" class="navbar">
-            <a href="index.html" id="info-nav-branding" data-i18n="branding" class="nav-branding">Vilma Smilgienė</a>
+            <a href="index.html" id="info-nav-branding" class="nav-branding">Vilma Smilgienė</a>
         <ul class="nav-menu dark-menu">
             <li class="nav-item">
-                <a href="index.html#gallery" data-i18n="gallery-link" class="nav-link dark-link">Galerija</a>
+                <a href="index.html#gallery" data-i18n="nav.gallery-link" class="nav-link dark-link">Galerija</a>
             </li>
             <li class="nav-item">
-              <a href="about.html" data-i18n="about-link" class="nav-link dark-link">Apie kūrybą</a>
+              <a href="about.html" data-i18n="nav.about-link" class="nav-link dark-link">Apie kūrybą</a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" data-i18n="contact-link" class="nav-link dark-link">Parašykite man</a>
+              <a href="contact.html" data-i18n="nav.contact-link" class="nav-link dark-link">Parašykite man</a>
             </li>
         </ul>
+    <div id="lang-switcher" class="lang-switcher" role="tablist" aria-label="Language selector">
+  <button class="lang-btn" data-lang="en" aria-pressed="false" title="English" aria-label="English">
+    <!-- UK / EN flag -->
+    <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
+      <rect width="64" height="64" fill="#012169"/>
+      <path d="M0 0L64 64M64 0L0 64" stroke="#fff" stroke-width="7"/>
+      <path d="M0 0L64 64M64 0L0 64" stroke="#C8102E" stroke-width="4"/>
+      <rect x="27" width="10" height="64" fill="#fff"/>
+      <rect y="27" width="64" height="10" fill="#fff"/>
+      <rect x="29" width="6" height="64" fill="#C8102E"/>
+      <rect y="29" width="64" height="6" fill="#C8102E"/>
+    </svg>
+  </button>
+
+  <button class="lang-btn" data-lang="lt" aria-pressed="false" title="Lietuvių" aria-label="Lietuvių">
+    <!-- LT flag -->
+    <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
+      <rect width="64" height="21.333" fill="#FDB913"/>
+      <rect y="21.333" width="64" height="21.333" fill="#006A44"/>
+      <rect y="42.666" width="64" height="21.334" fill="#C3183B"/>
+    </svg>
+  </button>
+</div>
         <div class="hamburger">
             <span class="bar darkbar"></span>
             <span class="bar darkbar"></span>
@@ -32,24 +55,25 @@
         </nav>
     </header>
     <main id="contact-main">
-        <h2 data-i18n="contactH2" class="contactH2">Parašykite man</h2>
+        <h2 data-i18n="form.contact-h2" class="contactH2">Parašykite man</h2>
         <form id="contactForm" class="contact-form">
-          <label ata-i18n="buyer-name" for="name">Vardas</label>
-          <input type="text" id="name" name="name" data-i18n="name-placeholder" placeholder="Jūsų vardas" required>
+          <label data-i18n="form.buyer-name" for="name">Vardas</label>
+          <input type="text" id="name" name="name" data-i18n="form.name-placeholder" placeholder="Jūsų vardas" required>
 
-          <label data-i18n="buyer-email" for="email">Elektroninis paštas</label>
-          <input type="email" id="email" name="email" data-i18n="email-placeholder" placeholder="Jūsų el. paštas" required>
+          <label data-i18n="form.buyer-email" for="email">Elektroninis paštas</label>
+          <input type="email" id="email" name="email" data-i18n="form.email-placeholder" placeholder="Jūsų el. paštas" required>
 
-          <label data-i18n="message" for="message">Žinutė</label>
-          <textarea id="message" name="message" data-i18n="message-placeholder" placeholder="Parašykite žinutę" rows="6" required></textarea>
+          <label data-i18n="form.message" for="message">Žinutė</label>
+          <textarea id="message" name="message" data-i18n="form.message-placeholder" placeholder="Jūsų žinutę" rows="6" required></textarea>
 
-          <button class="button" data-i18n="send-btn" type="submit">Siųsti</button>
+          <button class="button" data-i18n="form.send-btn" type="submit">Siųsti</button>
         </form> 
     </main>
     <footer>
         <p>© 2025 Vilma Smilgienė — Klaipėda</p>
     </footer>
-    <script src="/universal.js"></script>
+    <script src="./universal.js"></script>
+    <script src="./translations.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
     // Initialize EmailJS
